@@ -1,1 +1,1 @@
-# Reading-scanned-invoices-and-finding-payment-fraud
+# Invoice-Intelligence-OCR-Extraction-and-Payment-Fraud-Detection
