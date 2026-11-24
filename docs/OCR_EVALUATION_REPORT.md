@@ -1,7 +1,7 @@
 # OCR Engine Evaluation and Comparison Report
 
 ## 1. Executive Summary
-This report documents the empirical evaluation of optical character recognition (OCR) engines on the scanned invoice dataset of Kaveri Industrial Supplies Pvt Ltd.
+This report documents the empirical evaluation of optical character recognition (OCR) engines on the scanned invoice dataset of the enterprise accounts payable operations.
 Evaluated engines:
 1. **PaddleOCR (RapidOCR ONNX Runtime Engine)**
 2. **EasyOCR (PyTorch CPU / CUDA Engine)**

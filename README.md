@@ -5,7 +5,7 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.48-FF4B4B.svg)](https://streamlit.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-An enterprise-grade, end-to-end Accounts Payable automation and forensic intelligence platform built for **Kaveri Industrial Supplies Pvt Ltd**. 
+An enterprise-grade, end-to-end Accounts Payable automation and forensic fraud intelligence platform designed for industrial supply operations and enterprise procurement teams. 
 
 The system automates the ingestion of scanned and paper invoices, performs advanced preprocessing and multi-engine OCR, extracts key financial metadata using deterministic rules and Google Gemini LLMs, conducts 9 statutory validation checks, flags payment fraud and anomalies with explainable evidence, and provides an authorized reviewer dashboard with full audit trail logging.
 
@@ -214,4 +214,4 @@ The application includes a secure **Settings & AI Configuration** page:
 ---
 
 ## 📜 License
-This project is licensed under the MIT License. Developed for Kaveri Industrial Supplies Pvt Ltd.
+This project is licensed under the MIT License. Enterprise AP Automation & Forensic Fraud Defense Platform.

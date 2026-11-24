@@ -36,5 +36,5 @@ This report evaluates the accuracy of the Information Extraction Engine against 
 
 1. **Indian Currency Formats**: Handled commas in diverse number formats (`1,23,456.00` and `3,438.52`) by stripping thousand separators before floating-point parsing.
 2. **Two-Way Layout Heuristic**: Evaluated invoice templates where labels appear both above and below the values (e.g. Template 3 vs Template 1), eliminating orientation-related field dropouts.
-3. **Buyer vs Vendor GSTIN Disambiguation**: Filtered out Kaveri Industrial Supplies' own statutory GSTIN (`33AACCK4821M1Z5`) to prevent inadvertent attribution of the customer's GSTIN to the vendor.
+3. **Buyer vs Vendor GSTIN Disambiguation**: Filtered out the customer's own statutory GSTIN (`33AACCK4821M1Z5`) to prevent inadvertent attribution of the customer's GSTIN to the vendor.
 4. **Hybrid Provenance & Offline Resilience**: When Gemini API is unavailable or offline, deterministic rule-based extraction operates with zero downtime. When Gemini is active, mutual agreement boosts field confidence to 99%.
