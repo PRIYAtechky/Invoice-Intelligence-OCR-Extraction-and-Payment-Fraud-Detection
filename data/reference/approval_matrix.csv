@@ -1,0 +1,6 @@
+role,approval_limit_inr
+AP-Clerk-01,200000
+AP-Clerk-02,200000
+AP-Clerk-03,200000
+AP-Manager-01,1000000
+Finance-Head,99999999

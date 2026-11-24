@@ -1,0 +1,35 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.pytest_cache/
+
+# Environments and Secrets
+.env
+.env.*
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Database and Cache
+*.db
+*.sqlite
+*.sqlite3
+data/processed/*.joblib
+data/processed/proc_*
+
+# Temporary and Upload directories
+data/uploads/
+data/incoming_batches/*
+!data/incoming_batches/.gitkeep
+data/invoice_images/
+*.jpg
+*.jpeg
+*.png
+*.pdf
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini

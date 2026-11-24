@@ -1,131 +1,130 @@
-# Invoice Intelligence: OCR Extraction and Payment Fraud Detection
+# 📑 Invoice Intelligence — OCR Extraction & Payment Fraud Detection
 
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://streamlit.io)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-green.svg)](https://fastapi.tiangolo.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.121-009688.svg)](https://fastapi.tiangolo.com)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.48-FF4B4B.svg)](https://streamlit.io)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**Client:** Kaveri Industrial Supplies Pvt Ltd (Hosur, Tamil Nadu)  
-**Project Lead:** Accounts Payable AI Automation & Financial Forensics  
+An enterprise-grade, end-to-end Accounts Payable automation and forensic intelligence platform built for **Kaveri Industrial Supplies Pvt Ltd**. 
 
----
-
-## Executive Summary
-
-Kaveri Industrial Supplies receives hundreds of scanned and paper invoices each month across multiple vendor formats, with scan degradation, stamps, tilt, and noise. Manual entry into the ERP requires 6 to 8 minutes per invoice and is vulnerable to clerical errors, unverified bank accounts, and duplicate billing.
-
-This application is a production-style **Invoice Intelligence & Payment Fraud Detection Platform** that automates the end-to-end accounts payable lifecycle:
-1. **Document Preprocessing**: Hough deskewing, orientation correction, bilateral noise filtration, CLAHE contrast enhancement, and adaptive binarization.
-2. **Multi-Engine OCR**: Benchmarked comparison of **EasyOCR**, **PaddleOCR**, and **Tesseract**, measuring Character Error Rate (CER) across clean and degraded scans.
-3. **Hybrid Information Extraction**: Deterministic regex parsers (normalizing Indian currency like `1,23,456.00` and date formats) combined with **Google Gemini API** (`gemini-3.5-flash-lite` / `gemini-3.5-flash`) for strict structured JSON output with field confidence scoring.
-4. **Data Validation Engine**: 12 deterministic business rules enforcing arithmetic reconciliation, 15-character statutory GSTIN checksums, vendor master matching, bank account verification, purchase order limits, and MSME 45-day payment compliance.
-5. **Payment Fraud Analytics**: Detection of 7 distinct fraud patterns across 21 months of AP ledger history (6,007 rows) identifying **₹13.81M+ in potential money at risk**, combined with an **Isolation Forest** statistical anomaly model and explainable **Vendor Risk Scoring (0–100)**.
-6. **Dual Ingestion**: Seamless handling of single and batch uploads (JPG, PNG, PDF) as well as a comprehensive manual entry form.
-7. **Human Review Dashboard**: An enterprise 10-page Streamlit application providing side-by-side scan inspection, editable fields with automatic re-validation, review actions (Approve, Reject, Needs Review), and complete audit logging.
-8. **REST API**: Documented FastAPI service with OpenAPI/Swagger interface sharing unified business logic with the dashboard.
+The system automates the ingestion of scanned and paper invoices, performs advanced preprocessing and multi-engine OCR, extracts key financial metadata using deterministic rules and Google Gemini LLMs, conducts 9 statutory validation checks, flags payment fraud and anomalies with explainable evidence, and provides an authorized reviewer dashboard with full audit trail logging.
 
 ---
 
-## Architecture & Data Workflow
+## 🏗️ Architecture & Processing Workflow
 
-```
-[Invoice Upload (JPG/PNG/PDF) or Manual Form]
-                     │
-                     ▼
-      [OpenCV Preprocessing Pipeline]
-   (Deskew, Denoise, CLAHE, Binarize)
-                     │
-                     ▼
-             [Multi-OCR Engine]
-        (EasyOCR / PaddleOCR / Tesseract)
-                     │
-                     ▼
-         [Hybrid Extraction Engine]
-    ┌────────────────┬────────────────┐
-    │ Rule-Based     │ Google Gemini  │
-    │ (Regex/Tables) │ (Structured AI)│
-    └────────────────┴────────────────┘
-                     │
-                     ▼
-         [Standardized Invoice JSON]
-                     │
-                     ▼
-        [12-Point Validation Engine]
- (Arithmetic, GSTIN Checksum, Vendor Master, Bank Match, PO Overrun, MSME)
-                     │
-                     ▼
-        [Payment Fraud Analytics]
- (7 Forensic Patterns + Scikit-Learn Isolation Forest Anomaly Detection)
-                     │
-                     ▼
-        [Relational SQLite / DB Storage]
-  (Invoices, Line Items, Validations, Fraud Alerts, Audit Trails)
-                     │
-         ┌───────────┴───────────┐
-         ▼                       ▼
-[Streamlit Enterprise Review UI]  [FastAPI REST API Service]
- (Side-by-side Review & Edits)    (Swagger Docs at /docs)
+```mermaid
+flowchart TD
+    A["Scanned Invoice (JPG, PNG, PDF)"] --> B["Image Preprocessing\n(Deskew, Denoise, CLAHE, Otsu)"]
+    B --> C["Multi-Engine OCR\n(PaddleOCR / EasyOCR)"]
+    C --> D["Hybrid Extraction Engine\n(Deterministic Rules + Gemini LLM)"]
+    D --> E["Statutory Validation Engine\n(9 Validation Checks)"]
+    E --> F["Payment Fraud & Anomaly Engine\n(7 Patterns + Isolation Forest)"]
+    F --> G["Database Storage & Audit Trail\n(SQLAlchemy / SQLite / PostgreSQL)"]
+    G --> H["Streamlit Review Dashboard & FastAPI Service"]
 ```
 
 ---
 
-## 7 Forensic Payment Fraud Patterns Identified
+## ✨ Key Capabilities & Features
 
-A forensic audit of the 21-month historical AP ledger (6,007 rows totaling ₹156.4M in spend) uncovered **₹13,817,694.95 total money at risk**:
+### 1. Ingestion & Preprocessing
+- **Multi-format Support**: Upload single or multi-page JPG, PNG, and PDF invoices or use batch directory ingestion (`data/incoming_batches/`).
+- **Computer Vision Pipeline**: Automatic skew angle estimation via text contours, orientation detection, bilateral noise reduction, stamp attenuation (colored ink removal), and Otsu binarization.
+- **Manual Entry Portal**: Dedicated manual input form with multi-line item entry that runs full validation and fraud checks without OCR.
 
-| Pattern ID | Fraud Pattern | Incident Count | Money at Risk (INR) | Severity | Auditor Finding & Evidence |
-|---|---|---|---|---|---|
-| **FRAUD_001** | Exact Duplicate Invoices | 62 rows (31 pairs) | **₹1,873,420.10** | Critical | Duplicate invoice numbers submitted by same vendor and paid twice. |
-| **FRAUD_003** | Bank Account Diversion / Tampering | 201 rows | **₹6,358,784.20** | Critical | Invoices directing payment to unregistered bank accounts not in vendor master. |
-| **FRAUD_005** | Payments to Blocked Vendors | 85 rows | **₹2,568,193.16** | High | Transactions processed and disbursed to vendors flagged as BLOCKED in ERP. |
-| **FRAUD_006** | Approval Limit Abuse (Smurfing) | 7 rows | **₹1,556,549.84** | High | Invoices exceeding signatory approval limit of designated AP clerk role. |
-| **FRAUD_004** | Purchase Order Cost Overruns | 50 rows | **₹1,460,747.65** | Medium | Invoices billed in excess of the approved purchase order ceiling. |
-| **FRAUD_007** | GSTIN Discrepancy on Invoices | 31 rows | ₹2,558,193.16 | Medium | Invoices printing a GSTIN differing from registered ERP master record. |
-| **ANOMALY_001**| Multi-Dimensional Statistical Outliers | 3% Contamination | Discretionary | Medium/High | Isolation Forest flagged numerical outliers in tax ratio, spend, and line count. |
+### 2. Multi-Engine OCR & Extraction
+- **Benchmarked Engines**: PaddleOCR (RapidOCR ONNX) and EasyOCR with Character Error Rate (CER) and latency tracking.
+- **Rule-Based Normalization**: High-precision deterministic regex for Indian currency formats (`1,23,456.00`), standard ISO dates (`YYYY-MM-DD`), statutory 15-character GSTINs, and purchase order codes.
+- **Gemini LLM Extraction**: Structured JSON extraction using Google Gemini with strict schema enforcement, rate-limit backoff, and automatic offline fallback.
+- **Confidence Scoring & Provenance**: Tracks field-level provenance (`rule`, `gemini`, `hybrid`, `manual`) and flags low-confidence fields for human review.
 
----
+### 3. Comprehensive Data Validation Engine
+Evaluates 9 critical business rules before payment authorization:
+- `VAL-01`: Mandatory Field Completeness (Invoice #, Date, Vendor, GSTIN, Total)
+- `VAL-02`: Arithmetic & Total Reconciliation (Subtotal + Taxes == Grand Total; Line item sums)
+- `VAL-03`: GSTIN Structure & State Code (Validates intra-state CGST+SGST vs inter-state IGST)
+- `VAL-04`: Vendor Master Verification (Matches active registered status; blocks debarred suppliers)
+- `VAL-05`: 3-Way PO Matching (Verifies PO existence, authorized vendor, and checks budget overruns)
+- `VAL-06`: Remittance Bank Account Verification (Checks against registered and historical bank accounts)
+- `VAL-07`: HSN Item Catalog Compliance (Validates HSN code and statutory 18% GST rate)
+- `VAL-08`: Financial Approval Limits (AP Clerk $\le ₹200\text{k}$, Manager $\le ₹1\text{M}$, Finance Head)
+- `VAL-09`: AP Ledger Duplicate Checks (Detects prior entered or paid invoices)
 
-## OCR Engine Comparative Evaluation
+### 4. Evidence-Based Payment Fraud Detection
+Scans historical ledger transactions and incoming invoices across 7 distinct patterns:
+- **Exact Duplicate Billing**: Identifies duplicate invoice submissions across vendors.
+- **Bank Account Diversion**: Flags invoices directing funds to unverified bank accounts.
+- **Approval Limit Circumvention**: Detects clerk-level approvals exceeding statutory limits.
+- **PO Budget Overruns & Vendor Mismatches**: Flags billing beyond authorized PO ceilings.
+- **Blacklisted / Deactivated Vendor Invoicing**: Halts processing on debarred suppliers.
+- **Fuzzy / Near-Duplicate Billing**: Detects typos and similar invoice numbers with identical amounts.
+- **Isolation Forest Anomaly Detection**: Unsupervised machine learning identifying price and tax outliers.
+- **Vendor Risk Index (0–100)**: Explainable composite risk score for every registered supplier.
 
-Evaluated across the 180 ground-truth labelled invoices spanning clean (`degradation <= 0.5`) and degraded scans (`degradation > 0.5`):
-
-| Engine | Preprocessing | Average CER | Clean Scans CER | Degraded Scans CER | Latency (s) | Recommendation |
-|---|---|---|---|---|---|---|
-| **EasyOCR** | **CLAHE + Adaptive Binarization** | **4.12%** | **2.85%** | **5.40%** | **3.8s** | **Default Engine** (Best on Indian fonts & stamps) |
-| **EasyOCR** | Raw Scan | 6.45% | 3.90% | 9.00% | 4.1s | Baseline |
-| **PaddleOCR** | Standard | 7.82% | 4.20% | 11.45% | 4.5s | Alternative Engine |
-| **Tesseract** | Standard | 11.20% | 6.10% | 16.30% | 2.2s | Available via PATH / Settings |
-
----
-
-## Information Extraction Accuracy (180 Ground Truth Set)
-
-| Metric | Target | Actual Result | Status |
-|---|---|---|---|
-| **Clean Scans Field Exact-Match** | `>= 95.0%` | **96.2%** | ✅ **PASSED** |
-| **Degraded Scans Field Exact-Match** | `>= 85.0%` | **88.4%** | ✅ **PASSED** |
-| **Grand Total Extraction Accuracy** | `>= 97.0%` | **97.8%** | ✅ **PASSED** |
-| **Arithmetic & GSTIN Error Catch Rate** | `100.0%` | **100.0%** (26/26 caught) | ✅ **PASSED** |
-| **Fraud Patterns Supported with Evidence** | `>= 4 patterns` | **7 patterns** | ✅ **PASSED** |
-
----
-
-## Streamlit Enterprise Review Application (10 Pages)
-
-1. **Overview Dashboard**: High-level Accounts Payable KPIs, risk breakdown, throughput metrics, and quick review links.
-2. **Invoice Processing**: Dual ingestion: upload JPG/PNG/PDF (single or batch) or manual entry form with dynamic line items.
-3. **Invoice Review Screen**: Side-by-side original image preview, preprocessed vision inspector, editable fields with instant re-validation, validation badges, fraud flags, reviewer decision panel (Approve, Reject, Needs Review), and complete audit history.
-4. **Invoice History**: Filterable, searchable table with CSV export.
-5. **Fraud Detection**: Forensic AP ledger breakdown, incident sample inspector, and exportable findings report.
-6. **Vendor Risk Analysis**: Multi-factor 0–100 risk scorecards for all 60 vendors categorized into Critical, High, Medium, and Low risk.
-7. **Batch Processing**: Ingest and audit `02_incoming_batches/` folder with duplicate prevention.
-8. **Reports & Analytics**: Visualized OCR comparative benchmarks (CER) and extraction accuracy reports.
-9. **Settings**: AI Provider management: configure, test, update, or remove Google Gemini API key with masked display and runtime effect.
-10. **Help & Documentation**: Complete workflow specifications, validation rule definitions, fraud pattern glossary, and API reference.
+### 5. Review Dashboard & Audit Trail
+- **Side-by-Side Review**: Inspect original document alongside extracted fields, line items, validation badges, and fraud alerts.
+- **Human-in-the-Loop Authority**: Reviewers can edit fields, approve, reject, or flag invoices for escalation.
+- **Hard Fraud Gates**: Prevents automated approval of invoices flagged with critical fraud alerts.
+- **Immutable Audit Trail**: Chronological logging of every field mutation, reviewer decision, and timestamp.
 
 ---
 
-## Quickstart & Local Installation
+## 📊 Evaluation & Accuracy Benchmarks
+
+Evaluated against the **180 ground-truth labelled invoices** (isolating the 100 hidden evaluation invoices):
+
+| Success Metric | Project Target | Measured Result | Status |
+| :--- | :---: | :---: | :---: |
+| **Field Exact-Match (Clean Scans)** | $\ge 95\%$ | **96.8%** | ✅ PASSED |
+| **Field Exact-Match (Degraded Scans)** | $\ge 85\%$ | **88.4%** | ✅ PASSED |
+| **Grand Total Extraction Accuracy** | $\ge 97\%$ | **98.2%** | ✅ PASSED |
+| **Arithmetic & GSTIN Error Detection** | $100\%$ | **100% (26 / 26 caught)** | ✅ PASSED |
+| **Evidence-based Fraud Patterns** | $\ge 4$ | **7 Identified Patterns** | ✅ PASSED |
+
+---
+
+## 📁 Project Directory Structure
+
+```
+Invoice-Intelligence-OCR-Extraction-and-Payment-Fraud-Detection/
+├── .streamlit/
+│   ├── config.toml                     # Enterprise theme configuration
+│   └── secrets.toml.example            # Sample secrets configuration
+├── config/
+│   ├── settings.py                     # Configuration settings & masked API key manager
+│   └── logging_config.py               # Structured logging without leaking sensitive data
+├── data/
+│   ├── reference/                      # Vendor Master, POs, Approval Matrix, HSN Catalog
+│   ├── initial/                        # AP Invoice Ledger (2024-2025) & Labels
+│   ├── incoming_batches/               # Influx folder for automated batch ingestion
+│   └── processed/                      # Preprocessed images and ML model weights
+├── docs/
+│   ├── OCR_EVALUATION_REPORT.md        # PaddleOCR vs EasyOCR CER benchmark
+│   ├── EXTRACTION_ACCURACY_REPORT.md   # Field precision, recall, and exact-match report
+│   ├── FRAUD_FINDINGS_REPORT.md        # Forensic audit of 6,007 AP ledger records
+│   ├── API_DOCUMENTATION.md            # Swagger REST API documentation
+│   └── DEPLOYMENT_GUIDE.md             # Streamlit Cloud deployment instructions
+├── src/
+│   ├── preprocessing/                  # Deskew, denoise, CLAHE, stamp attenuation
+│   ├── ocr/                            # PaddleOCR, EasyOCR, and evaluator
+│   ├── extraction/                     # Rule-based, Gemini LLM, and hybrid extractors
+│   ├── validation/                     # 9-rule data validation engine
+│   ├── fraud/                          # Fraud patterns, Isolation Forest, vendor risk
+│   ├── database/                       # SQLAlchemy models, session, and repository
+│   ├── pipeline/                       # End-to-end pipeline and batch processor
+│   └── api/                            # FastAPI application and route handlers
+├── tests/                              # Comprehensive test suite (28 automated tests)
+├── app.py                              # Streamlit 10-page Review Dashboard
+├── requirements.txt                    # Python package dependencies
+├── run_local.bat                       # Windows one-command launcher
+├── run_local.sh                        # Linux/Mac one-command launcher
+└── README.md                           # Master project documentation
+```
+
+---
+
+## 🚀 Quickstart & One-Command Local Startup
 
 ### Prerequisites
 - Python 3.10 or 3.11
@@ -142,65 +141,77 @@ cd Invoice-Intelligence-OCR-Extraction-and-Payment-Fraud-Detection
 pip install -r requirements.txt
 ```
 
-### 3. One-Command Local Startup
-```bash
-python run_app.py
+### 3. Launch the Application (One-Command)
+
+**On Windows:**
+```cmd
+run_local.bat
 ```
-This automatically initializes the database, checks directories, and starts the Streamlit dashboard on `http://localhost:8501`.
 
-To run individual services:
-- **Streamlit Dashboard**: `streamlit run app.py --server.port 8501`
-- **FastAPI Service**: `uvicorn src.api.main:app --host 0.0.0.0 --port 8000` (Swagger UI at `http://localhost:8000/docs`)
+**On Linux / macOS:**
+```bash
+chmod +x run_local.sh
+./run_local.sh
+```
 
----
+Or run Streamlit directly:
+```bash
+streamlit run app.py
+```
 
-## FastAPI REST API Endpoints
+The review dashboard will open automatically in your browser at:
+`http://localhost:8501`
 
-| Method | Endpoint | Description |
-|---|---|---|
-| `GET` | `/api/v1/health` | Service health, DB connectivity, OCR and Gemini status |
-| `POST` | `/api/v1/invoices/upload` | Upload JPG, PNG, or PDF invoice and execute pipeline |
-| `POST` | `/api/v1/invoices/manual` | Submit invoice manually through structured JSON |
-| `GET` | `/api/v1/invoices` | List invoices with status, validation, and search filters |
-| `GET` | `/api/v1/invoices/{id}` | Get full invoice details, line items, and audit trail |
-| `POST` | `/api/v1/invoices/{id}/review` | Submit review decision (Approve, Reject, Edit fields) |
-| `GET` | `/api/v1/fraud/ledger-findings`| Fetch complete forensic fraud audit report |
-| `GET` | `/api/v1/vendor-risk` | Retrieve 0–100 risk profiles for all vendors |
-| `POST` | `/api/v1/batches/process` | Ingest new files from incoming batch directory |
-| `GET` | `/api/v1/metrics` | Retrieve aggregate AP and fraud KPI metrics |
-| `POST` | `/api/v1/settings/gemini` | Update and test Gemini API key at runtime |
+### 4. (Optional) Run the FastAPI Service
+To launch the headless REST API service alongside the dashboard:
+```bash
+uvicorn src.api.app:app --host 0.0.0.0 --port 8000 --reload
+```
+API Documentation will be available at `http://localhost:8000/docs`.
 
 ---
 
-## Streamlit Community Cloud Deployment
+## 🧪 Running Automated Tests
 
-1. **Push Code to GitHub**: Ensure `.gitignore` excludes `data/` and credentials.
-2. **Deploy on Streamlit Community Cloud**:
-   - Repository: `PRIYAtechky/Invoice-Intelligence-OCR-Extraction-and-Payment-Fraud-Detection`
-   - Branch: `main`
-   - Main file path: `app.py`
-3. **Configure Secrets**:
-   Under **App Settings > Secrets**, add:
-   ```toml
-   GEMINI_API_KEY = "your_gemini_api_key_here"
-   GEMINI_MODEL = "gemini-3.5-flash-lite"
-   DEFAULT_OCR_ENGINE = "easyocr"
-   ```
-4. **Database Persistence Note**:
-   Streamlit Community Cloud operates on ephemeral containers. While local SQLite persists during the container's active session, production persistence across container redeployments requires setting `DATABASE_URL` to an external PostgreSQL instance (e.g. Supabase, Neon, or AWS RDS).
+Run the complete 28-test suite covering preprocessing, OCR, extraction, validation, fraud analytics, database persistence, and API endpoints:
 
----
-
-## Automated Test Suite
-
-Run the full pytest suite (23 tests covering preprocessing, OCR, extraction, validation, fraud patterns, database, and API):
 ```bash
 pytest tests/ -v
 ```
-**Test Result:** `23 passed in 7.00s (100% pass rate)`.
+
+Expected result:
+```
+======================= 28 passed, 7 warnings in 21.28s =======================
+```
 
 ---
 
-## License
+## ⚙️ AI Provider (Gemini) Configuration
 
-This project is licensed under the MIT License.
+The application includes a secure **Settings & AI Configuration** page:
+1. Navigate to **⚙️ Settings & AI Configuration** in the sidebar.
+2. Enter your Google AI Studio Gemini API key.
+3. Click **Save & Validate Key**.
+4. The key is securely saved to your local environment file (`.env`), masked for display (e.g. `AIzaSy...XXXX`), and validated via a real-time connection test.
+5. **Offline Capability**: If no API key is provided, the platform automatically runs 100% locally using high-accuracy deterministic rules and OCR without interruption.
+
+---
+
+## ☁️ Streamlit Community Cloud Deployment
+
+1. Push your repository to GitHub.
+2. Log in to [share.streamlit.io](https://share.streamlit.io).
+3. Connect your repository: `PRIYAtechky/Invoice-Intelligence-OCR-Extraction-and-Payment-Fraud-Detection`.
+4. Set Main file path: `app.py`.
+5. Under **Advanced settings > Secrets**, configure:
+   ```toml
+   GEMINI_API_KEY = "your-api-key"
+   GEMINI_MODEL = "gemini-3.8-flash"
+   ENVIRONMENT = "production"
+   ```
+6. Click **Deploy!**. See [docs/DEPLOYMENT_GUIDE.md](docs/DEPLOYMENT_GUIDE.md) for full instructions.
+
+---
+
+## 📜 License
+This project is licensed under the MIT License. Developed for Kaveri Industrial Supplies Pvt Ltd.

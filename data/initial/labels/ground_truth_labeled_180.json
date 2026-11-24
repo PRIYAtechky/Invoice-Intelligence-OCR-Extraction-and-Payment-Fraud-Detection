@@ -1,0 +1,7525 @@
+[
+  {
+    "file": "inv_0001.jpg",
+    "template_id": 1,
+    "degradation_level": 0.3,
+    "vendor_name": "Vel Engineering Works",
+    "vendor_gstin": "33XXYEN7492X1Z2",
+    "invoice_number": "TI/2025/8093",
+    "invoice_date": "2025-10-10",
+    "due_date": "2025-11-24",
+    "po_number": "KIS/PO/2025/30592",
+    "line_items": [
+      {
+        "description": "Coupling Spider L-100",
+        "hsn": "4016",
+        "quantity": 20,
+        "unit_price": 145.7,
+        "amount": 2914.0
+      }
+    ],
+    "subtotal": 2914.0,
+    "cgst": 262.26,
+    "sgst": 262.26,
+    "igst": 0,
+    "grand_total": 3438.52,
+    "bank_account_last4": "5029",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0002.jpg",
+    "template_id": 3,
+    "degradation_level": 1.4,
+    "vendor_name": "Delta Tools Pvt Ltd",
+    "vendor_gstin": "33RGEOR6215J1Z9",
+    "invoice_number": "KVR/25-26/6028",
+    "invoice_date": "2025-10-17",
+    "due_date": "2025-12-01",
+    "po_number": "KIS/PO/2025/32914",
+    "line_items": [
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 3,
+        "unit_price": 1631.5,
+        "amount": 4894.5
+      }
+    ],
+    "subtotal": 4894.5,
+    "cgst": 440.5,
+    "sgst": 440.5,
+    "igst": 0,
+    "grand_total": 5775.51,
+    "bank_account_last4": "4335",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0003.jpg",
+    "template_id": 0,
+    "degradation_level": 1.4,
+    "vendor_name": "Cauvery Hydraulics",
+    "vendor_gstin": "33UBBWI2985W1Z2",
+    "invoice_number": "KVR/25-26/6212",
+    "invoice_date": "2025-10-19",
+    "due_date": "2025-11-18",
+    "po_number": "KIS/PO/2025/30733",
+    "line_items": [
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 2,
+        "unit_price": 2082.14,
+        "amount": 4164.28
+      }
+    ],
+    "subtotal": 4164.28,
+    "cgst": 374.79,
+    "sgst": 374.79,
+    "igst": 0,
+    "grand_total": 4913.85,
+    "bank_account_last4": "2188",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0004.jpg",
+    "template_id": 1,
+    "degradation_level": 1.4,
+    "vendor_name": "Cauvery Supply Corporation",
+    "vendor_gstin": "33MYEWB2907J1ZG",
+    "invoice_number": "KVR/2025/5780",
+    "invoice_date": "2025-10-14",
+    "due_date": "2025-11-13",
+    "po_number": "KIS/PO/2025/31808",
+    "line_items": [
+      {
+        "description": "Motor 2HP 3-phase",
+        "hsn": "8501",
+        "quantity": 4,
+        "unit_price": 14347.1,
+        "amount": 57388.4
+      },
+      {
+        "description": "Grease Cartridge 400g",
+        "hsn": "2710",
+        "quantity": 2,
+        "unit_price": 141.68,
+        "amount": 283.36
+      }
+    ],
+    "subtotal": 57671.76,
+    "cgst": 5190.46,
+    "sgst": 5190.46,
+    "igst": 0,
+    "grand_total": 68052.68,
+    "bank_account_last4": "4853",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0005.jpg",
+    "template_id": 3,
+    "degradation_level": 1.0,
+    "vendor_name": "Excel Hydraulics",
+    "vendor_gstin": "32OSTXH6258S1Z4",
+    "invoice_number": "SI/2025/0741",
+    "invoice_date": "2025-10-28",
+    "due_date": "2025-11-12",
+    "po_number": null,
+    "line_items": [
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 12,
+        "unit_price": 80.15,
+        "amount": 961.8
+      },
+      {
+        "description": "Gate Valve 2in CI",
+        "hsn": "8481",
+        "quantity": 3,
+        "unit_price": 1552.74,
+        "amount": 4658.22
+      }
+    ],
+    "subtotal": 5620.02,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 1011.6,
+    "grand_total": 6631.62,
+    "bank_account_last4": "5114",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0006.jpg",
+    "template_id": 3,
+    "degradation_level": 1.4,
+    "vendor_name": "Lakshmi Steel Agencies",
+    "vendor_gstin": "29OCALZ8302K1ZC",
+    "invoice_number": "SI/25-26/7172",
+    "invoice_date": "2025-10-09",
+    "due_date": "2025-10-24",
+    "po_number": "KIS/PO/2025/32968",
+    "line_items": [
+      {
+        "description": "Cutting Fluid (20L)",
+        "hsn": "3403",
+        "quantity": 4,
+        "unit_price": 3170.31,
+        "amount": 12681.24
+      },
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 6,
+        "unit_price": 1543.93,
+        "amount": 9263.58
+      },
+      {
+        "description": "Pneumatic Cylinder 50x100",
+        "hsn": "8412",
+        "quantity": 3,
+        "unit_price": 5634.66,
+        "amount": 16903.98
+      }
+    ],
+    "subtotal": 38848.8,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 6992.78,
+    "grand_total": 45841.58,
+    "bank_account_last4": "4726",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0007.jpg",
+    "template_id": 1,
+    "degradation_level": 0.6,
+    "vendor_name": "Royal Hydraulics",
+    "vendor_gstin": "29ZGXRO3284C1Z4",
+    "invoice_number": "SI/2025/7495",
+    "invoice_date": "2025-11-15",
+    "due_date": "2025-11-30",
+    "po_number": "KIS/PO/2025/31069",
+    "line_items": [
+      {
+        "description": "Welding Electrode E6013 3.15mm (5kg)",
+        "hsn": "8311",
+        "quantity": 5,
+        "unit_price": 1015.07,
+        "amount": 5075.35
+      },
+      {
+        "description": "Angle Grinder Disc 4in",
+        "hsn": "6804",
+        "quantity": 1,
+        "unit_price": 48.06,
+        "amount": 48.06
+      },
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 1,
+        "unit_price": 936.76,
+        "amount": 936.76
+      },
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 100,
+        "unit_price": 62.83,
+        "amount": 6283.0
+      },
+      {
+        "description": "Pneumatic Cylinder 50x100",
+        "hsn": "8412",
+        "quantity": 5,
+        "unit_price": 4753.6,
+        "amount": 23768.0
+      },
+      {
+        "description": "Cutting Fluid (20L)",
+        "hsn": "3403",
+        "quantity": 4,
+        "unit_price": 3413.15,
+        "amount": 13652.6
+      }
+    ],
+    "subtotal": 49763.77,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 8957.48,
+    "grand_total": 58721.25,
+    "bank_account_last4": "2106",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0008.jpg",
+    "template_id": 2,
+    "degradation_level": 1.0,
+    "vendor_name": "Raja Bearings & Co",
+    "vendor_gstin": "33YRLGP6341H1ZC",
+    "invoice_number": "KVR/2025/2171",
+    "invoice_date": "2025-10-12",
+    "due_date": "2025-11-11",
+    "po_number": "KIS/PO/2025/33724",
+    "line_items": [
+      {
+        "description": "Gear Oil EP90 (20L)",
+        "hsn": "2710",
+        "quantity": 2,
+        "unit_price": 3996.47,
+        "amount": 7992.94
+      },
+      {
+        "description": "Pneumatic Cylinder 50x100",
+        "hsn": "8412",
+        "quantity": 3,
+        "unit_price": 5533.02,
+        "amount": 16599.06
+      }
+    ],
+    "subtotal": 24592.0,
+    "cgst": 2213.28,
+    "sgst": 2213.28,
+    "igst": 0,
+    "grand_total": 29018.56,
+    "bank_account_last4": "8663",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0009.jpg",
+    "template_id": 1,
+    "degradation_level": 0.6,
+    "vendor_name": "Lakshmi Hydraulics",
+    "vendor_gstin": "33BPEUC7780P1ZC",
+    "invoice_number": "TI/2025/8856",
+    "invoice_date": "2025-10-16",
+    "due_date": "2025-12-15",
+    "po_number": null,
+    "line_items": [
+      {
+        "description": "Grease Cartridge 400g",
+        "hsn": "2710",
+        "quantity": 50,
+        "unit_price": 146.2,
+        "amount": 7310.0
+      },
+      {
+        "description": "Copper Cable 2.5sqmm (90m)",
+        "hsn": "8544",
+        "quantity": 1,
+        "unit_price": 3387.68,
+        "amount": 3387.68
+      }
+    ],
+    "subtotal": 10697.68,
+    "cgst": 962.79,
+    "sgst": 962.79,
+    "igst": 0,
+    "grand_total": 12623.26,
+    "bank_account_last4": "4376",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0010.jpg",
+    "template_id": 2,
+    "degradation_level": 1.0,
+    "vendor_name": "Excel Industrial Traders",
+    "vendor_gstin": "33AHPFD2396Q1Z5",
+    "invoice_number": "INV/2025/1564",
+    "invoice_date": "2025-10-19",
+    "due_date": "2025-12-03",
+    "po_number": "KIS/PO/2025/30222",
+    "line_items": [
+      {
+        "description": "Copper Cable 2.5sqmm (90m)",
+        "hsn": "8544",
+        "quantity": 1,
+        "unit_price": 2348.15,
+        "amount": 2348.15
+      }
+    ],
+    "subtotal": 2348.15,
+    "cgst": 211.34,
+    "sgst": 211.34,
+    "igst": 0,
+    "grand_total": 2770.82,
+    "bank_account_last4": "7233",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0011.jpg",
+    "template_id": 0,
+    "degradation_level": 0.3,
+    "vendor_name": "Royal Hydraulics",
+    "vendor_gstin": "29ZGXXO3284C1Z4",
+    "invoice_number": "KVR/25-26/4012",
+    "invoice_date": "2025-10-30",
+    "due_date": "2025-11-14",
+    "po_number": "KIS/PO/2025/32702",
+    "line_items": [
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 4,
+        "unit_price": 129.94,
+        "amount": 519.76
+      },
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 1,
+        "unit_price": 1093.0,
+        "amount": 1093.0
+      },
+      {
+        "description": "Gear Oil EP90 (20L)",
+        "hsn": "2710",
+        "quantity": 2,
+        "unit_price": 3265.4,
+        "amount": 6530.8
+      },
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 50,
+        "unit_price": 68.58,
+        "amount": 3429.0
+      },
+      {
+        "description": "Cutting Fluid (20L)",
+        "hsn": "3403",
+        "quantity": 1,
+        "unit_price": 2920.57,
+        "amount": 2920.57
+      }
+    ],
+    "subtotal": 14493.13,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 2608.76,
+    "grand_total": 17101.89,
+    "bank_account_last4": "2106",
+    "validation_flags": [
+      "gstin_not_in_vendor_master"
+    ]
+  },
+  {
+    "file": "inv_0012.jpg",
+    "template_id": 2,
+    "degradation_level": 1.0,
+    "vendor_name": "National Supply Corporation",
+    "vendor_gstin": "24SUHQS2127J1ZG",
+    "invoice_number": "SI/25-26/1345",
+    "invoice_date": "2025-10-31",
+    "due_date": "2025-11-30",
+    "po_number": "KIS/PO/2025/33314",
+    "line_items": [
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 5,
+        "unit_price": 186.34,
+        "amount": 931.7
+      }
+    ],
+    "subtotal": 931.7,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 167.71,
+    "grand_total": 1099.41,
+    "bank_account_last4": "3624",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0013.jpg",
+    "template_id": 2,
+    "degradation_level": 0.6,
+    "vendor_name": "Cauvery Hydraulics",
+    "vendor_gstin": "33UBBWI2985W1Z2",
+    "invoice_number": "SI/2025/2963",
+    "invoice_date": "2025-10-08",
+    "due_date": "2025-11-07",
+    "po_number": "KIS/PO/2025/32026",
+    "line_items": [
+      {
+        "description": "Gate Valve 2in CI",
+        "hsn": "8481",
+        "quantity": 4,
+        "unit_price": 1392.81,
+        "amount": 5571.24
+      }
+    ],
+    "subtotal": 5571.24,
+    "cgst": 501.41,
+    "sgst": 501.41,
+    "igst": 0,
+    "grand_total": 6574.06,
+    "bank_account_last4": "2188",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0014.jpg",
+    "template_id": 2,
+    "degradation_level": 0.3,
+    "vendor_name": "Precision Enterprises",
+    "vendor_gstin": "33VKCIE5096O1Z6",
+    "invoice_number": "KVR/2025/1865",
+    "invoice_date": "2025-10-05",
+    "due_date": "2025-11-04",
+    "po_number": "KIS/PO/2025/32297",
+    "line_items": [
+      {
+        "description": "Pneumatic Cylinder 50x100",
+        "hsn": "8412",
+        "quantity": 1,
+        "unit_price": 3701.06,
+        "amount": 3701.06
+      },
+      {
+        "description": "Chain Sprocket 40B15",
+        "hsn": "8483",
+        "quantity": 10,
+        "unit_price": 463.31,
+        "amount": 4633.1
+      },
+      {
+        "description": "Motor 2HP 3-phase",
+        "hsn": "8501",
+        "quantity": 4,
+        "unit_price": 11581.68,
+        "amount": 46326.72
+      }
+    ],
+    "subtotal": 54660.88,
+    "cgst": 4919.48,
+    "sgst": 4919.48,
+    "igst": 0,
+    "grand_total": 64499.84,
+    "bank_account_last4": "2566",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0015.jpg",
+    "template_id": 0,
+    "degradation_level": 0.6,
+    "vendor_name": "Excel Industrial Traders",
+    "vendor_gstin": "33AHPFD2396Q1Z5",
+    "invoice_number": "SI/25-26/6571",
+    "invoice_date": "2025-10-11",
+    "due_date": "2025-11-25",
+    "po_number": null,
+    "line_items": [
+      {
+        "description": "V-Belt B-52",
+        "hsn": "4010",
+        "quantity": 10,
+        "unit_price": 235.56,
+        "amount": 2355.6
+      },
+      {
+        "description": "Hydraulic Hose 1/2in x 1m",
+        "hsn": "4009",
+        "quantity": 4,
+        "unit_price": 347.82,
+        "amount": 1391.28
+      },
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 6,
+        "unit_price": 779.89,
+        "amount": 4679.34
+      },
+      {
+        "description": "Copper Cable 2.5sqmm (90m)",
+        "hsn": "8544",
+        "quantity": 5,
+        "unit_price": 3072.17,
+        "amount": 15360.85
+      }
+    ],
+    "subtotal": 23787.07,
+    "cgst": 2140.84,
+    "sgst": 2140.84,
+    "igst": 0,
+    "grand_total": 28068.74,
+    "bank_account_last4": "7233",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0016.jpg",
+    "template_id": 2,
+    "degradation_level": 1.0,
+    "vendor_name": "Royal Hydraulics",
+    "vendor_gstin": "29ZGXRO3284C1Z4",
+    "invoice_number": "KVR/25-26/4560",
+    "invoice_date": "2025-10-01",
+    "due_date": "2025-10-16",
+    "po_number": "KIS/PO/2025/31620",
+    "line_items": [
+      {
+        "description": "Mechanical Seal 35mm",
+        "hsn": "8484",
+        "quantity": 3,
+        "unit_price": 2246.36,
+        "amount": 6739.08
+      },
+      {
+        "description": "V-Belt B-52",
+        "hsn": "4010",
+        "quantity": 4,
+        "unit_price": 443.5,
+        "amount": 1774.0
+      },
+      {
+        "description": "Gate Valve 2in CI",
+        "hsn": "8481",
+        "quantity": 6,
+        "unit_price": 1245.33,
+        "amount": 7471.98
+      },
+      {
+        "description": "Stainless Steel Pipe 1in (6m)",
+        "hsn": "7306",
+        "quantity": 2,
+        "unit_price": 3360.28,
+        "amount": 6720.56
+      },
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 3,
+        "unit_price": 1844.47,
+        "amount": 5533.41
+      }
+    ],
+    "subtotal": 28239.03,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 5083.03,
+    "grand_total": 33322.06,
+    "bank_account_last4": "2106",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0017.jpg",
+    "template_id": 0,
+    "degradation_level": 0.3,
+    "vendor_name": "Precision Tools Pvt Ltd",
+    "vendor_gstin": "29HYOXI6255O1ZB",
+    "invoice_number": "TI/25-26/8221",
+    "invoice_date": "2025-11-14",
+    "due_date": "2026-01-13",
+    "po_number": "KIS/PO/2025/32050",
+    "line_items": [
+      {
+        "description": "Chain Sprocket 40B15",
+        "hsn": "8483",
+        "quantity": 100,
+        "unit_price": 274.19,
+        "amount": 27419.0
+      },
+      {
+        "description": "Gear Oil EP90 (20L)",
+        "hsn": "2710",
+        "quantity": 1,
+        "unit_price": 4297.91,
+        "amount": 4297.91
+      }
+    ],
+    "subtotal": 31716.91,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 5709.04,
+    "grand_total": 37425.95,
+    "bank_account_last4": "7001",
+    "validation_flags": [
+      "gstin_not_in_vendor_master"
+    ]
+  },
+  {
+    "file": "inv_0018.jpg",
+    "template_id": 1,
+    "degradation_level": 1.0,
+    "vendor_name": "Prime Supply Corporation",
+    "vendor_gstin": "27JETZR9996R1ZD",
+    "invoice_number": "SI/2025/9867",
+    "invoice_date": "2025-10-08",
+    "due_date": "2025-10-23",
+    "po_number": "KIS/PO/2025/32189",
+    "line_items": [
+      {
+        "description": "Welding Electrode E6013 3.15mm (5kg)",
+        "hsn": "8311",
+        "quantity": 5,
+        "unit_price": 1106.83,
+        "amount": 5534.15
+      },
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 1,
+        "unit_price": 80.77,
+        "amount": 80.77
+      }
+    ],
+    "subtotal": 5614.92,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 1010.69,
+    "grand_total": 6625.61,
+    "bank_account_last4": "9510",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0019.jpg",
+    "template_id": 2,
+    "degradation_level": 1.0,
+    "vendor_name": "Prime Hydraulics",
+    "vendor_gstin": "33XJQSS5039R1Z2",
+    "invoice_number": "KVR/25-26/1412",
+    "invoice_date": "2025-10-18",
+    "due_date": "2025-12-02",
+    "po_number": null,
+    "line_items": [
+      {
+        "description": "Welding Electrode E6013 3.15mm (5kg)",
+        "hsn": "8311",
+        "quantity": 2,
+        "unit_price": 1257.63,
+        "amount": 2515.26
+      },
+      {
+        "description": "Air Filter Element",
+        "hsn": "8421",
+        "quantity": 4,
+        "unit_price": 976.99,
+        "amount": 3907.96
+      }
+    ],
+    "subtotal": 6423.22,
+    "cgst": 578.09,
+    "sgst": 578.09,
+    "igst": 0,
+    "grand_total": 7579.4,
+    "bank_account_last4": "4075",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0020.jpg",
+    "template_id": 3,
+    "degradation_level": 0.3,
+    "vendor_name": "Bharath Bearings & Co",
+    "vendor_gstin": "36WRQYN7857Y1Z5",
+    "invoice_number": "KVR/25-26/9491",
+    "invoice_date": "2025-10-06",
+    "due_date": "2025-10-21",
+    "po_number": "KIS/PO/2025/32362",
+    "line_items": [
+      {
+        "description": "Proximity Sensor M18 PNP",
+        "hsn": "8536",
+        "quantity": 1,
+        "unit_price": 1825.32,
+        "amount": 1825.32
+      },
+      {
+        "description": "Gate Valve 2in CI",
+        "hsn": "8481",
+        "quantity": 1,
+        "unit_price": 2846.77,
+        "amount": 2846.77
+      }
+    ],
+    "subtotal": 4672.09,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 840.98,
+    "grand_total": 5513.07,
+    "bank_account_last4": "2690",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0021.jpg",
+    "template_id": 0,
+    "degradation_level": 1.0,
+    "vendor_name": "Lakshmi Engineering Works",
+    "vendor_gstin": "37WLGNQ2782I1Z5",
+    "invoice_number": "INV/25-26/8125",
+    "invoice_date": "2025-10-06",
+    "due_date": "2025-11-20",
+    "po_number": "KIS/PO/2025/32684",
+    "line_items": [
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 2,
+        "unit_price": 983.48,
+        "amount": 1966.96
+      },
+      {
+        "description": "Mechanical Seal 35mm",
+        "hsn": "8484",
+        "quantity": 6,
+        "unit_price": 1457.71,
+        "amount": 8746.26
+      },
+      {
+        "description": "Chain Sprocket 40B15",
+        "hsn": "8483",
+        "quantity": 50,
+        "unit_price": 564.65,
+        "amount": 28232.5
+      },
+      {
+        "description": "Air Filter Element",
+        "hsn": "8421",
+        "quantity": 50,
+        "unit_price": 1139.84,
+        "amount": 56992.0
+      },
+      {
+        "description": "Gate Valve 2in CI",
+        "hsn": "8481",
+        "quantity": 5,
+        "unit_price": 1264.58,
+        "amount": 6322.9
+      }
+    ],
+    "subtotal": 102260.62,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 18406.91,
+    "grand_total": 120667.53,
+    "bank_account_last4": "9802",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0022.jpg",
+    "template_id": 3,
+    "degradation_level": 1.0,
+    "vendor_name": "Lakshmi Bearings & Co",
+    "vendor_gstin": "33XOOVB5407R1Z6",
+    "invoice_number": "INV/25-26/9777",
+    "invoice_date": "2025-10-06",
+    "due_date": "2025-11-20",
+    "po_number": "KIS/PO/2025/31023",
+    "line_items": [
+      {
+        "description": "Cutting Fluid (20L)",
+        "hsn": "3403",
+        "quantity": 5,
+        "unit_price": 2791.52,
+        "amount": 13957.6
+      }
+    ],
+    "subtotal": 13957.6,
+    "cgst": 1256.18,
+    "sgst": 1256.18,
+    "igst": 0,
+    "grand_total": 16469.97,
+    "bank_account_last4": "7747",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0023.jpg",
+    "template_id": 2,
+    "degradation_level": 0.3,
+    "vendor_name": "Vel Tools Pvt Ltd",
+    "vendor_gstin": "33KXNFC4950Y1Z1",
+    "invoice_number": "TI/25-26/6816",
+    "invoice_date": "2025-10-15",
+    "due_date": "2025-10-30",
+    "po_number": "KIS/PO/2025/31485",
+    "line_items": [
+      {
+        "description": "Coupling Spider L-100",
+        "hsn": "4016",
+        "quantity": 25,
+        "unit_price": 258.59,
+        "amount": 6464.75
+      },
+      {
+        "description": "Gate Valve 2in CI",
+        "hsn": "8481",
+        "quantity": 1,
+        "unit_price": 1926.6,
+        "amount": 1926.6
+      },
+      {
+        "description": "Chain Sprocket 40B15",
+        "hsn": "8483",
+        "quantity": 2,
+        "unit_price": 270.25,
+        "amount": 540.5
+      },
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 25,
+        "unit_price": 360.49,
+        "amount": 9012.25
+      },
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 50,
+        "unit_price": 72.1,
+        "amount": 3605.0
+      },
+      {
+        "description": "Hydraulic Hose 1/2in x 1m",
+        "hsn": "4009",
+        "quantity": 2,
+        "unit_price": 608.36,
+        "amount": 1216.72
+      }
+    ],
+    "subtotal": 22765.82,
+    "cgst": 2048.93,
+    "sgst": 2048.93,
+    "igst": 0,
+    "grand_total": 26863.67,
+    "bank_account_last4": "8042",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0024.jpg",
+    "template_id": 3,
+    "degradation_level": 1.0,
+    "vendor_name": "Sri Murugan Engineering Works",
+    "vendor_gstin": "29TOUSB6512H1Z8",
+    "invoice_number": "KVR/2025/3502",
+    "invoice_date": "2025-11-07",
+    "due_date": "2025-12-07",
+    "po_number": "KIS/PO/2025/31010",
+    "line_items": [
+      {
+        "description": "Proximity Sensor M18 PNP",
+        "hsn": "8536",
+        "quantity": 1,
+        "unit_price": 1144.27,
+        "amount": 1144.27
+      },
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 6,
+        "unit_price": 2379.69,
+        "amount": 14278.14
+      }
+    ],
+    "subtotal": 15422.41,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 2776.03,
+    "grand_total": 18198.44,
+    "bank_account_last4": "1303",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0025.jpg",
+    "template_id": 2,
+    "degradation_level": 0.6,
+    "vendor_name": "Sri Murugan Hydraulics",
+    "vendor_gstin": "29VKTJL6523X1Z4",
+    "invoice_number": "KVR/25-26/6519",
+    "invoice_date": "2025-10-30",
+    "due_date": "2025-11-29",
+    "po_number": "KIS/PO/2025/31098",
+    "line_items": [
+      {
+        "description": "Gate Valve 2in CI",
+        "hsn": "8481",
+        "quantity": 6,
+        "unit_price": 2231.16,
+        "amount": 13386.96
+      },
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 2,
+        "unit_price": 2132.16,
+        "amount": 4264.32
+      },
+      {
+        "description": "Industrial Safety Gloves (pair)",
+        "hsn": "6116",
+        "quantity": 10,
+        "unit_price": 116.44,
+        "amount": 1164.4
+      }
+    ],
+    "subtotal": 18815.68,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 3386.82,
+    "grand_total": 22202.5,
+    "bank_account_last4": "1387",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0026.jpg",
+    "template_id": 2,
+    "degradation_level": 1.0,
+    "vendor_name": "Kongu Steel Agencies",
+    "vendor_gstin": "33SQUMP6224P1ZG",
+    "invoice_number": "TI/2025/4690",
+    "invoice_date": "2025-11-05",
+    "due_date": "2025-11-20",
+    "po_number": null,
+    "line_items": [
+      {
+        "description": "Angle Grinder Disc 4in",
+        "hsn": "6804",
+        "quantity": 50,
+        "unit_price": 54.84,
+        "amount": 2742.0
+      }
+    ],
+    "subtotal": 2742.0,
+    "cgst": 246.78,
+    "sgst": 246.78,
+    "igst": 0,
+    "grand_total": 3235.56,
+    "bank_account_last4": "2913",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0027.jpg",
+    "template_id": 2,
+    "degradation_level": 1.0,
+    "vendor_name": "Raja Electricals",
+    "vendor_gstin": "27PCHPZ8606U1ZD",
+    "invoice_number": "TI/25-26/3160",
+    "invoice_date": "2025-10-13",
+    "due_date": "2025-12-12",
+    "po_number": "KIS/PO/2025/33595",
+    "line_items": [
+      {
+        "description": "Motor 2HP 3-phase",
+        "hsn": "8501",
+        "quantity": 5,
+        "unit_price": 13374.73,
+        "amount": 66873.65
+      },
+      {
+        "description": "Copper Cable 2.5sqmm (90m)",
+        "hsn": "8544",
+        "quantity": 3,
+        "unit_price": 2869.64,
+        "amount": 8608.92
+      }
+    ],
+    "subtotal": 75482.57,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 13586.86,
+    "grand_total": 89069.43,
+    "bank_account_last4": "7688",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0028.jpg",
+    "template_id": 2,
+    "degradation_level": 1.0,
+    "vendor_name": "Cauvery Supply Corporation",
+    "vendor_gstin": "33MYEWB2907J1ZG",
+    "invoice_number": "INV/25-26/6396",
+    "invoice_date": "2025-10-16",
+    "due_date": "2025-11-15",
+    "po_number": "KIS/PO/2025/33952",
+    "line_items": [
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 3,
+        "unit_price": 995.96,
+        "amount": 2987.88
+      },
+      {
+        "description": "Motor 2HP 3-phase",
+        "hsn": "8501",
+        "quantity": 3,
+        "unit_price": 10733.37,
+        "amount": 32200.11
+      },
+      {
+        "description": "Cutting Fluid (20L)",
+        "hsn": "3403",
+        "quantity": 1,
+        "unit_price": 3884.31,
+        "amount": 3884.31
+      },
+      {
+        "description": "Stainless Steel Pipe 1in (6m)",
+        "hsn": "7306",
+        "quantity": 6,
+        "unit_price": 3301.15,
+        "amount": 19806.9
+      },
+      {
+        "description": "Gate Valve 2in CI",
+        "hsn": "8481",
+        "quantity": 2,
+        "unit_price": 2896.21,
+        "amount": 5792.42
+      }
+    ],
+    "subtotal": 64671.62,
+    "cgst": 5820.44,
+    "sgst": 5820.44,
+    "igst": 0,
+    "grand_total": 76312.51,
+    "bank_account_last4": "4853",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0029.jpg",
+    "template_id": 0,
+    "degradation_level": 0.3,
+    "vendor_name": "Precision Industrial Traders",
+    "vendor_gstin": "33USEHQ4061N1ZD",
+    "invoice_number": "KVR/2025/2084",
+    "invoice_date": "2025-11-11",
+    "due_date": "2025-12-11",
+    "po_number": "KIS/PO/2025/32967",
+    "line_items": [
+      {
+        "description": "Proximity Sensor M18 PNP",
+        "hsn": "8536",
+        "quantity": 1,
+        "unit_price": 1468.3,
+        "amount": 1468.3
+      }
+    ],
+    "subtotal": 1468.3,
+    "cgst": 132.15,
+    "sgst": 132.15,
+    "igst": 0,
+    "grand_total": 1732.59,
+    "bank_account_last4": "5642",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0030.jpg",
+    "template_id": 3,
+    "degradation_level": 0.6,
+    "vendor_name": "Delta Enterprises",
+    "vendor_gstin": "33NQBBQ2758W1Z0",
+    "invoice_number": "TI/2025/8200",
+    "invoice_date": "2025-11-05",
+    "due_date": "2026-01-04",
+    "po_number": "KIS/PO/2025/30129",
+    "line_items": [
+      {
+        "description": "Chain Sprocket 40B15",
+        "hsn": "8483",
+        "quantity": 5,
+        "unit_price": 465.58,
+        "amount": 2327.9
+      },
+      {
+        "description": "Welding Electrode E6013 3.15mm (5kg)",
+        "hsn": "8311",
+        "quantity": 4,
+        "unit_price": 1161.1,
+        "amount": 4644.4
+      },
+      {
+        "description": "Air Filter Element",
+        "hsn": "8421",
+        "quantity": 25,
+        "unit_price": 619.42,
+        "amount": 15485.5
+      },
+      {
+        "description": "Cutting Fluid (20L)",
+        "hsn": "3403",
+        "quantity": 6,
+        "unit_price": 2544.1,
+        "amount": 15264.6
+      },
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 20,
+        "unit_price": 54.49,
+        "amount": 1089.8
+      }
+    ],
+    "subtotal": 38812.2,
+    "cgst": 3493.1,
+    "sgst": 3493.1,
+    "igst": 0,
+    "grand_total": 55798.4,
+    "bank_account_last4": "7109",
+    "validation_flags": [
+      "grand_total_does_not_match_lines_plus_tax"
+    ]
+  },
+  {
+    "file": "inv_0031.jpg",
+    "template_id": 3,
+    "degradation_level": 1.4,
+    "vendor_name": "Star Electricals",
+    "vendor_gstin": "36FWQVA2377C1Z1",
+    "invoice_number": "INV/2025/3823",
+    "invoice_date": "2025-10-05",
+    "due_date": "2025-12-04",
+    "po_number": "KIS/PO/2025/33435",
+    "line_items": [
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 10,
+        "unit_price": 191.24,
+        "amount": 1912.4
+      },
+      {
+        "description": "Gear Oil EP90 (20L)",
+        "hsn": "2710",
+        "quantity": 3,
+        "unit_price": 5426.15,
+        "amount": 16278.45
+      },
+      {
+        "description": "Coupling Spider L-100",
+        "hsn": "4016",
+        "quantity": 10,
+        "unit_price": 204.55,
+        "amount": 2045.5
+      },
+      {
+        "description": "Motor 2HP 3-phase",
+        "hsn": "8501",
+        "quantity": 6,
+        "unit_price": 9912.86,
+        "amount": 59477.16
+      },
+      {
+        "description": "Welding Electrode E6013 3.15mm (5kg)",
+        "hsn": "8311",
+        "quantity": 2,
+        "unit_price": 1214.57,
+        "amount": 2429.14
+      }
+    ],
+    "subtotal": 82142.65,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 14785.68,
+    "grand_total": 96928.33,
+    "bank_account_last4": "2947",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0032.jpg",
+    "template_id": 2,
+    "degradation_level": 1.4,
+    "vendor_name": "Precision Enterprises",
+    "vendor_gstin": "33VKCIE5096O1Z6",
+    "invoice_number": "INV/2025/6485",
+    "invoice_date": "2025-10-25",
+    "due_date": "2025-11-24",
+    "po_number": "KIS/PO/2025/31129",
+    "line_items": [
+      {
+        "description": "Chain Sprocket 40B15",
+        "hsn": "8483",
+        "quantity": 50,
+        "unit_price": 492.34,
+        "amount": 24617.0
+      },
+      {
+        "description": "Coupling Spider L-100",
+        "hsn": "4016",
+        "quantity": 12,
+        "unit_price": 117.26,
+        "amount": 1407.12
+      },
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 2,
+        "unit_price": 1427.82,
+        "amount": 2855.64
+      }
+    ],
+    "subtotal": 28879.76,
+    "cgst": 2599.18,
+    "sgst": 2599.18,
+    "igst": 0,
+    "grand_total": 34978.12,
+    "bank_account_last4": "2566",
+    "validation_flags": [
+      "grand_total_does_not_match_lines_plus_tax"
+    ]
+  },
+  {
+    "file": "inv_0033.jpg",
+    "template_id": 1,
+    "degradation_level": 0.3,
+    "vendor_name": "Global Bearings & Co",
+    "vendor_gstin": "33AQFKH2691N1ZG",
+    "invoice_number": "SI/25-26/3219",
+    "invoice_date": "2025-11-09",
+    "due_date": "2025-12-09",
+    "po_number": "KIS/PO/2025/30885",
+    "line_items": [
+      {
+        "description": "Hydraulic Hose 1/2in x 1m",
+        "hsn": "4009",
+        "quantity": 4,
+        "unit_price": 690.59,
+        "amount": 2762.36
+      },
+      {
+        "description": "Coupling Spider L-100",
+        "hsn": "4016",
+        "quantity": 20,
+        "unit_price": 204.45,
+        "amount": 4089.0
+      },
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 12,
+        "unit_price": 50.91,
+        "amount": 610.92
+      }
+    ],
+    "subtotal": 7462.28,
+    "cgst": 671.61,
+    "sgst": 671.61,
+    "igst": 0,
+    "grand_total": 8805.49,
+    "bank_account_last4": "9568",
+    "validation_flags": [
+      "bank_account_changed"
+    ]
+  },
+  {
+    "file": "inv_0034.jpg",
+    "template_id": 1,
+    "degradation_level": 1.0,
+    "vendor_name": "Kongu Steel Agencies",
+    "vendor_gstin": "33SQUMP6224P1ZG",
+    "invoice_number": "SI/25-26/6367",
+    "invoice_date": "2025-10-22",
+    "due_date": "2025-11-06",
+    "po_number": "KIS/PO/2025/31100",
+    "line_items": [
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 1,
+        "unit_price": 91.39,
+        "amount": 91.39
+      },
+      {
+        "description": "Grease Cartridge 400g",
+        "hsn": "2710",
+        "quantity": 50,
+        "unit_price": 213.9,
+        "amount": 10695.0
+      },
+      {
+        "description": "Mechanical Seal 35mm",
+        "hsn": "8484",
+        "quantity": 1,
+        "unit_price": 1270.31,
+        "amount": 1270.31
+      }
+    ],
+    "subtotal": 12056.7,
+    "cgst": 1085.11,
+    "sgst": 1085.11,
+    "igst": 0,
+    "grand_total": 14226.91,
+    "bank_account_last4": "2913",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0035.jpg",
+    "template_id": 1,
+    "degradation_level": 0.6,
+    "vendor_name": "Venkateswara Supply Corporation",
+    "vendor_gstin": "33OWOXX2613D1Z5",
+    "invoice_number": "TI/25-26/7953",
+    "invoice_date": "2025-10-26",
+    "due_date": "2025-11-10",
+    "po_number": null,
+    "line_items": [
+      {
+        "description": "Industrial Safety Gloves (pair)",
+        "hsn": "6116",
+        "quantity": 12,
+        "unit_price": 144.29,
+        "amount": 1731.48
+      },
+      {
+        "description": "Coupling Spider L-100",
+        "hsn": "4016",
+        "quantity": 4,
+        "unit_price": 130.8,
+        "amount": 523.2
+      }
+    ],
+    "subtotal": 2254.68,
+    "cgst": 202.92,
+    "sgst": 202.92,
+    "igst": 0,
+    "grand_total": 2660.52,
+    "bank_account_last4": "6320",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0036.jpg",
+    "template_id": 2,
+    "degradation_level": 1.0,
+    "vendor_name": "Annai Engineering Works",
+    "vendor_gstin": "33OMJHI4564F1ZH",
+    "invoice_number": "SI/25-26/9488",
+    "invoice_date": "2025-10-14",
+    "due_date": "2025-11-13",
+    "po_number": "KIS/PO/2025/31524",
+    "line_items": [
+      {
+        "description": "V-Belt B-52",
+        "hsn": "4010",
+        "quantity": 4,
+        "unit_price": 258.63,
+        "amount": 1034.52
+      },
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 50,
+        "unit_price": 40.71,
+        "amount": 2035.5
+      },
+      {
+        "description": "Angle Grinder Disc 4in",
+        "hsn": "6804",
+        "quantity": 50,
+        "unit_price": 47.8,
+        "amount": 2390.0
+      },
+      {
+        "description": "Hydraulic Hose 1/2in x 1m",
+        "hsn": "4009",
+        "quantity": 1,
+        "unit_price": 415.68,
+        "amount": 415.68
+      },
+      {
+        "description": "Industrial Safety Gloves (pair)",
+        "hsn": "6116",
+        "quantity": 5,
+        "unit_price": 90.01,
+        "amount": 450.05
+      },
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 4,
+        "unit_price": 1388.06,
+        "amount": 5552.24
+      }
+    ],
+    "subtotal": 11877.99,
+    "cgst": 1069.02,
+    "sgst": 1069.02,
+    "igst": 0,
+    "grand_total": 14016.03,
+    "bank_account_last4": "2681",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0037.jpg",
+    "template_id": 3,
+    "degradation_level": 1.4,
+    "vendor_name": "Bharath Enterprises",
+    "vendor_gstin": "29VFVXI9619S1ZH",
+    "invoice_number": "INV/2025/0750",
+    "invoice_date": "2025-10-10",
+    "due_date": "2025-11-09",
+    "po_number": null,
+    "line_items": [
+      {
+        "description": "Copper Cable 2.5sqmm (90m)",
+        "hsn": "8544",
+        "quantity": 4,
+        "unit_price": 2484.31,
+        "amount": 9937.24
+      }
+    ],
+    "subtotal": 9937.24,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 1788.7,
+    "grand_total": 11725.94,
+    "bank_account_last4": "8387",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0038.jpg",
+    "template_id": 3,
+    "degradation_level": 1.0,
+    "vendor_name": "Delta Supply Corporation",
+    "vendor_gstin": "33OTIBO5945C1Z5",
+    "invoice_number": "TI/2025/4476",
+    "invoice_date": "2025-10-08",
+    "due_date": "2025-11-22",
+    "po_number": "KIS/PO/2025/33993",
+    "line_items": [
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 5,
+        "unit_price": 2531.41,
+        "amount": 12657.05
+      },
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 4,
+        "unit_price": 823.65,
+        "amount": 3294.6
+      }
+    ],
+    "subtotal": 15951.65,
+    "cgst": 1435.65,
+    "sgst": 1435.65,
+    "igst": 0,
+    "grand_total": 18822.95,
+    "bank_account_last4": "1732",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0039.jpg",
+    "template_id": 1,
+    "degradation_level": 1.0,
+    "vendor_name": "Precision Steel Agencies",
+    "vendor_gstin": "33XHQCG3426V1Z3",
+    "invoice_number": "INV/2025/3734",
+    "invoice_date": "2025-10-19",
+    "due_date": "2025-12-03",
+    "po_number": "KIS/PO/2025/30871",
+    "line_items": [
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 4,
+        "unit_price": 1356.79,
+        "amount": 5427.16
+      },
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 1,
+        "unit_price": 1465.63,
+        "amount": 1465.63
+      }
+    ],
+    "subtotal": 6892.79,
+    "cgst": 620.35,
+    "sgst": 620.35,
+    "igst": 0,
+    "grand_total": 8133.49,
+    "bank_account_last4": "1389",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0040.jpg",
+    "template_id": 1,
+    "degradation_level": 1.0,
+    "vendor_name": "Kaveri Valley Engineering Works",
+    "vendor_gstin": "33MDXFN8183I1ZB",
+    "invoice_number": "SI/25-26/5038",
+    "invoice_date": "2025-10-07",
+    "due_date": "2025-11-06",
+    "po_number": "KIS/PO/2025/31328",
+    "line_items": [
+      {
+        "description": "Mechanical Seal 35mm",
+        "hsn": "8484",
+        "quantity": 5,
+        "unit_price": 959.53,
+        "amount": 4797.65
+      },
+      {
+        "description": "Gate Valve 2in CI",
+        "hsn": "8481",
+        "quantity": 4,
+        "unit_price": 1739.47,
+        "amount": 6957.88
+      },
+      {
+        "description": "Air Filter Element",
+        "hsn": "8421",
+        "quantity": 20,
+        "unit_price": 1186.22,
+        "amount": 23724.4
+      },
+      {
+        "description": "Stainless Steel Pipe 1in (6m)",
+        "hsn": "7306",
+        "quantity": 1,
+        "unit_price": 2362.31,
+        "amount": 2362.31
+      },
+      {
+        "description": "Hydraulic Hose 1/2in x 1m",
+        "hsn": "4009",
+        "quantity": 100,
+        "unit_price": 432.08,
+        "amount": 43208.0
+      }
+    ],
+    "subtotal": 81050.24,
+    "cgst": 7294.52,
+    "sgst": 7294.52,
+    "igst": 0,
+    "grand_total": 95639.28,
+    "bank_account_last4": "7509",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0041.jpg",
+    "template_id": 0,
+    "degradation_level": 0.3,
+    "vendor_name": "Raja Electricals",
+    "vendor_gstin": "27PCHPZ8606U1ZD",
+    "invoice_number": "INV/25-26/0365",
+    "invoice_date": "2025-10-24",
+    "due_date": "2025-12-23",
+    "po_number": "KIS/PO/2025/30925",
+    "line_items": [
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 4,
+        "unit_price": 2322.24,
+        "amount": 9288.96
+      },
+      {
+        "description": "Air Filter Element",
+        "hsn": "8421",
+        "quantity": 1,
+        "unit_price": 657.25,
+        "amount": 657.25
+      },
+      {
+        "description": "Proximity Sensor M18 PNP",
+        "hsn": "8536",
+        "quantity": 4,
+        "unit_price": 975.68,
+        "amount": 3902.72
+      },
+      {
+        "description": "Chain Sprocket 40B15",
+        "hsn": "8483",
+        "quantity": 25,
+        "unit_price": 515.53,
+        "amount": 12888.25
+      },
+      {
+        "description": "Gate Valve 2in CI",
+        "hsn": "8481",
+        "quantity": 1,
+        "unit_price": 1584.51,
+        "amount": 1584.51
+      }
+    ],
+    "subtotal": 28321.69,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 5097.9,
+    "grand_total": 33419.59,
+    "bank_account_last4": "7688",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0042.jpg",
+    "template_id": 0,
+    "degradation_level": 1.0,
+    "vendor_name": "Kaveri Valley Bearings & Co",
+    "vendor_gstin": "27BFOPK9906J1Z#",
+    "invoice_number": "INV/2025/9812",
+    "invoice_date": "2025-10-29",
+    "due_date": "2025-11-28",
+    "po_number": null,
+    "line_items": [
+      {
+        "description": "Angle Grinder Disc 4in",
+        "hsn": "6804",
+        "quantity": 50,
+        "unit_price": 72.82,
+        "amount": 3641.0
+      }
+    ],
+    "subtotal": 3641.0,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 655.38,
+    "grand_total": 4296.38,
+    "bank_account_last4": "5533",
+    "validation_flags": [
+      "malformed_gstin"
+    ]
+  },
+  {
+    "file": "inv_0043.jpg",
+    "template_id": 1,
+    "degradation_level": 0.6,
+    "vendor_name": "Venkateswara Supply Corporation",
+    "vendor_gstin": "33OWOXX2613D1Z5",
+    "invoice_number": "KVR/25-26/7646",
+    "invoice_date": "2025-10-06",
+    "due_date": "2025-10-21",
+    "po_number": "KIS/PO/2025/31209",
+    "line_items": [
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 2,
+        "unit_price": 272.09,
+        "amount": 544.18
+      },
+      {
+        "description": "Chain Sprocket 40B15",
+        "hsn": "8483",
+        "quantity": 4,
+        "unit_price": 294.5,
+        "amount": 1178.0
+      },
+      {
+        "description": "Copper Cable 2.5sqmm (90m)",
+        "hsn": "8544",
+        "quantity": 2,
+        "unit_price": 2333.97,
+        "amount": 4667.94
+      },
+      {
+        "description": "Grease Cartridge 400g",
+        "hsn": "2710",
+        "quantity": 50,
+        "unit_price": 137.21,
+        "amount": 6860.5
+      }
+    ],
+    "subtotal": 13250.62,
+    "cgst": 1192.56,
+    "sgst": 1192.56,
+    "igst": 0,
+    "grand_total": 15635.73,
+    "bank_account_last4": "6320",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0044.jpg",
+    "template_id": 2,
+    "degradation_level": 0.3,
+    "vendor_name": "Cauvery Tools Pvt Ltd",
+    "vendor_gstin": "29IMZMH7929C1ZC",
+    "invoice_number": "SI/25-26/2418",
+    "invoice_date": "2025-11-05",
+    "due_date": "2026-01-04",
+    "po_number": "KIS/PO/2025/32087",
+    "line_items": [
+      {
+        "description": "Cutting Fluid (20L)",
+        "hsn": "3403",
+        "quantity": 3,
+        "unit_price": 3465.06,
+        "amount": 10395.18
+      },
+      {
+        "description": "Copper Cable 2.5sqmm (90m)",
+        "hsn": "8544",
+        "quantity": 1,
+        "unit_price": 3274.72,
+        "amount": 3274.72
+      },
+      {
+        "description": "Welding Electrode E6013 3.15mm (5kg)",
+        "hsn": "8311",
+        "quantity": 6,
+        "unit_price": 1467.17,
+        "amount": 8803.02
+      }
+    ],
+    "subtotal": 22472.92,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 4045.13,
+    "grand_total": 26518.05,
+    "bank_account_last4": "4550",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0045.jpg",
+    "template_id": 1,
+    "degradation_level": 1.4,
+    "vendor_name": "Excel Hydraulics",
+    "vendor_gstin": "32OSTXH6258S1Z4",
+    "invoice_number": "SI/25-26/1370",
+    "invoice_date": "2025-11-02",
+    "due_date": "2025-11-17",
+    "po_number": "KIS/PO/2025/30535",
+    "line_items": [
+      {
+        "description": "Cutting Fluid (20L)",
+        "hsn": "3403",
+        "quantity": 4,
+        "unit_price": 2734.39,
+        "amount": 10937.56
+      },
+      {
+        "description": "Coupling Spider L-100",
+        "hsn": "4016",
+        "quantity": 20,
+        "unit_price": 156.59,
+        "amount": 3131.8
+      },
+      {
+        "description": "Copper Cable 2.5sqmm (90m)",
+        "hsn": "8544",
+        "quantity": 1,
+        "unit_price": 2865.16,
+        "amount": 2865.16
+      },
+      {
+        "description": "Industrial Safety Gloves (pair)",
+        "hsn": "6116",
+        "quantity": 12,
+        "unit_price": 102.31,
+        "amount": 1227.72
+      },
+      {
+        "description": "Stainless Steel Pipe 1in (6m)",
+        "hsn": "7306",
+        "quantity": 6,
+        "unit_price": 3389.79,
+        "amount": 20338.74
+      }
+    ],
+    "subtotal": 38500.98,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 6930.18,
+    "grand_total": 45431.16,
+    "bank_account_last4": "2907",
+    "validation_flags": [
+      "bank_account_changed"
+    ]
+  },
+  {
+    "file": "inv_0046.jpg",
+    "template_id": 2,
+    "degradation_level": 0.3,
+    "vendor_name": "Venkateswara Supply Corporation",
+    "vendor_gstin": "33OWOXX2613D1Z5",
+    "invoice_number": "SI/25-26/9635",
+    "invoice_date": "2025-11-08",
+    "due_date": "2025-11-23",
+    "po_number": "KIS/PO/2025/31875",
+    "line_items": [
+      {
+        "description": "Stainless Steel Pipe 1in (6m)",
+        "hsn": "7306",
+        "quantity": 1,
+        "unit_price": 2546.09,
+        "amount": 2546.09
+      },
+      {
+        "description": "Hydraulic Hose 1/2in x 1m",
+        "hsn": "4009",
+        "quantity": 5,
+        "unit_price": 745.22,
+        "amount": 3726.1
+      },
+      {
+        "description": "Cutting Fluid (20L)",
+        "hsn": "3403",
+        "quantity": 1,
+        "unit_price": 3836.87,
+        "amount": 3836.87
+      },
+      {
+        "description": "Coupling Spider L-100",
+        "hsn": "4016",
+        "quantity": 10,
+        "unit_price": 218.55,
+        "amount": 2185.5
+      }
+    ],
+    "subtotal": 12294.56,
+    "cgst": 1106.51,
+    "sgst": 1106.51,
+    "igst": 0,
+    "grand_total": 14507.58,
+    "bank_account_last4": "6320",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0047.jpg",
+    "template_id": 2,
+    "degradation_level": 1.4,
+    "vendor_name": "Lakshmi Bearings & Co",
+    "vendor_gstin": "33XOOVB5407R1Z6",
+    "invoice_number": "SI/25-26/7990",
+    "invoice_date": "2025-11-01",
+    "due_date": "2025-12-16",
+    "po_number": "KIS/PO/2025/32372",
+    "line_items": [
+      {
+        "description": "Coupling Spider L-100",
+        "hsn": "4016",
+        "quantity": 50,
+        "unit_price": 207.18,
+        "amount": 10359.0
+      },
+      {
+        "description": "Copper Cable 2.5sqmm (90m)",
+        "hsn": "8544",
+        "quantity": 3,
+        "unit_price": 3276.24,
+        "amount": 9828.72
+      }
+    ],
+    "subtotal": 20187.72,
+    "cgst": 1816.89,
+    "sgst": 1816.89,
+    "igst": 0,
+    "grand_total": 23821.51,
+    "bank_account_last4": "7747",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0048.jpg",
+    "template_id": 0,
+    "degradation_level": 0.6,
+    "vendor_name": "Kaveri Valley Bearings & Co",
+    "vendor_gstin": "27BFOPK9906J1Z3",
+    "invoice_number": "TI/25-26/8066",
+    "invoice_date": "2025-10-02",
+    "due_date": "2025-11-01",
+    "po_number": "KIS/PO/2025/31775",
+    "line_items": [
+      {
+        "description": "Industrial Safety Gloves (pair)",
+        "hsn": "6116",
+        "quantity": 50,
+        "unit_price": 100.8,
+        "amount": 5040.0
+      },
+      {
+        "description": "Grease Cartridge 400g",
+        "hsn": "2710",
+        "quantity": 10,
+        "unit_price": 197.06,
+        "amount": 1970.6
+      },
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 4,
+        "unit_price": 934.59,
+        "amount": 3738.36
+      }
+    ],
+    "subtotal": 10748.96,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 1934.81,
+    "grand_total": 12683.77,
+    "bank_account_last4": "5533",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0049.jpg",
+    "template_id": 2,
+    "degradation_level": 1.4,
+    "vendor_name": "Southern Tools Pvt Ltd",
+    "vendor_gstin": "36VFCYG5558B1Z5",
+    "invoice_number": "KVR/2025/9328",
+    "invoice_date": "2025-10-13",
+    "due_date": "2025-11-27",
+    "po_number": "KIS/PO/2025/33818",
+    "line_items": [
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 1,
+        "unit_price": 813.82,
+        "amount": 813.82
+      },
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 1,
+        "unit_price": 75.43,
+        "amount": 75.43
+      },
+      {
+        "description": "Air Filter Element",
+        "hsn": "8421",
+        "quantity": 20,
+        "unit_price": 898.3,
+        "amount": 17966.0
+      },
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 50,
+        "unit_price": 312.59,
+        "amount": 15629.5
+      }
+    ],
+    "subtotal": 34484.75,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 6207.26,
+    "grand_total": 40692.01,
+    "bank_account_last4": "3773",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0050.jpg",
+    "template_id": 1,
+    "degradation_level": 0.6,
+    "vendor_name": "Prime Supply Corporation",
+    "vendor_gstin": "27JETZR9996R1ZD",
+    "invoice_number": "TI/2025/9698",
+    "invoice_date": "2025-11-01",
+    "due_date": "2025-11-16",
+    "po_number": "KIS/PO/2025/33161",
+    "line_items": [
+      {
+        "description": "Industrial Safety Gloves (pair)",
+        "hsn": "6116",
+        "quantity": 1,
+        "unit_price": 116.07,
+        "amount": 116.07
+      }
+    ],
+    "subtotal": 116.07,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 20.89,
+    "grand_total": 136.96,
+    "bank_account_last4": "9510",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0051.jpg",
+    "template_id": 2,
+    "degradation_level": 1.4,
+    "vendor_name": "National Enterprises",
+    "vendor_gstin": "33IYAYG6393Y1Z1",
+    "invoice_number": "KVR/2025/8295",
+    "invoice_date": "2025-11-15",
+    "due_date": "2025-12-15",
+    "po_number": "KIS/PO/2025/30837",
+    "line_items": [
+      {
+        "description": "Chain Sprocket 40B15",
+        "hsn": "8483",
+        "quantity": 10,
+        "unit_price": 561.25,
+        "amount": 5612.5
+      },
+      {
+        "description": "Pneumatic Cylinder 50x100",
+        "hsn": "8412",
+        "quantity": 3,
+        "unit_price": 6083.94,
+        "amount": 18251.82
+      },
+      {
+        "description": "Grease Cartridge 400g",
+        "hsn": "2710",
+        "quantity": 12,
+        "unit_price": 151.59,
+        "amount": 1819.08
+      }
+    ],
+    "subtotal": 25683.4,
+    "cgst": 2311.51,
+    "sgst": 2311.51,
+    "igst": 0,
+    "grand_total": 30306.41,
+    "bank_account_last4": "7146",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0052.jpg",
+    "template_id": 0,
+    "degradation_level": 1.0,
+    "vendor_name": "Raja Bearings & Co",
+    "vendor_gstin": "33YRLGP6341H1ZC",
+    "invoice_number": "TI/25-26/0230",
+    "invoice_date": "2025-11-13",
+    "due_date": "2025-12-13",
+    "po_number": "KIS/PO/2025/32139",
+    "line_items": [
+      {
+        "description": "Motor 2HP 3-phase",
+        "hsn": "8501",
+        "quantity": 3,
+        "unit_price": 15334.55,
+        "amount": 46003.65
+      },
+      {
+        "description": "Hydraulic Hose 1/2in x 1m",
+        "hsn": "4009",
+        "quantity": 10,
+        "unit_price": 606.37,
+        "amount": 6063.7
+      }
+    ],
+    "subtotal": 52067.35,
+    "cgst": 4686.06,
+    "sgst": 4686.06,
+    "igst": 0,
+    "grand_total": 61439.47,
+    "bank_account_last4": "8663",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0053.jpg",
+    "template_id": 3,
+    "degradation_level": 1.0,
+    "vendor_name": "Bharath Enterprises",
+    "vendor_gstin": "29VFVXI9619S1ZH",
+    "invoice_number": "KVR/25-26/1290",
+    "invoice_date": "2025-10-03",
+    "due_date": "2025-11-02",
+    "po_number": "KIS/PO/2025/33585",
+    "line_items": [
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 6,
+        "unit_price": 2067.56,
+        "amount": 12405.36
+      },
+      {
+        "description": "Chain Sprocket 40B15",
+        "hsn": "8483",
+        "quantity": 4,
+        "unit_price": 513.46,
+        "amount": 2053.84
+      },
+      {
+        "description": "Cutting Fluid (20L)",
+        "hsn": "3403",
+        "quantity": 1,
+        "unit_price": 2458.15,
+        "amount": 2458.15
+      },
+      {
+        "description": "Coupling Spider L-100",
+        "hsn": "4016",
+        "quantity": 10,
+        "unit_price": 128.27,
+        "amount": 1282.7
+      }
+    ],
+    "subtotal": 18200.05,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 3276.01,
+    "grand_total": 21476.06,
+    "bank_account_last4": "8387",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0054.jpg",
+    "template_id": 0,
+    "degradation_level": 0.6,
+    "vendor_name": "Prime Tools Pvt Ltd",
+    "vendor_gstin": "27HKJFB8286F1Z8",
+    "invoice_number": "INV/25-26/2874",
+    "invoice_date": "2025-10-06",
+    "due_date": "2025-10-21",
+    "po_number": "KIS/PO/2025/31381",
+    "line_items": [
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 20,
+        "unit_price": 262.09,
+        "amount": 5241.8
+      },
+      {
+        "description": "Air Filter Element",
+        "hsn": "8421",
+        "quantity": 100,
+        "unit_price": 611.09,
+        "amount": 61109.0
+      },
+      {
+        "description": "Angle Grinder Disc 4in",
+        "hsn": "6804",
+        "quantity": 20,
+        "unit_price": 44.59,
+        "amount": 891.8
+      },
+      {
+        "description": "Proximity Sensor M18 PNP",
+        "hsn": "8536",
+        "quantity": 4,
+        "unit_price": 1064.14,
+        "amount": 4256.56
+      }
+    ],
+    "subtotal": 71499.16,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 12869.85,
+    "grand_total": 84369.01,
+    "bank_account_last4": "1625",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0055.jpg",
+    "template_id": 2,
+    "degradation_level": 1.0,
+    "vendor_name": "Southern Hydraulics",
+    "vendor_gstin": "33PNPZB3806L1Z2",
+    "invoice_number": "INV/25-26/3996",
+    "invoice_date": "2025-10-12",
+    "due_date": "2025-10-27",
+    "po_number": "KIS/PO/2025/31201",
+    "line_items": [
+      {
+        "description": "Mechanical Seal 35mm",
+        "hsn": "8484",
+        "quantity": 5,
+        "unit_price": 1696.21,
+        "amount": 8481.05
+      },
+      {
+        "description": "Hydraulic Hose 1/2in x 1m",
+        "hsn": "4009",
+        "quantity": 25,
+        "unit_price": 302.24,
+        "amount": 7556.0
+      }
+    ],
+    "subtotal": 16037.05,
+    "cgst": 1443.34,
+    "sgst": 1443.34,
+    "igst": 0,
+    "grand_total": 18923.72,
+    "bank_account_last4": "1075",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0056.jpg",
+    "template_id": 3,
+    "degradation_level": 0.6,
+    "vendor_name": "National Enterprises",
+    "vendor_gstin": "33IYAYG6393Y1Z1",
+    "invoice_number": "SI/25-26/6728",
+    "invoice_date": "2025-11-09",
+    "due_date": "2025-12-09",
+    "po_number": "KIS/PO/2025/33148",
+    "line_items": [
+      {
+        "description": "Welding Electrode E6013 3.15mm (5kg)",
+        "hsn": "8311",
+        "quantity": 2,
+        "unit_price": 1453.02,
+        "amount": 2906.04
+      },
+      {
+        "description": "Stainless Steel Pipe 1in (6m)",
+        "hsn": "7306",
+        "quantity": 4,
+        "unit_price": 1610.05,
+        "amount": 6440.2
+      },
+      {
+        "description": "Industrial Safety Gloves (pair)",
+        "hsn": "6116",
+        "quantity": 100,
+        "unit_price": 135.75,
+        "amount": 13575.0
+      },
+      {
+        "description": "Copper Cable 2.5sqmm (90m)",
+        "hsn": "8544",
+        "quantity": 2,
+        "unit_price": 2536.91,
+        "amount": 5073.82
+      },
+      {
+        "description": "Gear Oil EP90 (20L)",
+        "hsn": "2710",
+        "quantity": 6,
+        "unit_price": 3861.63,
+        "amount": 23169.78
+      }
+    ],
+    "subtotal": 51164.84,
+    "cgst": 4604.84,
+    "sgst": 4604.84,
+    "igst": 0,
+    "grand_total": 60374.51,
+    "bank_account_last4": "7146",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0057.jpg",
+    "template_id": 1,
+    "degradation_level": 1.0,
+    "vendor_name": "Royal Hydraulics",
+    "vendor_gstin": "29ZGXRO3284C1Z4",
+    "invoice_number": "INV/2025/2767",
+    "invoice_date": "2025-10-12",
+    "due_date": "2025-10-27",
+    "po_number": "KIS/PO/2025/32838",
+    "line_items": [
+      {
+        "description": "Proximity Sensor M18 PNP",
+        "hsn": "8536",
+        "quantity": 5,
+        "unit_price": 1278.97,
+        "amount": 6394.85
+      },
+      {
+        "description": "V-Belt B-52",
+        "hsn": "4010",
+        "quantity": 100,
+        "unit_price": 266.07,
+        "amount": 26607.0
+      },
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 1,
+        "unit_price": 93.08,
+        "amount": 93.08
+      }
+    ],
+    "subtotal": 33094.93,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 5957.09,
+    "grand_total": 39052.02,
+    "bank_account_last4": "2106",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0058.jpg",
+    "template_id": 3,
+    "degradation_level": 1.0,
+    "vendor_name": "Sri Murugan Engineering Works",
+    "vendor_gstin": "29TOUSB6512H1Z8",
+    "invoice_number": "SI/2025/5153",
+    "invoice_date": "2025-10-22",
+    "due_date": "2025-11-21",
+    "po_number": "KIS/PO/2025/31483",
+    "line_items": [
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 1,
+        "unit_price": 993.54,
+        "amount": 993.54
+      },
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 6,
+        "unit_price": 2840.02,
+        "amount": 17040.12
+      },
+      {
+        "description": "Stainless Steel Pipe 1in (6m)",
+        "hsn": "7306",
+        "quantity": 1,
+        "unit_price": 1851.65,
+        "amount": 1851.65
+      },
+      {
+        "description": "Gear Oil EP90 (20L)",
+        "hsn": "2710",
+        "quantity": 5,
+        "unit_price": 5093.59,
+        "amount": 25467.95
+      }
+    ],
+    "subtotal": 45353.26,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 8163.59,
+    "grand_total": 53516.85,
+    "bank_account_last4": "1303",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0059.jpg",
+    "template_id": 1,
+    "degradation_level": 1.0,
+    "vendor_name": "Kaveri Valley Enterprises",
+    "vendor_gstin": "33GBAXZ4645B1Z7",
+    "invoice_number": "INV/2025/1877",
+    "invoice_date": "2025-11-13",
+    "due_date": "2025-12-28",
+    "po_number": null,
+    "line_items": [
+      {
+        "description": "V-Belt B-52",
+        "hsn": "4010",
+        "quantity": 100,
+        "unit_price": 369.66,
+        "amount": 36966.0
+      },
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 1,
+        "unit_price": 738.9,
+        "amount": 738.9
+      },
+      {
+        "description": "Coupling Spider L-100",
+        "hsn": "4016",
+        "quantity": 2,
+        "unit_price": 219.67,
+        "amount": 439.34
+      },
+      {
+        "description": "Chain Sprocket 40B15",
+        "hsn": "8483",
+        "quantity": 50,
+        "unit_price": 423.09,
+        "amount": 21154.5
+      },
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 4,
+        "unit_price": 308.35,
+        "amount": 1233.4
+      },
+      {
+        "description": "Gear Oil EP90 (20L)",
+        "hsn": "2710",
+        "quantity": 2,
+        "unit_price": 5211.85,
+        "amount": 10423.7
+      }
+    ],
+    "subtotal": 70955.84,
+    "cgst": 6386.02,
+    "sgst": 6386.02,
+    "igst": 0,
+    "grand_total": 83727.89,
+    "bank_account_last4": "5161",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0060.jpg",
+    "template_id": 2,
+    "degradation_level": 0.3,
+    "vendor_name": "Annai Engineering Works",
+    "vendor_gstin": "33OMJHI4564F1ZH",
+    "invoice_number": "KVR/2025/6462",
+    "invoice_date": "2025-11-14",
+    "due_date": "2025-12-14",
+    "po_number": "KIS/PO/2025/32686",
+    "line_items": [
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 5,
+        "unit_price": 1420.16,
+        "amount": 7100.8
+      },
+      {
+        "description": "Grease Cartridge 400g",
+        "hsn": "2710",
+        "quantity": 20,
+        "unit_price": 208.06,
+        "amount": 4161.2
+      },
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 5,
+        "unit_price": 83.44,
+        "amount": 417.2
+      },
+      {
+        "description": "Cutting Fluid (20L)",
+        "hsn": "3403",
+        "quantity": 4,
+        "unit_price": 2977.93,
+        "amount": 11911.72
+      }
+    ],
+    "subtotal": 23590.92,
+    "cgst": 2123.18,
+    "sgst": 2123.18,
+    "igst": 0,
+    "grand_total": 27837.29,
+    "bank_account_last4": "2681",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0061.jpg",
+    "template_id": 1,
+    "degradation_level": 1.0,
+    "vendor_name": "Prime Hydraulics",
+    "vendor_gstin": "33XJQSS5039R1Z2",
+    "invoice_number": "TI/2025/1974",
+    "invoice_date": "2025-11-07",
+    "due_date": "2025-12-22",
+    "po_number": "KIS/PO/2025/32429",
+    "line_items": [
+      {
+        "description": "Pneumatic Cylinder 50x100",
+        "hsn": "8412",
+        "quantity": 1,
+        "unit_price": 3223.93,
+        "amount": 3223.93
+      },
+      {
+        "description": "Gear Oil EP90 (20L)",
+        "hsn": "2710",
+        "quantity": 1,
+        "unit_price": 5268.27,
+        "amount": 5268.27
+      },
+      {
+        "description": "Mechanical Seal 35mm",
+        "hsn": "8484",
+        "quantity": 1,
+        "unit_price": 1453.73,
+        "amount": 1453.73
+      }
+    ],
+    "subtotal": 9945.93,
+    "cgst": 895.13,
+    "sgst": 895.13,
+    "igst": 0,
+    "grand_total": 11736.2,
+    "bank_account_last4": "4075",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0062.jpg",
+    "template_id": 0,
+    "degradation_level": 1.4,
+    "vendor_name": "National Enterprises",
+    "vendor_gstin": "33IYAYG6393Y1Z1",
+    "invoice_number": "KVR/2025/9284",
+    "invoice_date": "2025-10-09",
+    "due_date": "2025-11-08",
+    "po_number": "KIS/PO/2025/32331",
+    "line_items": [
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 5,
+        "unit_price": 756.14,
+        "amount": 3780.7
+      },
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 4,
+        "unit_price": 71.11,
+        "amount": 284.44
+      },
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 12,
+        "unit_price": 139.06,
+        "amount": 1668.72
+      }
+    ],
+    "subtotal": 5733.86,
+    "cgst": 516.04,
+    "sgst": 516.04,
+    "igst": 0,
+    "grand_total": 6765.95,
+    "bank_account_last4": "7146",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0063.jpg",
+    "template_id": 2,
+    "degradation_level": 1.4,
+    "vendor_name": "Delta Enterprises",
+    "vendor_gstin": "33NQBBQ2758W1Z0",
+    "invoice_number": "SI/25-26/8688",
+    "invoice_date": "2025-10-22",
+    "due_date": "2025-12-21",
+    "po_number": "KIS/PO/2025/33341",
+    "line_items": [
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 100,
+        "unit_price": 47.93,
+        "amount": 4793.0
+      },
+      {
+        "description": "Cutting Fluid (20L)",
+        "hsn": "3403",
+        "quantity": 5,
+        "unit_price": 3228.91,
+        "amount": 16144.55
+      },
+      {
+        "description": "Gear Oil EP90 (20L)",
+        "hsn": "2710",
+        "quantity": 4,
+        "unit_price": 5079.32,
+        "amount": 20317.28
+      },
+      {
+        "description": "Air Filter Element",
+        "hsn": "8421",
+        "quantity": 20,
+        "unit_price": 711.95,
+        "amount": 14239.0
+      }
+    ],
+    "subtotal": 55493.83,
+    "cgst": 4994.44,
+    "sgst": 4994.44,
+    "igst": 0,
+    "grand_total": 65482.72,
+    "bank_account_last4": "7109",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0064.jpg",
+    "template_id": 3,
+    "degradation_level": 1.4,
+    "vendor_name": "Southern Electricals",
+    "vendor_gstin": "33ZFVEW1181M1Z3",
+    "invoice_number": "KVR/2025/8981",
+    "invoice_date": "2025-10-06",
+    "due_date": "2025-11-20",
+    "po_number": "KIS/PO/2025/33801",
+    "line_items": [
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 1,
+        "unit_price": 42.6,
+        "amount": 42.6
+      },
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 1,
+        "unit_price": 2401.01,
+        "amount": 2401.01
+      },
+      {
+        "description": "Gear Oil EP90 (20L)",
+        "hsn": "2710",
+        "quantity": 3,
+        "unit_price": 3475.05,
+        "amount": 10425.15
+      },
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 1,
+        "unit_price": 828.32,
+        "amount": 828.32
+      }
+    ],
+    "subtotal": 13697.08,
+    "cgst": 1232.73,
+    "sgst": 1232.73,
+    "igst": 0,
+    "grand_total": 16162.55,
+    "bank_account_last4": "4469",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0065.jpg",
+    "template_id": 1,
+    "degradation_level": 0.6,
+    "vendor_name": "Kongu Steel Agencies",
+    "vendor_gstin": "33SQUMP6224P1ZG",
+    "invoice_number": "KVR/25-26/7628",
+    "invoice_date": "2025-11-01",
+    "due_date": "2025-11-16",
+    "po_number": "KIS/PO/2025/32594",
+    "line_items": [
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 5,
+        "unit_price": 2359.65,
+        "amount": 11798.25
+      },
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 2,
+        "unit_price": 77.65,
+        "amount": 155.3
+      },
+      {
+        "description": "Air Filter Element",
+        "hsn": "8421",
+        "quantity": 10,
+        "unit_price": 382.94,
+        "amount": 3829.4
+      }
+    ],
+    "subtotal": 15782.95,
+    "cgst": 1420.46,
+    "sgst": 1420.46,
+    "igst": 0,
+    "grand_total": 18623.88,
+    "bank_account_last4": "2913",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0066.jpg",
+    "template_id": 0,
+    "degradation_level": 0.6,
+    "vendor_name": "Apex Automation Systems",
+    "vendor_gstin": "33WYWUK1531H1Z9",
+    "invoice_number": "KVR/2025/7743",
+    "invoice_date": "2025-11-01",
+    "due_date": "2025-12-16",
+    "po_number": "KIS/PO/2025/30179",
+    "line_items": [
+      {
+        "description": "Mechanical Seal 35mm",
+        "hsn": "8484",
+        "quantity": 3,
+        "unit_price": 913.86,
+        "amount": 2741.58
+      }
+    ],
+    "subtotal": 2741.58,
+    "cgst": 246.74,
+    "sgst": 246.74,
+    "igst": 0,
+    "grand_total": 3235.06,
+    "bank_account_last4": "4283",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0067.jpg",
+    "template_id": 2,
+    "degradation_level": 0.6,
+    "vendor_name": "Balaji Automation Systems",
+    "vendor_gstin": "36JZAFB7323L1ZG",
+    "invoice_number": "SI/25-26/7988",
+    "invoice_date": "2025-11-14",
+    "due_date": "2025-12-14",
+    "po_number": "KIS/PO/2025/32620",
+    "line_items": [
+      {
+        "description": "Grease Cartridge 400g",
+        "hsn": "2710",
+        "quantity": 12,
+        "unit_price": 190.24,
+        "amount": 2282.88
+      },
+      {
+        "description": "Air Filter Element",
+        "hsn": "8421",
+        "quantity": 10,
+        "unit_price": 1145.23,
+        "amount": 11452.3
+      },
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 100,
+        "unit_price": 376.58,
+        "amount": 37658.0
+      },
+      {
+        "description": "Gate Valve 2in CI",
+        "hsn": "8481",
+        "quantity": 1,
+        "unit_price": 1966.16,
+        "amount": 1966.16
+      }
+    ],
+    "subtotal": 53359.34,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 9604.68,
+    "grand_total": 62964.02,
+    "bank_account_last4": "6942",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0068.jpg",
+    "template_id": 3,
+    "degradation_level": 1.0,
+    "vendor_name": "Delta Enterprises",
+    "vendor_gstin": "33NQBBQ2758W1Z0",
+    "invoice_number": "INV/25-26/1313",
+    "invoice_date": "2025-10-10",
+    "due_date": "2025-12-09",
+    "po_number": "KIS/PO/2025/30618",
+    "line_items": [
+      {
+        "description": "Hydraulic Hose 1/2in x 1m",
+        "hsn": "4009",
+        "quantity": 12,
+        "unit_price": 396.07,
+        "amount": 4752.84
+      },
+      {
+        "description": "V-Belt B-52",
+        "hsn": "4010",
+        "quantity": 12,
+        "unit_price": 251.49,
+        "amount": 3017.88
+      },
+      {
+        "description": "Motor 2HP 3-phase",
+        "hsn": "8501",
+        "quantity": 2,
+        "unit_price": 13188.76,
+        "amount": 26377.52
+      },
+      {
+        "description": "Proximity Sensor M18 PNP",
+        "hsn": "8536",
+        "quantity": 3,
+        "unit_price": 1459.07,
+        "amount": 4377.21
+      },
+      {
+        "description": "Air Filter Element",
+        "hsn": "8421",
+        "quantity": 1,
+        "unit_price": 409.4,
+        "amount": 409.4
+      }
+    ],
+    "subtotal": 38934.85,
+    "cgst": 3504.14,
+    "sgst": 3504.14,
+    "igst": 0,
+    "grand_total": 45943.12,
+    "bank_account_last4": "7109",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0069.jpg",
+    "template_id": 2,
+    "degradation_level": 0.6,
+    "vendor_name": "Excel Bearings & Co",
+    "vendor_gstin": "33KCNVO6812W1Z1",
+    "invoice_number": "SI/2025/8445",
+    "invoice_date": "2025-11-02",
+    "due_date": "2025-12-02",
+    "po_number": "KIS/PO/2025/32990",
+    "line_items": [
+      {
+        "description": "Mechanical Seal 35mm",
+        "hsn": "8484",
+        "quantity": 2,
+        "unit_price": 1676.37,
+        "amount": 3352.74
+      },
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 5,
+        "unit_price": 41.74,
+        "amount": 208.7
+      },
+      {
+        "description": "Stainless Steel Pipe 1in (6m)",
+        "hsn": "7306",
+        "quantity": 6,
+        "unit_price": 3266.78,
+        "amount": 19600.68
+      }
+    ],
+    "subtotal": 23162.12,
+    "cgst": 2084.59,
+    "sgst": 2084.59,
+    "igst": 0,
+    "grand_total": 27331.3,
+    "bank_account_last4": "2184",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0070.jpg",
+    "template_id": 0,
+    "degradation_level": 0.6,
+    "vendor_name": "Southern Electricals",
+    "vendor_gstin": "33ZFVEW1181M1Z3",
+    "invoice_number": "TI/2025/2906",
+    "invoice_date": "2025-10-24",
+    "due_date": "2025-12-08",
+    "po_number": "KIS/PO/2025/31269",
+    "line_items": [
+      {
+        "description": "V-Belt B-52",
+        "hsn": "4010",
+        "quantity": 2,
+        "unit_price": 509.14,
+        "amount": 1018.28
+      },
+      {
+        "description": "Mechanical Seal 35mm",
+        "hsn": "8484",
+        "quantity": 1,
+        "unit_price": 1482.72,
+        "amount": 1482.72
+      }
+    ],
+    "subtotal": 2501.0,
+    "cgst": 225.09,
+    "sgst": 225.09,
+    "igst": 0,
+    "grand_total": 2951.18,
+    "bank_account_last4": "4469",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0071.jpg",
+    "template_id": 2,
+    "degradation_level": 1.0,
+    "vendor_name": "Delta Tools Pvt Ltd",
+    "vendor_gstin": "33RGEXR6215J1Z9",
+    "invoice_number": "TI/25-26/1260",
+    "invoice_date": "2025-11-14",
+    "due_date": "2025-12-29",
+    "po_number": null,
+    "line_items": [
+      {
+        "description": "Mechanical Seal 35mm",
+        "hsn": "8484",
+        "quantity": 1,
+        "unit_price": 1213.77,
+        "amount": 1213.77
+      }
+    ],
+    "subtotal": 1213.77,
+    "cgst": 109.24,
+    "sgst": 109.24,
+    "igst": 0,
+    "grand_total": 1432.25,
+    "bank_account_last4": "4335",
+    "validation_flags": [
+      "gstin_not_in_vendor_master"
+    ]
+  },
+  {
+    "file": "inv_0072.jpg",
+    "template_id": 3,
+    "degradation_level": 0.6,
+    "vendor_name": "Excel Electricals",
+    "vendor_gstin": "37CRDZJ3189S1ZH",
+    "invoice_number": "INV/25-26/7657",
+    "invoice_date": "2025-10-05",
+    "due_date": "2025-11-04",
+    "po_number": "KIS/PO/2025/33485",
+    "line_items": [
+      {
+        "description": "Welding Electrode E6013 3.15mm (5kg)",
+        "hsn": "8311",
+        "quantity": 4,
+        "unit_price": 1120.97,
+        "amount": 4483.88
+      }
+    ],
+    "subtotal": 4483.88,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 807.1,
+    "grand_total": 5290.98,
+    "bank_account_last4": "2299",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0073.jpg",
+    "template_id": 3,
+    "degradation_level": 1.4,
+    "vendor_name": "Star Automation Systems",
+    "vendor_gstin": "36DSQAK9331E1ZF",
+    "invoice_number": "TI/25-26/0995",
+    "invoice_date": "2025-10-19",
+    "due_date": "2025-12-03",
+    "po_number": "KIS/PO/2025/30586",
+    "line_items": [
+      {
+        "description": "Cutting Fluid (20L)",
+        "hsn": "3403",
+        "quantity": 5,
+        "unit_price": 3507.17,
+        "amount": 17535.85
+      }
+    ],
+    "subtotal": 17535.85,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 3156.45,
+    "grand_total": 20692.3,
+    "bank_account_last4": "1670",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0074.jpg",
+    "template_id": 2,
+    "degradation_level": 0.6,
+    "vendor_name": "National Enterprises",
+    "vendor_gstin": "33IYAYG6393Y1Z1",
+    "invoice_number": "KVR/2025/5762",
+    "invoice_date": "2025-10-02",
+    "due_date": "2025-11-01",
+    "po_number": "KIS/PO/2025/31716",
+    "line_items": [
+      {
+        "description": "Grease Cartridge 400g",
+        "hsn": "2710",
+        "quantity": 1,
+        "unit_price": 135.45,
+        "amount": 135.45
+      },
+      {
+        "description": "Industrial Safety Gloves (pair)",
+        "hsn": "6116",
+        "quantity": 25,
+        "unit_price": 148.58,
+        "amount": 3714.5
+      },
+      {
+        "description": "Angle Grinder Disc 4in",
+        "hsn": "6804",
+        "quantity": 1,
+        "unit_price": 33.97,
+        "amount": 33.97
+      },
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 25,
+        "unit_price": 323.8,
+        "amount": 8095.0
+      },
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 3,
+        "unit_price": 1890.3,
+        "amount": 5670.9
+      },
+      {
+        "description": "Air Filter Element",
+        "hsn": "8421",
+        "quantity": 100,
+        "unit_price": 1028.95,
+        "amount": 102895.0
+      }
+    ],
+    "subtotal": 120544.82,
+    "cgst": 10849.03,
+    "sgst": 10849.03,
+    "igst": 0,
+    "grand_total": 142242.89,
+    "bank_account_last4": "7146",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0075.jpg",
+    "template_id": 0,
+    "degradation_level": 0.6,
+    "vendor_name": "Excel Electricals",
+    "vendor_gstin": "37CRDZJ3189S1ZH",
+    "invoice_number": "SI/25-26/7067",
+    "invoice_date": "2025-10-26",
+    "due_date": "2025-11-25",
+    "po_number": "KIS/PO/2025/32113",
+    "line_items": [
+      {
+        "description": "Motor 2HP 3-phase",
+        "hsn": "8501",
+        "quantity": 1,
+        "unit_price": 9902.06,
+        "amount": 9902.06
+      }
+    ],
+    "subtotal": 9902.06,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 1782.37,
+    "grand_total": 11684.43,
+    "bank_account_last4": "2299",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0076.jpg",
+    "template_id": 1,
+    "degradation_level": 1.4,
+    "vendor_name": "Vel Tools Pvt Ltd",
+    "vendor_gstin": "33KXNFC4950Y1Z1",
+    "invoice_number": "KVR/2025/6536",
+    "invoice_date": "2025-10-14",
+    "due_date": "2025-10-29",
+    "po_number": "KIS/PO/2025/33858",
+    "line_items": [
+      {
+        "description": "Copper Cable 2.5sqmm (90m)",
+        "hsn": "8544",
+        "quantity": 4,
+        "unit_price": 2566.86,
+        "amount": 10267.44
+      },
+      {
+        "description": "Industrial Safety Gloves (pair)",
+        "hsn": "6116",
+        "quantity": 5,
+        "unit_price": 105.76,
+        "amount": 528.8
+      },
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 50,
+        "unit_price": 46.93,
+        "amount": 2346.5
+      }
+    ],
+    "subtotal": 13142.74,
+    "cgst": 1182.85,
+    "sgst": 1182.85,
+    "igst": 0,
+    "grand_total": 15508.43,
+    "bank_account_last4": "8042",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0077.jpg",
+    "template_id": 1,
+    "degradation_level": 1.4,
+    "vendor_name": "Bharath Bearings & Co",
+    "vendor_gstin": "36WRQXN7857Y1Z5",
+    "invoice_number": "TI/25-26/4485",
+    "invoice_date": "2025-10-12",
+    "due_date": "2025-10-27",
+    "po_number": "KIS/PO/2025/30365",
+    "line_items": [
+      {
+        "description": "Pneumatic Cylinder 50x100",
+        "hsn": "8412",
+        "quantity": 4,
+        "unit_price": 4964.14,
+        "amount": 19856.56
+      },
+      {
+        "description": "Gear Oil EP90 (20L)",
+        "hsn": "2710",
+        "quantity": 1,
+        "unit_price": 4601.41,
+        "amount": 4601.41
+      },
+      {
+        "description": "Mechanical Seal 35mm",
+        "hsn": "8484",
+        "quantity": 3,
+        "unit_price": 937.92,
+        "amount": 2813.76
+      },
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 1,
+        "unit_price": 2336.14,
+        "amount": 2336.14
+      },
+      {
+        "description": "Air Filter Element",
+        "hsn": "8421",
+        "quantity": 20,
+        "unit_price": 1027.72,
+        "amount": 20554.4
+      },
+      {
+        "description": "V-Belt B-52",
+        "hsn": "4010",
+        "quantity": 4,
+        "unit_price": 469.85,
+        "amount": 1879.4
+      }
+    ],
+    "subtotal": 52041.67,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 9367.5,
+    "grand_total": 61409.17,
+    "bank_account_last4": "2690",
+    "validation_flags": [
+      "gstin_not_in_vendor_master"
+    ]
+  },
+  {
+    "file": "inv_0078.jpg",
+    "template_id": 1,
+    "degradation_level": 0.6,
+    "vendor_name": "Annai Engineering Works",
+    "vendor_gstin": "33OMJXI4564F1ZH",
+    "invoice_number": "INV/2025/0881",
+    "invoice_date": "2025-10-31",
+    "due_date": "2025-11-30",
+    "po_number": "KIS/PO/2025/31083",
+    "line_items": [
+      {
+        "description": "Mechanical Seal 35mm",
+        "hsn": "8484",
+        "quantity": 4,
+        "unit_price": 2008.52,
+        "amount": 8034.08
+      },
+      {
+        "description": "Proximity Sensor M18 PNP",
+        "hsn": "8536",
+        "quantity": 5,
+        "unit_price": 1400.15,
+        "amount": 7000.75
+      },
+      {
+        "description": "Grease Cartridge 400g",
+        "hsn": "2710",
+        "quantity": 2,
+        "unit_price": 217.31,
+        "amount": 434.62
+      },
+      {
+        "description": "Industrial Safety Gloves (pair)",
+        "hsn": "6116",
+        "quantity": 10,
+        "unit_price": 52.5,
+        "amount": 525.0
+      }
+    ],
+    "subtotal": 15994.45,
+    "cgst": 1439.5,
+    "sgst": 1439.5,
+    "igst": 0,
+    "grand_total": 18873.45,
+    "bank_account_last4": "2681",
+    "validation_flags": [
+      "gstin_not_in_vendor_master"
+    ]
+  },
+  {
+    "file": "inv_0079.jpg",
+    "template_id": 3,
+    "degradation_level": 1.0,
+    "vendor_name": "Vel Engineering Works",
+    "vendor_gstin": "33XXYEN7492X1Z2",
+    "invoice_number": "TI/25-26/9572",
+    "invoice_date": "2025-11-13",
+    "due_date": "2025-12-28",
+    "po_number": "KIS/PO/2025/30255",
+    "line_items": [
+      {
+        "description": "Coupling Spider L-100",
+        "hsn": "4016",
+        "quantity": 1,
+        "unit_price": 164.37,
+        "amount": 164.37
+      },
+      {
+        "description": "Mechanical Seal 35mm",
+        "hsn": "8484",
+        "quantity": 3,
+        "unit_price": 2232.79,
+        "amount": 6698.37
+      }
+    ],
+    "subtotal": 6862.74,
+    "cgst": 617.64,
+    "sgst": 617.64,
+    "igst": 0,
+    "grand_total": 8098.03,
+    "bank_account_last4": "5029",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0080.jpg",
+    "template_id": 1,
+    "degradation_level": 1.0,
+    "vendor_name": "Balaji Automation Systems",
+    "vendor_gstin": "36JZAFB7323L1ZG",
+    "invoice_number": "KVR/25-26/7895",
+    "invoice_date": "2025-11-05",
+    "due_date": "2025-12-05",
+    "po_number": "KIS/PO/2025/32651",
+    "line_items": [
+      {
+        "description": "Motor 2HP 3-phase",
+        "hsn": "8501",
+        "quantity": 3,
+        "unit_price": 13762.67,
+        "amount": 41288.01
+      }
+    ],
+    "subtotal": 41288.01,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 7431.84,
+    "grand_total": 48719.85,
+    "bank_account_last4": "6942",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0081.jpg",
+    "template_id": 0,
+    "degradation_level": 1.4,
+    "vendor_name": "Balaji Hydraulics",
+    "vendor_gstin": "33VZMYA5967F1Z4",
+    "invoice_number": "TI/25-26/4622",
+    "invoice_date": "2025-10-14",
+    "due_date": "2025-12-13",
+    "po_number": "KIS/PO/2025/31869",
+    "line_items": [
+      {
+        "description": "Coupling Spider L-100",
+        "hsn": "4016",
+        "quantity": 20,
+        "unit_price": 227.81,
+        "amount": 4556.2
+      },
+      {
+        "description": "Cutting Fluid (20L)",
+        "hsn": "3403",
+        "quantity": 4,
+        "unit_price": 3631.53,
+        "amount": 14526.12
+      },
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 12,
+        "unit_price": 47.02,
+        "amount": 564.24
+      }
+    ],
+    "subtotal": 19646.56,
+    "cgst": 1768.19,
+    "sgst": 1768.19,
+    "igst": 0,
+    "grand_total": 23182.94,
+    "bank_account_last4": "6802",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0082.jpg",
+    "template_id": 0,
+    "degradation_level": 0.3,
+    "vendor_name": "Precision Tools Pvt Ltd",
+    "vendor_gstin": "29HYOII6255O1ZB",
+    "invoice_number": "KVR/25-26/6326",
+    "invoice_date": "2025-10-03",
+    "due_date": "2025-12-02",
+    "po_number": "KIS/PO/2025/32855",
+    "line_items": [
+      {
+        "description": "Angle Grinder Disc 4in",
+        "hsn": "6804",
+        "quantity": 20,
+        "unit_price": 74.15,
+        "amount": 1483.0
+      }
+    ],
+    "subtotal": 1483.0,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 266.94,
+    "grand_total": 1749.94,
+    "bank_account_last4": "7001",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0083.jpg",
+    "template_id": 1,
+    "degradation_level": 0.3,
+    "vendor_name": "Lakshmi Steel Agencies",
+    "vendor_gstin": "29OCALZ8302K1ZC",
+    "invoice_number": "SI/2025/2619",
+    "invoice_date": "2025-10-27",
+    "due_date": "2025-11-11",
+    "po_number": "KIS/PO/2025/32564",
+    "line_items": [
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 3,
+        "unit_price": 2324.09,
+        "amount": 6972.27
+      },
+      {
+        "description": "Pneumatic Cylinder 50x100",
+        "hsn": "8412",
+        "quantity": 6,
+        "unit_price": 6202.98,
+        "amount": 37217.88
+      },
+      {
+        "description": "Mechanical Seal 35mm",
+        "hsn": "8484",
+        "quantity": 1,
+        "unit_price": 1474.73,
+        "amount": 1474.73
+      },
+      {
+        "description": "Motor 2HP 3-phase",
+        "hsn": "8501",
+        "quantity": 1,
+        "unit_price": 10778.6,
+        "amount": 10778.6
+      },
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 1,
+        "unit_price": 830.56,
+        "amount": 830.56
+      },
+      {
+        "description": "Gear Oil EP90 (20L)",
+        "hsn": "2710",
+        "quantity": 3,
+        "unit_price": 3922.38,
+        "amount": 11767.14
+      }
+    ],
+    "subtotal": 69041.18,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 12427.41,
+    "grand_total": 81468.59,
+    "bank_account_last4": "4726",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0084.jpg",
+    "template_id": 1,
+    "degradation_level": 1.4,
+    "vendor_name": "Sakthi Automation Systems",
+    "vendor_gstin": "24QRGZJ7875U1Z7",
+    "invoice_number": "TI/25-26/2918",
+    "invoice_date": "2025-11-07",
+    "due_date": "2026-01-06",
+    "po_number": "KIS/PO/2025/33531",
+    "line_items": [
+      {
+        "description": "Chain Sprocket 40B15",
+        "hsn": "8483",
+        "quantity": 2,
+        "unit_price": 423.9,
+        "amount": 847.8
+      },
+      {
+        "description": "Welding Electrode E6013 3.15mm (5kg)",
+        "hsn": "8311",
+        "quantity": 5,
+        "unit_price": 1175.35,
+        "amount": 5876.75
+      },
+      {
+        "description": "Gate Valve 2in CI",
+        "hsn": "8481",
+        "quantity": 1,
+        "unit_price": 2870.86,
+        "amount": 2870.86
+      },
+      {
+        "description": "Pneumatic Cylinder 50x100",
+        "hsn": "8412",
+        "quantity": 5,
+        "unit_price": 4170.53,
+        "amount": 20852.65
+      }
+    ],
+    "subtotal": 30448.06,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 5480.65,
+    "grand_total": 35928.71,
+    "bank_account_last4": "9143",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0085.jpg",
+    "template_id": 1,
+    "degradation_level": 0.6,
+    "vendor_name": "Sri Murugan Hydraulics",
+    "vendor_gstin": "29VKTJL6523X1Z4",
+    "invoice_number": "KVR/25-26/2389",
+    "invoice_date": "2025-10-27",
+    "due_date": "2025-11-26",
+    "po_number": "KIS/PO/2025/31438",
+    "line_items": [
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 50,
+        "unit_price": 71.61,
+        "amount": 3580.5
+      },
+      {
+        "description": "V-Belt B-52",
+        "hsn": "4010",
+        "quantity": 10,
+        "unit_price": 296.87,
+        "amount": 2968.7
+      },
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 4,
+        "unit_price": 919.5,
+        "amount": 3678.0
+      },
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 4,
+        "unit_price": 1592.96,
+        "amount": 6371.84
+      },
+      {
+        "description": "Grease Cartridge 400g",
+        "hsn": "2710",
+        "quantity": 4,
+        "unit_price": 146.15,
+        "amount": 584.6
+      }
+    ],
+    "subtotal": 17183.64,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 3093.06,
+    "grand_total": 20276.7,
+    "bank_account_last4": "1387",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0086.jpg",
+    "template_id": 3,
+    "degradation_level": 1.0,
+    "vendor_name": "Precision Tools Pvt Ltd",
+    "vendor_gstin": "29HYOXI6255O1ZB",
+    "invoice_number": "KVR/25-26/6583",
+    "invoice_date": "2025-10-09",
+    "due_date": "2025-12-08",
+    "po_number": "KIS/PO/2025/31468",
+    "line_items": [
+      {
+        "description": "Copper Cable 2.5sqmm (90m)",
+        "hsn": "8544",
+        "quantity": 4,
+        "unit_price": 2470.74,
+        "amount": 9882.96
+      },
+      {
+        "description": "Welding Electrode E6013 3.15mm (5kg)",
+        "hsn": "8311",
+        "quantity": 2,
+        "unit_price": 944.62,
+        "amount": 1889.24
+      }
+    ],
+    "subtotal": 11772.2,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 2119.0,
+    "grand_total": 13891.2,
+    "bank_account_last4": "7001",
+    "validation_flags": [
+      "gstin_not_in_vendor_master"
+    ]
+  },
+  {
+    "file": "inv_0087.jpg",
+    "template_id": 2,
+    "degradation_level": 0.6,
+    "vendor_name": "Raja Electricals",
+    "vendor_gstin": "27PCHPZ8606U1Z#",
+    "invoice_number": "KVR/25-26/0981",
+    "invoice_date": "2025-10-11",
+    "due_date": "2025-12-10",
+    "po_number": "KIS/PO/2025/31432",
+    "line_items": [
+      {
+        "description": "Cutting Fluid (20L)",
+        "hsn": "3403",
+        "quantity": 5,
+        "unit_price": 3570.0,
+        "amount": 17850.0
+      },
+      {
+        "description": "Grease Cartridge 400g",
+        "hsn": "2710",
+        "quantity": 2,
+        "unit_price": 122.43,
+        "amount": 244.86
+      }
+    ],
+    "subtotal": 18094.86,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 3257.07,
+    "grand_total": 21351.93,
+    "bank_account_last4": "7688",
+    "validation_flags": [
+      "malformed_gstin"
+    ]
+  },
+  {
+    "file": "inv_0088.jpg",
+    "template_id": 2,
+    "degradation_level": 1.0,
+    "vendor_name": "Apex Automation Systems",
+    "vendor_gstin": "33WYWUK1531H1Z9",
+    "invoice_number": "SI/2025/2799",
+    "invoice_date": "2025-10-15",
+    "due_date": "2025-11-29",
+    "po_number": "KIS/PO/2025/31598",
+    "line_items": [
+      {
+        "description": "Hydraulic Hose 1/2in x 1m",
+        "hsn": "4009",
+        "quantity": 12,
+        "unit_price": 545.73,
+        "amount": 6548.76
+      },
+      {
+        "description": "Grease Cartridge 400g",
+        "hsn": "2710",
+        "quantity": 2,
+        "unit_price": 255.04,
+        "amount": 510.08
+      }
+    ],
+    "subtotal": 7058.84,
+    "cgst": 635.29,
+    "sgst": 635.29,
+    "igst": 0,
+    "grand_total": 8329.43,
+    "bank_account_last4": "4283",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0089.jpg",
+    "template_id": 2,
+    "degradation_level": 1.0,
+    "vendor_name": "Lakshmi Bearings & Co",
+    "vendor_gstin": "33XOOVB5407R1Z6",
+    "invoice_number": "INV/2025/8645",
+    "invoice_date": "2025-10-06",
+    "due_date": "2025-11-20",
+    "po_number": "KIS/PO/2025/30210",
+    "line_items": [
+      {
+        "description": "Air Filter Element",
+        "hsn": "8421",
+        "quantity": 12,
+        "unit_price": 992.91,
+        "amount": 11914.92
+      }
+    ],
+    "subtotal": 11914.92,
+    "cgst": 1072.35,
+    "sgst": 1072.35,
+    "igst": 0,
+    "grand_total": 15059.61,
+    "bank_account_last4": "7747",
+    "validation_flags": [
+      "grand_total_does_not_match_lines_plus_tax"
+    ]
+  },
+  {
+    "file": "inv_0090.jpg",
+    "template_id": 0,
+    "degradation_level": 0.3,
+    "vendor_name": "Kaveri Valley Bearings & Co",
+    "vendor_gstin": "27BFOPK9906J1Z3",
+    "invoice_number": "INV/25-26/1615",
+    "invoice_date": "2025-11-01",
+    "due_date": "2025-12-01",
+    "po_number": "KIS/PO/2025/31521",
+    "line_items": [
+      {
+        "description": "Chain Sprocket 40B15",
+        "hsn": "8483",
+        "quantity": 10,
+        "unit_price": 449.41,
+        "amount": 4494.1
+      },
+      {
+        "description": "Grease Cartridge 400g",
+        "hsn": "2710",
+        "quantity": 20,
+        "unit_price": 239.46,
+        "amount": 4789.2
+      },
+      {
+        "description": "Proximity Sensor M18 PNP",
+        "hsn": "8536",
+        "quantity": 1,
+        "unit_price": 1069.91,
+        "amount": 1069.91
+      }
+    ],
+    "subtotal": 10353.21,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 1863.58,
+    "grand_total": 12216.79,
+    "bank_account_last4": "5533",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0091.jpg",
+    "template_id": 0,
+    "degradation_level": 0.6,
+    "vendor_name": "Star Supply Corporation",
+    "vendor_gstin": "32EJGKH8906C1Z3",
+    "invoice_number": "SI/25-26/5520",
+    "invoice_date": "2025-10-26",
+    "due_date": "2025-11-10",
+    "po_number": "KIS/PO/2025/32764",
+    "line_items": [
+      {
+        "description": "Welding Electrode E6013 3.15mm (5kg)",
+        "hsn": "8311",
+        "quantity": 1,
+        "unit_price": 1237.66,
+        "amount": 1237.66
+      },
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 2,
+        "unit_price": 69.13,
+        "amount": 138.26
+      },
+      {
+        "description": "Air Filter Element",
+        "hsn": "8421",
+        "quantity": 100,
+        "unit_price": 393.29,
+        "amount": 39329.0
+      }
+    ],
+    "subtotal": 40704.92,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 7326.89,
+    "grand_total": 48031.81,
+    "bank_account_last4": "1901",
+    "validation_flags": [
+      "bank_account_changed"
+    ]
+  },
+  {
+    "file": "inv_0092.jpg",
+    "template_id": 2,
+    "degradation_level": 1.0,
+    "vendor_name": "Kongu Electricals",
+    "vendor_gstin": "33UFXNH4250K1Z4",
+    "invoice_number": "TI/25-26/6300",
+    "invoice_date": "2025-10-01",
+    "due_date": "2025-10-31",
+    "po_number": "KIS/PO/2025/33923",
+    "line_items": [
+      {
+        "description": "Coupling Spider L-100",
+        "hsn": "4016",
+        "quantity": 2,
+        "unit_price": 186.45,
+        "amount": 372.9
+      },
+      {
+        "description": "Motor 2HP 3-phase",
+        "hsn": "8501",
+        "quantity": 2,
+        "unit_price": 11104.97,
+        "amount": 22209.94
+      },
+      {
+        "description": "Air Filter Element",
+        "hsn": "8421",
+        "quantity": 12,
+        "unit_price": 926.7,
+        "amount": 11120.4
+      },
+      {
+        "description": "Gear Oil EP90 (20L)",
+        "hsn": "2710",
+        "quantity": 4,
+        "unit_price": 5393.06,
+        "amount": 21572.24
+      },
+      {
+        "description": "Pneumatic Cylinder 50x100",
+        "hsn": "8412",
+        "quantity": 3,
+        "unit_price": 5428.27,
+        "amount": 16284.81
+      },
+      {
+        "description": "Cutting Fluid (20L)",
+        "hsn": "3403",
+        "quantity": 1,
+        "unit_price": 4056.06,
+        "amount": 4056.06
+      }
+    ],
+    "subtotal": 75616.35,
+    "cgst": 6805.47,
+    "sgst": 6805.47,
+    "igst": 0,
+    "grand_total": 90227.29,
+    "bank_account_last4": "7300",
+    "validation_flags": [
+      "grand_total_does_not_match_lines_plus_tax"
+    ]
+  },
+  {
+    "file": "inv_0093.jpg",
+    "template_id": 0,
+    "degradation_level": 1.4,
+    "vendor_name": "Delta Tools Pvt Ltd",
+    "vendor_gstin": "33RGEOR6215J1Z9",
+    "invoice_number": "SI/25-26/5003",
+    "invoice_date": "2025-10-29",
+    "due_date": "2025-12-13",
+    "po_number": "KIS/PO/2025/32058",
+    "line_items": [
+      {
+        "description": "Stainless Steel Pipe 1in (6m)",
+        "hsn": "7306",
+        "quantity": 3,
+        "unit_price": 3138.67,
+        "amount": 9416.01
+      },
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 1,
+        "unit_price": 393.81,
+        "amount": 393.81
+      },
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 4,
+        "unit_price": 3008.26,
+        "amount": 12033.04
+      }
+    ],
+    "subtotal": 21842.86,
+    "cgst": 1965.86,
+    "sgst": 1965.86,
+    "igst": 0,
+    "grand_total": 25774.57,
+    "bank_account_last4": "2168",
+    "validation_flags": [
+      "bank_account_changed"
+    ]
+  },
+  {
+    "file": "inv_0094.jpg",
+    "template_id": 3,
+    "degradation_level": 1.0,
+    "vendor_name": "Lakshmi Automation Systems",
+    "vendor_gstin": "33PCXME7937F1ZC",
+    "invoice_number": "KVR/2025/3515",
+    "invoice_date": "2025-11-13",
+    "due_date": "2026-01-12",
+    "po_number": "KIS/PO/2025/31679",
+    "line_items": [
+      {
+        "description": "Coupling Spider L-100",
+        "hsn": "4016",
+        "quantity": 100,
+        "unit_price": 192.7,
+        "amount": 19270.0
+      },
+      {
+        "description": "V-Belt B-52",
+        "hsn": "4010",
+        "quantity": 25,
+        "unit_price": 405.93,
+        "amount": 10148.25
+      },
+      {
+        "description": "Gate Valve 2in CI",
+        "hsn": "8481",
+        "quantity": 3,
+        "unit_price": 2525.19,
+        "amount": 7575.57
+      },
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 25,
+        "unit_price": 91.29,
+        "amount": 2282.25
+      }
+    ],
+    "subtotal": 39276.07,
+    "cgst": 3534.84,
+    "sgst": 3534.84,
+    "igst": 0,
+    "grand_total": 46345.76,
+    "bank_account_last4": "2605",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0095.jpg",
+    "template_id": 2,
+    "degradation_level": 1.4,
+    "vendor_name": "Kaveri Valley Engineering Works",
+    "vendor_gstin": "33MDXFN8183I1ZB",
+    "invoice_number": "TI/25-26/0680",
+    "invoice_date": "2025-10-20",
+    "due_date": "2025-11-19",
+    "po_number": "KIS/PO/2025/31526",
+    "line_items": [
+      {
+        "description": "Cutting Fluid (20L)",
+        "hsn": "3403",
+        "quantity": 4,
+        "unit_price": 3838.7,
+        "amount": 15354.8
+      }
+    ],
+    "subtotal": 15354.8,
+    "cgst": 1381.93,
+    "sgst": 1381.93,
+    "igst": 0,
+    "grand_total": 18118.66,
+    "bank_account_last4": "7509",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0096.jpg",
+    "template_id": 3,
+    "degradation_level": 0.3,
+    "vendor_name": "Raja Electricals",
+    "vendor_gstin": "27PCHPZ8606U1ZD",
+    "invoice_number": "INV/25-26/7023",
+    "invoice_date": "2025-10-30",
+    "due_date": "2025-12-29",
+    "po_number": "KIS/PO/2025/30600",
+    "line_items": [
+      {
+        "description": "Mechanical Seal 35mm",
+        "hsn": "8484",
+        "quantity": 4,
+        "unit_price": 1714.62,
+        "amount": 6858.48
+      },
+      {
+        "description": "Hydraulic Hose 1/2in x 1m",
+        "hsn": "4009",
+        "quantity": 10,
+        "unit_price": 600.2,
+        "amount": 6002.0
+      }
+    ],
+    "subtotal": 12860.48,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 2314.89,
+    "grand_total": 15175.37,
+    "bank_account_last4": "7688",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0097.jpg",
+    "template_id": 0,
+    "degradation_level": 0.6,
+    "vendor_name": "Precision Steel Agencies",
+    "vendor_gstin": "33XHQCG3426V1Z3",
+    "invoice_number": "SI/25-26/3216",
+    "invoice_date": "2025-10-15",
+    "due_date": "2025-11-29",
+    "po_number": "KIS/PO/2025/31404",
+    "line_items": [
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 12,
+        "unit_price": 127.87,
+        "amount": 1534.44
+      },
+      {
+        "description": "Pneumatic Cylinder 50x100",
+        "hsn": "8412",
+        "quantity": 2,
+        "unit_price": 4472.0,
+        "amount": 8944.0
+      },
+      {
+        "description": "Industrial Safety Gloves (pair)",
+        "hsn": "6116",
+        "quantity": 10,
+        "unit_price": 105.33,
+        "amount": 1053.3
+      }
+    ],
+    "subtotal": 11531.74,
+    "cgst": 1037.86,
+    "sgst": 1037.86,
+    "igst": 0,
+    "grand_total": 13607.45,
+    "bank_account_last4": "1389",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0098.jpg",
+    "template_id": 1,
+    "degradation_level": 1.0,
+    "vendor_name": "Cauvery Tools Pvt Ltd",
+    "vendor_gstin": "29IMZMH7929C1ZC",
+    "invoice_number": "TI/25-26/1684",
+    "invoice_date": "2025-10-05",
+    "due_date": "2025-12-04",
+    "po_number": "KIS/PO/2025/33074",
+    "line_items": [
+      {
+        "description": "Chain Sprocket 40B15",
+        "hsn": "8483",
+        "quantity": 12,
+        "unit_price": 313.44,
+        "amount": 3761.28
+      }
+    ],
+    "subtotal": 3761.28,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 677.03,
+    "grand_total": 4438.31,
+    "bank_account_last4": "5443",
+    "validation_flags": [
+      "bank_account_changed"
+    ]
+  },
+  {
+    "file": "inv_0099.jpg",
+    "template_id": 2,
+    "degradation_level": 1.0,
+    "vendor_name": "Delta Tools Pvt Ltd",
+    "vendor_gstin": "33RGEOR6215J1Z9",
+    "invoice_number": "KVR/2025/8556",
+    "invoice_date": "2025-11-15",
+    "due_date": "2025-12-30",
+    "po_number": "KIS/PO/2025/33887",
+    "line_items": [
+      {
+        "description": "Proximity Sensor M18 PNP",
+        "hsn": "8536",
+        "quantity": 6,
+        "unit_price": 1675.48,
+        "amount": 10052.88
+      },
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 3,
+        "unit_price": 1853.6,
+        "amount": 5560.8
+      },
+      {
+        "description": "Air Filter Element",
+        "hsn": "8421",
+        "quantity": 100,
+        "unit_price": 459.16,
+        "amount": 45916.0
+      }
+    ],
+    "subtotal": 61529.68,
+    "cgst": 5537.67,
+    "sgst": 5537.67,
+    "igst": 0,
+    "grand_total": 72605.02,
+    "bank_account_last4": "4335",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0100.jpg",
+    "template_id": 3,
+    "degradation_level": 0.3,
+    "vendor_name": "Prime Supply Corporation",
+    "vendor_gstin": "27JETZR9996R1ZD",
+    "invoice_number": "KVR/25-26/7295",
+    "invoice_date": "2025-10-13",
+    "due_date": "2025-10-28",
+    "po_number": "KIS/PO/2025/31805",
+    "line_items": [
+      {
+        "description": "Hydraulic Hose 1/2in x 1m",
+        "hsn": "4009",
+        "quantity": 4,
+        "unit_price": 372.44,
+        "amount": 1489.76
+      }
+    ],
+    "subtotal": 1489.76,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 268.16,
+    "grand_total": 1757.92,
+    "bank_account_last4": "9510",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0101.jpg",
+    "template_id": 0,
+    "degradation_level": 0.6,
+    "vendor_name": "National Enterprises",
+    "vendor_gstin": "33IYAYG6393Y1Z1",
+    "invoice_number": "INV/2025/7595",
+    "invoice_date": "2025-10-31",
+    "due_date": "2025-11-30",
+    "po_number": "KIS/PO/2025/31685",
+    "line_items": [
+      {
+        "description": "Stainless Steel Pipe 1in (6m)",
+        "hsn": "7306",
+        "quantity": 5,
+        "unit_price": 2499.01,
+        "amount": 12495.05
+      },
+      {
+        "description": "Angle Grinder Disc 4in",
+        "hsn": "6804",
+        "quantity": 12,
+        "unit_price": 34.67,
+        "amount": 416.04
+      },
+      {
+        "description": "Copper Cable 2.5sqmm (90m)",
+        "hsn": "8544",
+        "quantity": 4,
+        "unit_price": 3219.75,
+        "amount": 12879.0
+      },
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 1,
+        "unit_price": 78.71,
+        "amount": 78.71
+      }
+    ],
+    "subtotal": 25868.8,
+    "cgst": 2328.19,
+    "sgst": 2328.19,
+    "igst": 0,
+    "grand_total": 30525.18,
+    "bank_account_last4": "7146",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0102.jpg",
+    "template_id": 1,
+    "degradation_level": 0.3,
+    "vendor_name": "Balaji Hydraulics",
+    "vendor_gstin": "33VZMYA5967F1Z4",
+    "invoice_number": "TI/25-26/1196",
+    "invoice_date": "2025-10-29",
+    "due_date": "2025-12-28",
+    "po_number": "KIS/PO/2025/31965",
+    "line_items": [
+      {
+        "description": "Gate Valve 2in CI",
+        "hsn": "8481",
+        "quantity": 1,
+        "unit_price": 1440.24,
+        "amount": 1440.24
+      },
+      {
+        "description": "Air Filter Element",
+        "hsn": "8421",
+        "quantity": 50,
+        "unit_price": 1058.7,
+        "amount": 52935.0
+      }
+    ],
+    "subtotal": 54375.24,
+    "cgst": 4893.77,
+    "sgst": 4893.77,
+    "igst": 0,
+    "grand_total": 64162.78,
+    "bank_account_last4": "6802",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0103.jpg",
+    "template_id": 1,
+    "degradation_level": 1.0,
+    "vendor_name": "National Enterprises",
+    "vendor_gstin": "33IYAYG6393Y1Z1",
+    "invoice_number": "INV/25-26/0186",
+    "invoice_date": "2025-10-13",
+    "due_date": "2025-11-12",
+    "po_number": "KIS/PO/2025/32189",
+    "line_items": [
+      {
+        "description": "Gate Valve 2in CI",
+        "hsn": "8481",
+        "quantity": 1,
+        "unit_price": 2502.48,
+        "amount": 2502.48
+      },
+      {
+        "description": "Copper Cable 2.5sqmm (90m)",
+        "hsn": "8544",
+        "quantity": 4,
+        "unit_price": 2498.22,
+        "amount": 9992.88
+      }
+    ],
+    "subtotal": 12495.36,
+    "cgst": 1124.58,
+    "sgst": 1124.58,
+    "igst": 0,
+    "grand_total": 14744.52,
+    "bank_account_last4": "7146",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0104.jpg",
+    "template_id": 3,
+    "degradation_level": 0.3,
+    "vendor_name": "Raja Bearings & Co",
+    "vendor_gstin": "33YRLGP6341H1ZC",
+    "invoice_number": "SI/25-26/1344",
+    "invoice_date": "2025-10-06",
+    "due_date": "2025-11-05",
+    "po_number": "KIS/PO/2025/33257",
+    "line_items": [
+      {
+        "description": "V-Belt B-52",
+        "hsn": "4010",
+        "quantity": 25,
+        "unit_price": 424.71,
+        "amount": 10617.75
+      },
+      {
+        "description": "Cutting Fluid (20L)",
+        "hsn": "3403",
+        "quantity": 1,
+        "unit_price": 2935.16,
+        "amount": 2935.16
+      },
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 2,
+        "unit_price": 1272.17,
+        "amount": 2544.34
+      },
+      {
+        "description": "Chain Sprocket 40B15",
+        "hsn": "8483",
+        "quantity": 5,
+        "unit_price": 321.78,
+        "amount": 1608.9
+      }
+    ],
+    "subtotal": 17706.15,
+    "cgst": 1593.56,
+    "sgst": 1593.56,
+    "igst": 0,
+    "grand_total": 20893.26,
+    "bank_account_last4": "8663",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0105.jpg",
+    "template_id": 0,
+    "degradation_level": 0.6,
+    "vendor_name": "Kaveri Valley Bearings & Co",
+    "vendor_gstin": "27BFOPK9906J1Z3",
+    "invoice_number": "SI/2025/3534",
+    "invoice_date": "2025-10-14",
+    "due_date": "2025-11-13",
+    "po_number": "KIS/PO/2025/31759",
+    "line_items": [
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 5,
+        "unit_price": 260.37,
+        "amount": 1301.85
+      }
+    ],
+    "subtotal": 1301.85,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 234.33,
+    "grand_total": 1536.18,
+    "bank_account_last4": "5533",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0106.jpg",
+    "template_id": 1,
+    "degradation_level": 1.0,
+    "vendor_name": "Excel Bearings & Co",
+    "vendor_gstin": "33KCNVO6812W1Z1",
+    "invoice_number": "TI/2025/8547",
+    "invoice_date": "2025-10-27",
+    "due_date": "2025-11-26",
+    "po_number": "KIS/PO/2025/31566",
+    "line_items": [
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 5,
+        "unit_price": 1855.19,
+        "amount": 9275.95
+      },
+      {
+        "description": "Angle Grinder Disc 4in",
+        "hsn": "6804",
+        "quantity": 1,
+        "unit_price": 42.12,
+        "amount": 42.12
+      },
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 1,
+        "unit_price": 81.86,
+        "amount": 81.86
+      },
+      {
+        "description": "Proximity Sensor M18 PNP",
+        "hsn": "8536",
+        "quantity": 1,
+        "unit_price": 1563.53,
+        "amount": 1563.53
+      },
+      {
+        "description": "Stainless Steel Pipe 1in (6m)",
+        "hsn": "7306",
+        "quantity": 2,
+        "unit_price": 1708.0,
+        "amount": 3416.0
+      }
+    ],
+    "subtotal": 14379.46,
+    "cgst": 1294.15,
+    "sgst": 1294.15,
+    "igst": 0,
+    "grand_total": 16967.76,
+    "bank_account_last4": "2184",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0107.jpg",
+    "template_id": 0,
+    "degradation_level": 1.0,
+    "vendor_name": "Precision Tools Pvt Ltd",
+    "vendor_gstin": "29HYOII6255O1ZB",
+    "invoice_number": "KVR/25-26/0366",
+    "invoice_date": "2025-10-05",
+    "due_date": "2025-12-04",
+    "po_number": "KIS/PO/2025/33430",
+    "line_items": [
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 5,
+        "unit_price": 862.02,
+        "amount": 4310.1
+      },
+      {
+        "description": "Chain Sprocket 40B15",
+        "hsn": "8483",
+        "quantity": 50,
+        "unit_price": 429.73,
+        "amount": 21486.5
+      },
+      {
+        "description": "Gate Valve 2in CI",
+        "hsn": "8481",
+        "quantity": 2,
+        "unit_price": 1423.72,
+        "amount": 2847.44
+      }
+    ],
+    "subtotal": 28644.04,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 5155.93,
+    "grand_total": 33799.97,
+    "bank_account_last4": "7001",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0108.jpg",
+    "template_id": 2,
+    "degradation_level": 0.6,
+    "vendor_name": "Kaveri Valley Enterprises",
+    "vendor_gstin": "33GBAXZ4645B1Z7",
+    "invoice_number": "TI/2025/7499",
+    "invoice_date": "2025-10-22",
+    "due_date": "2025-12-06",
+    "po_number": "KIS/PO/2025/33167",
+    "line_items": [
+      {
+        "description": "Cutting Fluid (20L)",
+        "hsn": "3403",
+        "quantity": 3,
+        "unit_price": 2987.44,
+        "amount": 8962.32
+      }
+    ],
+    "subtotal": 8962.32,
+    "cgst": 806.61,
+    "sgst": 806.61,
+    "igst": 0,
+    "grand_total": 10575.54,
+    "bank_account_last4": "5161",
+    "validation_flags": [
+      "gstin_not_in_vendor_master"
+    ]
+  },
+  {
+    "file": "inv_0109.jpg",
+    "template_id": 0,
+    "degradation_level": 1.0,
+    "vendor_name": "Annai Engineering Works",
+    "vendor_gstin": "33OMJHI4564F1ZH",
+    "invoice_number": "KVR/2025/3873",
+    "invoice_date": "2025-11-07",
+    "due_date": "2025-12-07",
+    "po_number": "KIS/PO/2025/30462",
+    "line_items": [
+      {
+        "description": "Welding Electrode E6013 3.15mm (5kg)",
+        "hsn": "8311",
+        "quantity": 5,
+        "unit_price": 1306.3,
+        "amount": 6531.5
+      },
+      {
+        "description": "Gear Oil EP90 (20L)",
+        "hsn": "2710",
+        "quantity": 2,
+        "unit_price": 5386.69,
+        "amount": 10773.38
+      },
+      {
+        "description": "Air Filter Element",
+        "hsn": "8421",
+        "quantity": 20,
+        "unit_price": 916.79,
+        "amount": 18335.8
+      },
+      {
+        "description": "Stainless Steel Pipe 1in (6m)",
+        "hsn": "7306",
+        "quantity": 5,
+        "unit_price": 2533.81,
+        "amount": 12669.05
+      }
+    ],
+    "subtotal": 48309.73,
+    "cgst": 4347.88,
+    "sgst": 4347.88,
+    "igst": 0,
+    "grand_total": 57005.48,
+    "bank_account_last4": "2681",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0110.jpg",
+    "template_id": 1,
+    "degradation_level": 1.0,
+    "vendor_name": "Sri Murugan Tools Pvt Ltd",
+    "vendor_gstin": "32AISEB8074F1Z8",
+    "invoice_number": "INV/25-26/1214",
+    "invoice_date": "2025-10-29",
+    "due_date": "2025-12-28",
+    "po_number": "KIS/PO/2025/33746",
+    "line_items": [
+      {
+        "description": "Chain Sprocket 40B15",
+        "hsn": "8483",
+        "quantity": 1,
+        "unit_price": 276.27,
+        "amount": 276.27
+      },
+      {
+        "description": "V-Belt B-52",
+        "hsn": "4010",
+        "quantity": 20,
+        "unit_price": 233.39,
+        "amount": 4667.8
+      },
+      {
+        "description": "Stainless Steel Pipe 1in (6m)",
+        "hsn": "7306",
+        "quantity": 1,
+        "unit_price": 2852.78,
+        "amount": 2852.78
+      },
+      {
+        "description": "Motor 2HP 3-phase",
+        "hsn": "8501",
+        "quantity": 2,
+        "unit_price": 15675.1,
+        "amount": 31350.2
+      },
+      {
+        "description": "Gear Oil EP90 (20L)",
+        "hsn": "2710",
+        "quantity": 1,
+        "unit_price": 4453.98,
+        "amount": 4453.98
+      }
+    ],
+    "subtotal": 43601.03,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 7848.19,
+    "grand_total": 51449.22,
+    "bank_account_last4": "6943",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0111.jpg",
+    "template_id": 3,
+    "degradation_level": 1.0,
+    "vendor_name": "Prime Hydraulics",
+    "vendor_gstin": "33XJQSS5039R1Z2",
+    "invoice_number": "KVR/2025/2931",
+    "invoice_date": "2025-10-29",
+    "due_date": "2025-12-13",
+    "po_number": "KIS/PO/2025/31710",
+    "line_items": [
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 12,
+        "unit_price": 271.76,
+        "amount": 3261.12
+      },
+      {
+        "description": "Welding Electrode E6013 3.15mm (5kg)",
+        "hsn": "8311",
+        "quantity": 3,
+        "unit_price": 857.42,
+        "amount": 2572.26
+      },
+      {
+        "description": "Proximity Sensor M18 PNP",
+        "hsn": "8536",
+        "quantity": 1,
+        "unit_price": 1481.24,
+        "amount": 1481.24
+      },
+      {
+        "description": "Angle Grinder Disc 4in",
+        "hsn": "6804",
+        "quantity": 12,
+        "unit_price": 64.03,
+        "amount": 768.36
+      },
+      {
+        "description": "Industrial Safety Gloves (pair)",
+        "hsn": "6116",
+        "quantity": 2,
+        "unit_price": 124.41,
+        "amount": 248.82
+      }
+    ],
+    "subtotal": 8331.8,
+    "cgst": 749.86,
+    "sgst": 749.86,
+    "igst": 0,
+    "grand_total": 9831.52,
+    "bank_account_last4": "4075",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0112.jpg",
+    "template_id": 1,
+    "degradation_level": 1.0,
+    "vendor_name": "Star Electricals",
+    "vendor_gstin": "36FWQVA2377C1Z1",
+    "invoice_number": "KVR/25-26/1717",
+    "invoice_date": "2025-10-01",
+    "due_date": "2025-11-30",
+    "po_number": "KIS/PO/2025/33457",
+    "line_items": [
+      {
+        "description": "Welding Electrode E6013 3.15mm (5kg)",
+        "hsn": "8311",
+        "quantity": 1,
+        "unit_price": 1058.85,
+        "amount": 1058.85
+      },
+      {
+        "description": "Air Filter Element",
+        "hsn": "8421",
+        "quantity": 25,
+        "unit_price": 839.78,
+        "amount": 20994.5
+      },
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 1,
+        "unit_price": 911.12,
+        "amount": 911.12
+      }
+    ],
+    "subtotal": 22964.47,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 4133.6,
+    "grand_total": 27098.07,
+    "bank_account_last4": "2947",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0113.jpg",
+    "template_id": 1,
+    "degradation_level": 1.4,
+    "vendor_name": "National Supply Corporation",
+    "vendor_gstin": "24SUHQS2127J1ZG",
+    "invoice_number": "INV/25-26/6052",
+    "invoice_date": "2025-10-13",
+    "due_date": "2025-11-12",
+    "po_number": "KIS/PO/2025/33757",
+    "line_items": [
+      {
+        "description": "Copper Cable 2.5sqmm (90m)",
+        "hsn": "8544",
+        "quantity": 1,
+        "unit_price": 3454.82,
+        "amount": 3454.82
+      }
+    ],
+    "subtotal": 3454.82,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 621.87,
+    "grand_total": 4076.69,
+    "bank_account_last4": "3624",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0114.jpg",
+    "template_id": 2,
+    "degradation_level": 1.0,
+    "vendor_name": "Star Automation Systems",
+    "vendor_gstin": "36DSQAK9331E1ZF",
+    "invoice_number": "KVR/2025/1993",
+    "invoice_date": "2025-10-04",
+    "due_date": "2025-11-18",
+    "po_number": null,
+    "line_items": [
+      {
+        "description": "Stainless Steel Pipe 1in (6m)",
+        "hsn": "7306",
+        "quantity": 6,
+        "unit_price": 3173.76,
+        "amount": 19042.56
+      },
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 10,
+        "unit_price": 126.78,
+        "amount": 1267.8
+      }
+    ],
+    "subtotal": 20310.36,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 3655.86,
+    "grand_total": 23966.22,
+    "bank_account_last4": "1670",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0115.jpg",
+    "template_id": 1,
+    "degradation_level": 0.3,
+    "vendor_name": "Balaji Bearings & Co",
+    "vendor_gstin": "27ZFCVJ2332J1ZH",
+    "invoice_number": "INV/2025/9665",
+    "invoice_date": "2025-11-12",
+    "due_date": "2025-12-12",
+    "po_number": null,
+    "line_items": [
+      {
+        "description": "Gear Oil EP90 (20L)",
+        "hsn": "2710",
+        "quantity": 5,
+        "unit_price": 5439.54,
+        "amount": 27197.7
+      },
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 25,
+        "unit_price": 274.83,
+        "amount": 6870.75
+      }
+    ],
+    "subtotal": 34068.45,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 6132.32,
+    "grand_total": 40200.77,
+    "bank_account_last4": "4621",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0116.jpg",
+    "template_id": 3,
+    "degradation_level": 1.4,
+    "vendor_name": "Lakshmi Steel Agencies",
+    "vendor_gstin": "29OCALZ8302K1ZC",
+    "invoice_number": "INV/2025/0711",
+    "invoice_date": "2025-10-18",
+    "due_date": "2025-11-02",
+    "po_number": "KIS/PO/2025/30663",
+    "line_items": [
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 5,
+        "unit_price": 379.97,
+        "amount": 1899.85
+      },
+      {
+        "description": "Proximity Sensor M18 PNP",
+        "hsn": "8536",
+        "quantity": 6,
+        "unit_price": 881.04,
+        "amount": 5286.24
+      },
+      {
+        "description": "Copper Cable 2.5sqmm (90m)",
+        "hsn": "8544",
+        "quantity": 1,
+        "unit_price": 3638.44,
+        "amount": 3638.44
+      },
+      {
+        "description": "Chain Sprocket 40B15",
+        "hsn": "8483",
+        "quantity": 50,
+        "unit_price": 332.53,
+        "amount": 16626.5
+      },
+      {
+        "description": "Welding Electrode E6013 3.15mm (5kg)",
+        "hsn": "8311",
+        "quantity": 1,
+        "unit_price": 977.92,
+        "amount": 977.92
+      }
+    ],
+    "subtotal": 28428.95,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 5117.21,
+    "grand_total": 33546.16,
+    "bank_account_last4": "4726",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0117.jpg",
+    "template_id": 2,
+    "degradation_level": 0.6,
+    "vendor_name": "Excel Electricals",
+    "vendor_gstin": "37CRDZJ3189S1ZH",
+    "invoice_number": "SI/2025/0136",
+    "invoice_date": "2025-11-10",
+    "due_date": "2025-12-10",
+    "po_number": "KIS/PO/2025/33058",
+    "line_items": [
+      {
+        "description": "Copper Cable 2.5sqmm (90m)",
+        "hsn": "8544",
+        "quantity": 2,
+        "unit_price": 2655.69,
+        "amount": 5311.38
+      },
+      {
+        "description": "V-Belt B-52",
+        "hsn": "4010",
+        "quantity": 10,
+        "unit_price": 361.75,
+        "amount": 3617.5
+      },
+      {
+        "description": "Stainless Steel Pipe 1in (6m)",
+        "hsn": "7306",
+        "quantity": 2,
+        "unit_price": 1948.95,
+        "amount": 3897.9
+      }
+    ],
+    "subtotal": 12826.78,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 2308.82,
+    "grand_total": 15135.6,
+    "bank_account_last4": "2299",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0118.jpg",
+    "template_id": 1,
+    "degradation_level": 1.0,
+    "vendor_name": "Star Electricals",
+    "vendor_gstin": "36FWQVA2377C1Z1",
+    "invoice_number": "SI/25-26/8925",
+    "invoice_date": "2025-11-15",
+    "due_date": "2026-01-14",
+    "po_number": null,
+    "line_items": [
+      {
+        "description": "Grease Cartridge 400g",
+        "hsn": "2710",
+        "quantity": 4,
+        "unit_price": 175.21,
+        "amount": 700.84
+      },
+      {
+        "description": "Air Filter Element",
+        "hsn": "8421",
+        "quantity": 100,
+        "unit_price": 1082.06,
+        "amount": 108206.0
+      },
+      {
+        "description": "Pneumatic Cylinder 50x100",
+        "hsn": "8412",
+        "quantity": 5,
+        "unit_price": 5483.51,
+        "amount": 27417.55
+      },
+      {
+        "description": "V-Belt B-52",
+        "hsn": "4010",
+        "quantity": 2,
+        "unit_price": 342.11,
+        "amount": 684.22
+      }
+    ],
+    "subtotal": 137008.61,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 24661.55,
+    "grand_total": 161670.16,
+    "bank_account_last4": "2947",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0119.jpg",
+    "template_id": 0,
+    "degradation_level": 0.6,
+    "vendor_name": "Precision Industrial Traders",
+    "vendor_gstin": "33USEHQ4061N1ZD",
+    "invoice_number": "INV/2025/4917",
+    "invoice_date": "2025-10-08",
+    "due_date": "2025-11-07",
+    "po_number": "KIS/PO/2025/33461",
+    "line_items": [
+      {
+        "description": "Proximity Sensor M18 PNP",
+        "hsn": "8536",
+        "quantity": 5,
+        "unit_price": 913.01,
+        "amount": 4565.05
+      },
+      {
+        "description": "Industrial Safety Gloves (pair)",
+        "hsn": "6116",
+        "quantity": 1,
+        "unit_price": 66.94,
+        "amount": 66.94
+      },
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 4,
+        "unit_price": 906.66,
+        "amount": 3626.64
+      }
+    ],
+    "subtotal": 8258.63,
+    "cgst": 743.27,
+    "sgst": 743.27,
+    "igst": 0,
+    "grand_total": 9745.18,
+    "bank_account_last4": "5642",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0120.jpg",
+    "template_id": 2,
+    "degradation_level": 0.6,
+    "vendor_name": "Lakshmi Bearings & Co",
+    "vendor_gstin": "33XOOVB5407R1Z6",
+    "invoice_number": "TI/25-26/3558",
+    "invoice_date": "2025-10-30",
+    "due_date": "2025-12-14",
+    "po_number": "KIS/PO/2025/32885",
+    "line_items": [
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 20,
+        "unit_price": 46.43,
+        "amount": 928.6
+      },
+      {
+        "description": "Stainless Steel Pipe 1in (6m)",
+        "hsn": "7306",
+        "quantity": 2,
+        "unit_price": 2160.72,
+        "amount": 4321.44
+      }
+    ],
+    "subtotal": 5250.04,
+    "cgst": 472.5,
+    "sgst": 472.5,
+    "igst": 0,
+    "grand_total": 6195.05,
+    "bank_account_last4": "7747",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0121.jpg",
+    "template_id": 3,
+    "degradation_level": 1.4,
+    "vendor_name": "Kongu Supply Corporation",
+    "vendor_gstin": "27JUBUZ2001W1Z4",
+    "invoice_number": "KVR/2025/4926",
+    "invoice_date": "2025-10-15",
+    "due_date": "2025-10-30",
+    "po_number": "KIS/PO/2025/31256",
+    "line_items": [
+      {
+        "description": "Gear Oil EP90 (20L)",
+        "hsn": "2710",
+        "quantity": 3,
+        "unit_price": 3793.64,
+        "amount": 11380.92
+      },
+      {
+        "description": "Gate Valve 2in CI",
+        "hsn": "8481",
+        "quantity": 6,
+        "unit_price": 1170.33,
+        "amount": 7021.98
+      },
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 4,
+        "unit_price": 2995.8,
+        "amount": 11983.2
+      },
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 12,
+        "unit_price": 282.11,
+        "amount": 3385.32
+      },
+      {
+        "description": "Cutting Fluid (20L)",
+        "hsn": "3403",
+        "quantity": 1,
+        "unit_price": 3519.11,
+        "amount": 3519.11
+      },
+      {
+        "description": "Chain Sprocket 40B15",
+        "hsn": "8483",
+        "quantity": 20,
+        "unit_price": 541.3,
+        "amount": 10826.0
+      }
+    ],
+    "subtotal": 48116.53,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 8660.98,
+    "grand_total": 56777.51,
+    "bank_account_last4": "5461",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0122.jpg",
+    "template_id": 3,
+    "degradation_level": 1.4,
+    "vendor_name": "Kaveri Valley Bearings & Co",
+    "vendor_gstin": "27BFOPK9906J1Z3",
+    "invoice_number": "SI/25-26/4508",
+    "invoice_date": "2025-11-07",
+    "due_date": "2025-12-07",
+    "po_number": "KIS/PO/2025/31412",
+    "line_items": [
+      {
+        "description": "Grease Cartridge 400g",
+        "hsn": "2710",
+        "quantity": 1,
+        "unit_price": 248.78,
+        "amount": 248.78
+      },
+      {
+        "description": "Air Filter Element",
+        "hsn": "8421",
+        "quantity": 5,
+        "unit_price": 836.86,
+        "amount": 4184.3
+      },
+      {
+        "description": "Pneumatic Cylinder 50x100",
+        "hsn": "8412",
+        "quantity": 2,
+        "unit_price": 3864.86,
+        "amount": 7729.72
+      }
+    ],
+    "subtotal": 12162.8,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 2189.3,
+    "grand_total": 14352.1,
+    "bank_account_last4": "5533",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0123.jpg",
+    "template_id": 1,
+    "degradation_level": 1.4,
+    "vendor_name": "Vel Electricals",
+    "vendor_gstin": "33GUZRD4806X1Z6",
+    "invoice_number": "SI/25-26/3012",
+    "invoice_date": "2025-10-03",
+    "due_date": "2025-11-17",
+    "po_number": "KIS/PO/2025/33820",
+    "line_items": [
+      {
+        "description": "Gear Oil EP90 (20L)",
+        "hsn": "2710",
+        "quantity": 1,
+        "unit_price": 5375.23,
+        "amount": 5375.23
+      },
+      {
+        "description": "Gate Valve 2in CI",
+        "hsn": "8481",
+        "quantity": 1,
+        "unit_price": 1913.4,
+        "amount": 1913.4
+      },
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 1,
+        "unit_price": 1148.11,
+        "amount": 1148.11
+      }
+    ],
+    "subtotal": 8436.74,
+    "cgst": 759.3,
+    "sgst": 759.3,
+    "igst": 0,
+    "grand_total": 9955.35,
+    "bank_account_last4": "4144",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0124.jpg",
+    "template_id": 0,
+    "degradation_level": 0.6,
+    "vendor_name": "Excel Hydraulics",
+    "vendor_gstin": "32OSTXH6258S1Z4",
+    "invoice_number": "INV/2025/2499",
+    "invoice_date": "2025-10-09",
+    "due_date": "2025-10-24",
+    "po_number": "KIS/PO/2025/33068",
+    "line_items": [
+      {
+        "description": "Chain Sprocket 40B15",
+        "hsn": "8483",
+        "quantity": 4,
+        "unit_price": 500.78,
+        "amount": 2003.12
+      },
+      {
+        "description": "Grease Cartridge 400g",
+        "hsn": "2710",
+        "quantity": 25,
+        "unit_price": 212.24,
+        "amount": 5306.0
+      }
+    ],
+    "subtotal": 7309.12,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 1315.64,
+    "grand_total": 8624.76,
+    "bank_account_last4": "5114",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0125.jpg",
+    "template_id": 0,
+    "degradation_level": 0.3,
+    "vendor_name": "Venkateswara Bearings & Co",
+    "vendor_gstin": "37RLOBV9249G1Z7",
+    "invoice_number": "TI/25-26/8088",
+    "invoice_date": "2025-11-10",
+    "due_date": "2025-12-10",
+    "po_number": null,
+    "line_items": [
+      {
+        "description": "Copper Cable 2.5sqmm (90m)",
+        "hsn": "8544",
+        "quantity": 1,
+        "unit_price": 2311.81,
+        "amount": 2311.81
+      },
+      {
+        "description": "Proximity Sensor M18 PNP",
+        "hsn": "8536",
+        "quantity": 5,
+        "unit_price": 1427.3,
+        "amount": 7136.5
+      },
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 6,
+        "unit_price": 706.89,
+        "amount": 4241.34
+      },
+      {
+        "description": "Angle Grinder Disc 4in",
+        "hsn": "6804",
+        "quantity": 5,
+        "unit_price": 31.81,
+        "amount": 159.05
+      },
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 6,
+        "unit_price": 2668.78,
+        "amount": 16012.68
+      },
+      {
+        "description": "V-Belt B-52",
+        "hsn": "4010",
+        "quantity": 1,
+        "unit_price": 506.61,
+        "amount": 506.61
+      }
+    ],
+    "subtotal": 30367.99,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 5466.24,
+    "grand_total": 35834.23,
+    "bank_account_last4": "5750",
+    "validation_flags": [
+      "bank_account_changed"
+    ]
+  },
+  {
+    "file": "inv_0126.jpg",
+    "template_id": 2,
+    "degradation_level": 1.0,
+    "vendor_name": "Prime Tools Pvt Ltd",
+    "vendor_gstin": "27HKJFB8286F1Z8",
+    "invoice_number": "KVR/2025/2111",
+    "invoice_date": "2025-11-15",
+    "due_date": "2025-11-30",
+    "po_number": "KIS/PO/2025/31633",
+    "line_items": [
+      {
+        "description": "Grease Cartridge 400g",
+        "hsn": "2710",
+        "quantity": 2,
+        "unit_price": 246.63,
+        "amount": 493.26
+      },
+      {
+        "description": "Copper Cable 2.5sqmm (90m)",
+        "hsn": "8544",
+        "quantity": 1,
+        "unit_price": 2554.92,
+        "amount": 2554.92
+      },
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 2,
+        "unit_price": 62.62,
+        "amount": 125.24
+      }
+    ],
+    "subtotal": 3173.42,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 571.22,
+    "grand_total": 3744.64,
+    "bank_account_last4": "1625",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0127.jpg",
+    "template_id": 1,
+    "degradation_level": 1.0,
+    "vendor_name": "Prime Supply Corporation",
+    "vendor_gstin": "27JETZR9996R1ZD",
+    "invoice_number": "KVR/2025/2848",
+    "invoice_date": "2025-10-14",
+    "due_date": "2025-10-29",
+    "po_number": "KIS/PO/2025/33420",
+    "line_items": [
+      {
+        "description": "Motor 2HP 3-phase",
+        "hsn": "8501",
+        "quantity": 1,
+        "unit_price": 14877.8,
+        "amount": 14877.8
+      },
+      {
+        "description": "Industrial Safety Gloves (pair)",
+        "hsn": "6116",
+        "quantity": 50,
+        "unit_price": 132.44,
+        "amount": 6622.0
+      },
+      {
+        "description": "Stainless Steel Pipe 1in (6m)",
+        "hsn": "7306",
+        "quantity": 6,
+        "unit_price": 2609.75,
+        "amount": 15658.5
+      },
+      {
+        "description": "Angle Grinder Disc 4in",
+        "hsn": "6804",
+        "quantity": 25,
+        "unit_price": 73.04,
+        "amount": 1826.0
+      },
+      {
+        "description": "Proximity Sensor M18 PNP",
+        "hsn": "8536",
+        "quantity": 1,
+        "unit_price": 1250.44,
+        "amount": 1250.44
+      }
+    ],
+    "subtotal": 40234.74,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 7242.25,
+    "grand_total": 47476.99,
+    "bank_account_last4": "9510",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0128.jpg",
+    "template_id": 0,
+    "degradation_level": 0.6,
+    "vendor_name": "Prime Hydraulics",
+    "vendor_gstin": "33XJQSS5039R1Z2",
+    "invoice_number": "KVR/25-26/6689",
+    "invoice_date": "2025-11-11",
+    "due_date": "2025-12-26",
+    "po_number": null,
+    "line_items": [
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 25,
+        "unit_price": 272.44,
+        "amount": 6811.0
+      }
+    ],
+    "subtotal": 6811.0,
+    "cgst": 612.99,
+    "sgst": 612.99,
+    "igst": 0,
+    "grand_total": 8036.98,
+    "bank_account_last4": "9032",
+    "validation_flags": [
+      "bank_account_changed"
+    ]
+  },
+  {
+    "file": "inv_0129.jpg",
+    "template_id": 3,
+    "degradation_level": 1.0,
+    "vendor_name": "Venkateswara Bearings & Co",
+    "vendor_gstin": "37RLOBV9249G1Z#",
+    "invoice_number": "SI/2025/1162",
+    "invoice_date": "2025-10-08",
+    "due_date": "2025-11-07",
+    "po_number": "KIS/PO/2025/31960",
+    "line_items": [
+      {
+        "description": "Mechanical Seal 35mm",
+        "hsn": "8484",
+        "quantity": 6,
+        "unit_price": 1883.24,
+        "amount": 11299.44
+      },
+      {
+        "description": "Stainless Steel Pipe 1in (6m)",
+        "hsn": "7306",
+        "quantity": 2,
+        "unit_price": 2201.24,
+        "amount": 4402.48
+      },
+      {
+        "description": "Coupling Spider L-100",
+        "hsn": "4016",
+        "quantity": 10,
+        "unit_price": 226.25,
+        "amount": 2262.5
+      },
+      {
+        "description": "Cutting Fluid (20L)",
+        "hsn": "3403",
+        "quantity": 6,
+        "unit_price": 3651.18,
+        "amount": 21907.08
+      },
+      {
+        "description": "Welding Electrode E6013 3.15mm (5kg)",
+        "hsn": "8311",
+        "quantity": 5,
+        "unit_price": 1424.75,
+        "amount": 7123.75
+      },
+      {
+        "description": "Motor 2HP 3-phase",
+        "hsn": "8501",
+        "quantity": 4,
+        "unit_price": 15481.06,
+        "amount": 61924.24
+      }
+    ],
+    "subtotal": 108919.49,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 19605.51,
+    "grand_total": 128525.0,
+    "bank_account_last4": "4479",
+    "validation_flags": [
+      "malformed_gstin"
+    ]
+  },
+  {
+    "file": "inv_0130.jpg",
+    "template_id": 3,
+    "degradation_level": 1.0,
+    "vendor_name": "Lakshmi Engineering Works",
+    "vendor_gstin": "37WLGNQ2782I1Z5",
+    "invoice_number": "SI/25-26/9680",
+    "invoice_date": "2025-11-09",
+    "due_date": "2025-12-24",
+    "po_number": "KIS/PO/2025/30799",
+    "line_items": [
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 12,
+        "unit_price": 87.25,
+        "amount": 1047.0
+      },
+      {
+        "description": "Grease Cartridge 400g",
+        "hsn": "2710",
+        "quantity": 25,
+        "unit_price": 240.14,
+        "amount": 6003.5
+      },
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 1,
+        "unit_price": 2502.65,
+        "amount": 2502.65
+      },
+      {
+        "description": "Industrial Safety Gloves (pair)",
+        "hsn": "6116",
+        "quantity": 25,
+        "unit_price": 109.07,
+        "amount": 2726.75
+      },
+      {
+        "description": "Mechanical Seal 35mm",
+        "hsn": "8484",
+        "quantity": 3,
+        "unit_price": 1175.69,
+        "amount": 3527.07
+      }
+    ],
+    "subtotal": 15806.97,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 2845.25,
+    "grand_total": 18652.22,
+    "bank_account_last4": "9802",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0131.jpg",
+    "template_id": 1,
+    "degradation_level": 0.6,
+    "vendor_name": "Star Automation Systems",
+    "vendor_gstin": "36DSQAK9331E1ZF",
+    "invoice_number": "KVR/2025/6774",
+    "invoice_date": "2025-11-02",
+    "due_date": "2025-12-17",
+    "po_number": "KIS/PO/2025/32035",
+    "line_items": [
+      {
+        "description": "Chain Sprocket 40B15",
+        "hsn": "8483",
+        "quantity": 5,
+        "unit_price": 377.52,
+        "amount": 1887.6
+      },
+      {
+        "description": "Grease Cartridge 400g",
+        "hsn": "2710",
+        "quantity": 5,
+        "unit_price": 199.7,
+        "amount": 998.5
+      },
+      {
+        "description": "Industrial Safety Gloves (pair)",
+        "hsn": "6116",
+        "quantity": 2,
+        "unit_price": 155.17,
+        "amount": 310.34
+      }
+    ],
+    "subtotal": 3196.44,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 575.36,
+    "grand_total": 3771.8,
+    "bank_account_last4": "1670",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0132.jpg",
+    "template_id": 0,
+    "degradation_level": 1.4,
+    "vendor_name": "Delta Tools Pvt Ltd",
+    "vendor_gstin": "33RGEOR6215J1Z9",
+    "invoice_number": "KVR/25-26/4076",
+    "invoice_date": "2025-10-07",
+    "due_date": "2025-11-21",
+    "po_number": "KIS/PO/2025/33869",
+    "line_items": [
+      {
+        "description": "Angle Grinder Disc 4in",
+        "hsn": "6804",
+        "quantity": 2,
+        "unit_price": 32.28,
+        "amount": 64.56
+      },
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 2,
+        "unit_price": 744.43,
+        "amount": 1488.86
+      },
+      {
+        "description": "Copper Cable 2.5sqmm (90m)",
+        "hsn": "8544",
+        "quantity": 1,
+        "unit_price": 3268.12,
+        "amount": 3268.12
+      },
+      {
+        "description": "Chain Sprocket 40B15",
+        "hsn": "8483",
+        "quantity": 5,
+        "unit_price": 393.75,
+        "amount": 1968.75
+      }
+    ],
+    "subtotal": 6790.29,
+    "cgst": 611.12,
+    "sgst": 611.12,
+    "igst": 0,
+    "grand_total": 8012.54,
+    "bank_account_last4": "4335",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0133.jpg",
+    "template_id": 2,
+    "degradation_level": 0.6,
+    "vendor_name": "Venkateswara Supply Corporation",
+    "vendor_gstin": "33OWOXX2613D1Z5",
+    "invoice_number": "INV/25-26/3982",
+    "invoice_date": "2025-10-07",
+    "due_date": "2025-10-22",
+    "po_number": "KIS/PO/2025/33763",
+    "line_items": [
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 5,
+        "unit_price": 2064.54,
+        "amount": 10322.7
+      },
+      {
+        "description": "Welding Electrode E6013 3.15mm (5kg)",
+        "hsn": "8311",
+        "quantity": 1,
+        "unit_price": 977.15,
+        "amount": 977.15
+      }
+    ],
+    "subtotal": 11299.85,
+    "cgst": 1016.99,
+    "sgst": 1016.99,
+    "igst": 0,
+    "grand_total": 13333.82,
+    "bank_account_last4": "6320",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0134.jpg",
+    "template_id": 2,
+    "degradation_level": 1.0,
+    "vendor_name": "Excel Electricals",
+    "vendor_gstin": "37CRDZJ3189S1ZH",
+    "invoice_number": "INV/2025/3678",
+    "invoice_date": "2025-10-31",
+    "due_date": "2025-11-30",
+    "po_number": "KIS/PO/2025/33162",
+    "line_items": [
+      {
+        "description": "Welding Electrode E6013 3.15mm (5kg)",
+        "hsn": "8311",
+        "quantity": 1,
+        "unit_price": 1587.86,
+        "amount": 1587.86
+      },
+      {
+        "description": "Coupling Spider L-100",
+        "hsn": "4016",
+        "quantity": 4,
+        "unit_price": 243.47,
+        "amount": 973.88
+      }
+    ],
+    "subtotal": 2561.74,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 461.11,
+    "grand_total": 3022.85,
+    "bank_account_last4": "2299",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0135.jpg",
+    "template_id": 1,
+    "degradation_level": 0.6,
+    "vendor_name": "Precision Enterprises",
+    "vendor_gstin": "33VKCIE5096O1Z6",
+    "invoice_number": "TI/2025/7227",
+    "invoice_date": "2025-10-10",
+    "due_date": "2025-11-09",
+    "po_number": "KIS/PO/2025/32498",
+    "line_items": [
+      {
+        "description": "Angle Grinder Disc 4in",
+        "hsn": "6804",
+        "quantity": 12,
+        "unit_price": 70.01,
+        "amount": 840.12
+      },
+      {
+        "description": "Coupling Spider L-100",
+        "hsn": "4016",
+        "quantity": 5,
+        "unit_price": 168.91,
+        "amount": 844.55
+      },
+      {
+        "description": "Air Filter Element",
+        "hsn": "8421",
+        "quantity": 5,
+        "unit_price": 1150.51,
+        "amount": 5752.55
+      }
+    ],
+    "subtotal": 7437.22,
+    "cgst": 669.35,
+    "sgst": 669.35,
+    "igst": 0,
+    "grand_total": 8775.92,
+    "bank_account_last4": "2566",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0136.jpg",
+    "template_id": 1,
+    "degradation_level": 0.3,
+    "vendor_name": "Prime Tools Pvt Ltd",
+    "vendor_gstin": "27HKJFB8286F1Z8",
+    "invoice_number": "TI/2025/5803",
+    "invoice_date": "2025-10-07",
+    "due_date": "2025-10-22",
+    "po_number": "KIS/PO/2025/31224",
+    "line_items": [
+      {
+        "description": "Chain Sprocket 40B15",
+        "hsn": "8483",
+        "quantity": 20,
+        "unit_price": 553.97,
+        "amount": 11079.4
+      },
+      {
+        "description": "Angle Grinder Disc 4in",
+        "hsn": "6804",
+        "quantity": 50,
+        "unit_price": 34.65,
+        "amount": 1732.5
+      }
+    ],
+    "subtotal": 12811.9,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 2306.14,
+    "grand_total": 15118.04,
+    "bank_account_last4": "1625",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0137.jpg",
+    "template_id": 3,
+    "degradation_level": 1.4,
+    "vendor_name": "Balaji Hydraulics",
+    "vendor_gstin": "33VZMYA5967F1Z4",
+    "invoice_number": "INV/25-26/0290",
+    "invoice_date": "2025-10-25",
+    "due_date": "2025-12-24",
+    "po_number": "KIS/PO/2025/33171",
+    "line_items": [
+      {
+        "description": "Grease Cartridge 400g",
+        "hsn": "2710",
+        "quantity": 2,
+        "unit_price": 256.77,
+        "amount": 513.54
+      }
+    ],
+    "subtotal": 513.54,
+    "cgst": 46.22,
+    "sgst": 46.22,
+    "igst": 0,
+    "grand_total": 605.98,
+    "bank_account_last4": "6802",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0138.jpg",
+    "template_id": 1,
+    "degradation_level": 0.3,
+    "vendor_name": "Excel Electricals",
+    "vendor_gstin": "37CRDZJ3189S1ZH",
+    "invoice_number": "SI/2025/6417",
+    "invoice_date": "2025-10-18",
+    "due_date": "2025-11-17",
+    "po_number": "KIS/PO/2025/31258",
+    "line_items": [
+      {
+        "description": "Mechanical Seal 35mm",
+        "hsn": "8484",
+        "quantity": 3,
+        "unit_price": 2110.28,
+        "amount": 6330.84
+      },
+      {
+        "description": "Stainless Steel Pipe 1in (6m)",
+        "hsn": "7306",
+        "quantity": 1,
+        "unit_price": 1604.06,
+        "amount": 1604.06
+      },
+      {
+        "description": "Pneumatic Cylinder 50x100",
+        "hsn": "8412",
+        "quantity": 3,
+        "unit_price": 6316.3,
+        "amount": 18948.9
+      },
+      {
+        "description": "Grease Cartridge 400g",
+        "hsn": "2710",
+        "quantity": 5,
+        "unit_price": 251.57,
+        "amount": 1257.85
+      }
+    ],
+    "subtotal": 28141.65,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 5065.5,
+    "grand_total": 33207.15,
+    "bank_account_last4": "2299",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0139.jpg",
+    "template_id": 0,
+    "degradation_level": 1.0,
+    "vendor_name": "National Bearings & Co",
+    "vendor_gstin": "27YOXCM2659T1ZF",
+    "invoice_number": "SI/25-26/3087",
+    "invoice_date": "2025-10-06",
+    "due_date": "2025-11-20",
+    "po_number": "KIS/PO/2025/32295",
+    "line_items": [
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 12,
+        "unit_price": 111.3,
+        "amount": 1335.6
+      },
+      {
+        "description": "Welding Electrode E6013 3.15mm (5kg)",
+        "hsn": "8311",
+        "quantity": 5,
+        "unit_price": 1566.31,
+        "amount": 7831.55
+      }
+    ],
+    "subtotal": 9167.15,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 1650.09,
+    "grand_total": 10817.24,
+    "bank_account_last4": "6664",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0140.jpg",
+    "template_id": 0,
+    "degradation_level": 0.3,
+    "vendor_name": "Venkateswara Bearings & Co",
+    "vendor_gstin": "37RLOBV9249G1Z7",
+    "invoice_number": "KVR/25-26/6493",
+    "invoice_date": "2025-10-06",
+    "due_date": "2025-11-05",
+    "po_number": "KIS/PO/2025/30872",
+    "line_items": [
+      {
+        "description": "Proximity Sensor M18 PNP",
+        "hsn": "8536",
+        "quantity": 4,
+        "unit_price": 1391.88,
+        "amount": 5567.52
+      },
+      {
+        "description": "Coupling Spider L-100",
+        "hsn": "4016",
+        "quantity": 50,
+        "unit_price": 246.63,
+        "amount": 12331.5
+      },
+      {
+        "description": "Chain Sprocket 40B15",
+        "hsn": "8483",
+        "quantity": 25,
+        "unit_price": 449.82,
+        "amount": 11245.5
+      },
+      {
+        "description": "Angle Grinder Disc 4in",
+        "hsn": "6804",
+        "quantity": 25,
+        "unit_price": 69.14,
+        "amount": 1728.5
+      },
+      {
+        "description": "Industrial Safety Gloves (pair)",
+        "hsn": "6116",
+        "quantity": 25,
+        "unit_price": 64.52,
+        "amount": 1613.0
+      },
+      {
+        "description": "Mechanical Seal 35mm",
+        "hsn": "8484",
+        "quantity": 1,
+        "unit_price": 1488.28,
+        "amount": 1488.28
+      }
+    ],
+    "subtotal": 33974.3,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 6115.37,
+    "grand_total": 40089.67,
+    "bank_account_last4": "4479",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0141.jpg",
+    "template_id": 0,
+    "degradation_level": 1.4,
+    "vendor_name": "Global Bearings & Co",
+    "vendor_gstin": "33AQFKH2691N1ZG",
+    "invoice_number": "TI/25-26/8432",
+    "invoice_date": "2025-10-31",
+    "due_date": "2025-11-30",
+    "po_number": "KIS/PO/2025/31567",
+    "line_items": [
+      {
+        "description": "Proximity Sensor M18 PNP",
+        "hsn": "8536",
+        "quantity": 1,
+        "unit_price": 855.46,
+        "amount": 855.46
+      },
+      {
+        "description": "V-Belt B-52",
+        "hsn": "4010",
+        "quantity": 2,
+        "unit_price": 287.1,
+        "amount": 574.2
+      }
+    ],
+    "subtotal": 1429.66,
+    "cgst": 128.67,
+    "sgst": 128.67,
+    "igst": 0,
+    "grand_total": 1687.0,
+    "bank_account_last4": "6487",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0142.jpg",
+    "template_id": 3,
+    "degradation_level": 0.6,
+    "vendor_name": "Lakshmi Bearings & Co",
+    "vendor_gstin": "33XOOVB5407R1Z6",
+    "invoice_number": "TI/25-26/6869",
+    "invoice_date": "2025-10-15",
+    "due_date": "2025-11-29",
+    "po_number": "KIS/PO/2025/30725",
+    "line_items": [
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 1,
+        "unit_price": 2323.8,
+        "amount": 2323.8
+      },
+      {
+        "description": "Industrial Safety Gloves (pair)",
+        "hsn": "6116",
+        "quantity": 12,
+        "unit_price": 122.82,
+        "amount": 1473.84
+      },
+      {
+        "description": "Copper Cable 2.5sqmm (90m)",
+        "hsn": "8544",
+        "quantity": 5,
+        "unit_price": 2954.57,
+        "amount": 14772.85
+      },
+      {
+        "description": "Coupling Spider L-100",
+        "hsn": "4016",
+        "quantity": 12,
+        "unit_price": 151.32,
+        "amount": 1815.84
+      },
+      {
+        "description": "Cutting Fluid (20L)",
+        "hsn": "3403",
+        "quantity": 3,
+        "unit_price": 2855.72,
+        "amount": 8567.16
+      }
+    ],
+    "subtotal": 28953.49,
+    "cgst": 2605.82,
+    "sgst": 2605.82,
+    "igst": 0,
+    "grand_total": 34165.12,
+    "bank_account_last4": "7747",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0143.jpg",
+    "template_id": 0,
+    "degradation_level": 1.4,
+    "vendor_name": "National Enterprises",
+    "vendor_gstin": "33IYAYG6393Y1Z1",
+    "invoice_number": "INV/25-26/2542",
+    "invoice_date": "2025-10-17",
+    "due_date": "2025-11-16",
+    "po_number": null,
+    "line_items": [
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 12,
+        "unit_price": 104.34,
+        "amount": 1252.08
+      }
+    ],
+    "subtotal": 1252.08,
+    "cgst": 112.69,
+    "sgst": 112.69,
+    "igst": 0,
+    "grand_total": 1477.45,
+    "bank_account_last4": "7146",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0144.jpg",
+    "template_id": 3,
+    "degradation_level": 0.3,
+    "vendor_name": "Precision Steel Agencies",
+    "vendor_gstin": "33XHQCG3426V1Z3",
+    "invoice_number": "SI/2025/8064",
+    "invoice_date": "2025-11-13",
+    "due_date": "2025-12-28",
+    "po_number": "KIS/PO/2025/30639",
+    "line_items": [
+      {
+        "description": "Proximity Sensor M18 PNP",
+        "hsn": "8536",
+        "quantity": 2,
+        "unit_price": 993.84,
+        "amount": 1987.68
+      },
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 3,
+        "unit_price": 1211.3,
+        "amount": 3633.9
+      }
+    ],
+    "subtotal": 5621.58,
+    "cgst": 505.94,
+    "sgst": 505.94,
+    "igst": 0,
+    "grand_total": 6633.46,
+    "bank_account_last4": "1389",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0145.jpg",
+    "template_id": 3,
+    "degradation_level": 0.3,
+    "vendor_name": "Precision Industrial Traders",
+    "vendor_gstin": "33USEHQ4061N1ZD",
+    "invoice_number": "INV/2025/0321",
+    "invoice_date": "2025-11-13",
+    "due_date": "2025-12-13",
+    "po_number": "KIS/PO/2025/31323",
+    "line_items": [
+      {
+        "description": "Angle Grinder Disc 4in",
+        "hsn": "6804",
+        "quantity": 12,
+        "unit_price": 30.09,
+        "amount": 361.08
+      },
+      {
+        "description": "Industrial Safety Gloves (pair)",
+        "hsn": "6116",
+        "quantity": 10,
+        "unit_price": 68.14,
+        "amount": 681.4
+      },
+      {
+        "description": "Proximity Sensor M18 PNP",
+        "hsn": "8536",
+        "quantity": 3,
+        "unit_price": 1747.66,
+        "amount": 5242.98
+      },
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 1,
+        "unit_price": 2579.07,
+        "amount": 2579.07
+      },
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 25,
+        "unit_price": 166.24,
+        "amount": 4156.0
+      },
+      {
+        "description": "Air Filter Element",
+        "hsn": "8421",
+        "quantity": 100,
+        "unit_price": 615.93,
+        "amount": 61593.0
+      }
+    ],
+    "subtotal": 74613.53,
+    "cgst": 6715.22,
+    "sgst": 6715.22,
+    "igst": 0,
+    "grand_total": 89043.97,
+    "bank_account_last4": "5642",
+    "validation_flags": [
+      "grand_total_does_not_match_lines_plus_tax"
+    ]
+  },
+  {
+    "file": "inv_0146.jpg",
+    "template_id": 1,
+    "degradation_level": 1.4,
+    "vendor_name": "Excel Industrial Traders",
+    "vendor_gstin": "33AHPFD2396Q1Z5",
+    "invoice_number": "INV/2025/3811",
+    "invoice_date": "2025-10-15",
+    "due_date": "2025-11-29",
+    "po_number": "KIS/PO/2025/30690",
+    "line_items": [
+      {
+        "description": "Hydraulic Hose 1/2in x 1m",
+        "hsn": "4009",
+        "quantity": 10,
+        "unit_price": 683.57,
+        "amount": 6835.7
+      },
+      {
+        "description": "Coupling Spider L-100",
+        "hsn": "4016",
+        "quantity": 100,
+        "unit_price": 245.17,
+        "amount": 24517.0
+      }
+    ],
+    "subtotal": 31352.7,
+    "cgst": 2821.74,
+    "sgst": 2821.74,
+    "igst": 0,
+    "grand_total": 36996.19,
+    "bank_account_last4": "7233",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0147.jpg",
+    "template_id": 3,
+    "degradation_level": 0.3,
+    "vendor_name": "Excel Electricals",
+    "vendor_gstin": "37CRDZJ3189S1ZH",
+    "invoice_number": "INV/25-26/9407",
+    "invoice_date": "2025-11-08",
+    "due_date": "2025-12-08",
+    "po_number": "KIS/PO/2025/33049",
+    "line_items": [
+      {
+        "description": "Copper Cable 2.5sqmm (90m)",
+        "hsn": "8544",
+        "quantity": 1,
+        "unit_price": 3550.49,
+        "amount": 3550.49
+      },
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 100,
+        "unit_price": 230.25,
+        "amount": 23025.0
+      },
+      {
+        "description": "Mechanical Seal 35mm",
+        "hsn": "8484",
+        "quantity": 2,
+        "unit_price": 1071.73,
+        "amount": 2143.46
+      },
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 6,
+        "unit_price": 2241.29,
+        "amount": 13447.74
+      },
+      {
+        "description": "Proximity Sensor M18 PNP",
+        "hsn": "8536",
+        "quantity": 1,
+        "unit_price": 785.24,
+        "amount": 785.24
+      }
+    ],
+    "subtotal": 42951.93,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 7731.35,
+    "grand_total": 50683.28,
+    "bank_account_last4": "2299",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0148.jpg",
+    "template_id": 3,
+    "degradation_level": 1.4,
+    "vendor_name": "Sri Murugan Electricals",
+    "vendor_gstin": "29MCOKY2607M1ZC",
+    "invoice_number": "KVR/2025/4004",
+    "invoice_date": "2025-10-25",
+    "due_date": "2025-11-24",
+    "po_number": "KIS/PO/2025/30306",
+    "line_items": [
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 1,
+        "unit_price": 847.97,
+        "amount": 847.97
+      }
+    ],
+    "subtotal": 847.97,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 152.63,
+    "grand_total": 1000.6,
+    "bank_account_last4": "2771",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0149.jpg",
+    "template_id": 3,
+    "degradation_level": 0.6,
+    "vendor_name": "Delta Enterprises",
+    "vendor_gstin": "33NQBBQ2758W1Z0",
+    "invoice_number": "TI/2025/7774",
+    "invoice_date": "2025-10-28",
+    "due_date": "2025-12-27",
+    "po_number": "KIS/PO/2025/31087",
+    "line_items": [
+      {
+        "description": "Copper Cable 2.5sqmm (90m)",
+        "hsn": "8544",
+        "quantity": 1,
+        "unit_price": 2298.5,
+        "amount": 2298.5
+      },
+      {
+        "description": "Chain Sprocket 40B15",
+        "hsn": "8483",
+        "quantity": 1,
+        "unit_price": 542.01,
+        "amount": 542.01
+      },
+      {
+        "description": "Gear Oil EP90 (20L)",
+        "hsn": "2710",
+        "quantity": 3,
+        "unit_price": 4464.31,
+        "amount": 13392.93
+      }
+    ],
+    "subtotal": 16233.44,
+    "cgst": 1461.01,
+    "sgst": 1461.01,
+    "igst": 0,
+    "grand_total": 19155.46,
+    "bank_account_last4": "7109",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0150.jpg",
+    "template_id": 1,
+    "degradation_level": 1.0,
+    "vendor_name": "Cauvery Hydraulics",
+    "vendor_gstin": "33UBBWI2985W1Z2",
+    "invoice_number": "SI/2025/6658",
+    "invoice_date": "2025-11-07",
+    "due_date": "2025-12-07",
+    "po_number": "KIS/PO/2025/32726",
+    "line_items": [
+      {
+        "description": "Proximity Sensor M18 PNP",
+        "hsn": "8536",
+        "quantity": 3,
+        "unit_price": 1882.99,
+        "amount": 5648.97
+      },
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 4,
+        "unit_price": 39.18,
+        "amount": 156.72
+      },
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 4,
+        "unit_price": 1840.27,
+        "amount": 7361.08
+      },
+      {
+        "description": "Chain Sprocket 40B15",
+        "hsn": "8483",
+        "quantity": 100,
+        "unit_price": 495.18,
+        "amount": 49518.0
+      },
+      {
+        "description": "Motor 2HP 3-phase",
+        "hsn": "8501",
+        "quantity": 6,
+        "unit_price": 12656.55,
+        "amount": 75939.3
+      }
+    ],
+    "subtotal": 138624.07,
+    "cgst": 12476.17,
+    "sgst": 12476.17,
+    "igst": 0,
+    "grand_total": 163576.4,
+    "bank_account_last4": "2188",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0151.jpg",
+    "template_id": 0,
+    "degradation_level": 0.3,
+    "vendor_name": "Raja Bearings & Co",
+    "vendor_gstin": "33YRLGP6341H1ZC",
+    "invoice_number": "INV/25-26/0696",
+    "invoice_date": "2025-10-09",
+    "due_date": "2025-11-08",
+    "po_number": "KIS/PO/2025/33702",
+    "line_items": [
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 5,
+        "unit_price": 50.68,
+        "amount": 253.4
+      },
+      {
+        "description": "Motor 2HP 3-phase",
+        "hsn": "8501",
+        "quantity": 4,
+        "unit_price": 11672.66,
+        "amount": 46690.64
+      },
+      {
+        "description": "Coupling Spider L-100",
+        "hsn": "4016",
+        "quantity": 25,
+        "unit_price": 138.74,
+        "amount": 3468.5
+      },
+      {
+        "description": "Grease Cartridge 400g",
+        "hsn": "2710",
+        "quantity": 4,
+        "unit_price": 211.51,
+        "amount": 846.04
+      },
+      {
+        "description": "Chain Sprocket 40B15",
+        "hsn": "8483",
+        "quantity": 10,
+        "unit_price": 560.79,
+        "amount": 5607.9
+      },
+      {
+        "description": "Cutting Fluid (20L)",
+        "hsn": "3403",
+        "quantity": 4,
+        "unit_price": 2630.94,
+        "amount": 10523.76
+      }
+    ],
+    "subtotal": 67390.24,
+    "cgst": 6065.12,
+    "sgst": 6065.12,
+    "igst": 0,
+    "grand_total": 79520.48,
+    "bank_account_last4": "8663",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0152.jpg",
+    "template_id": 2,
+    "degradation_level": 1.4,
+    "vendor_name": "Venkateswara Bearings & Co",
+    "vendor_gstin": "37RLOBV9249G1Z7",
+    "invoice_number": "SI/2025/2291",
+    "invoice_date": "2025-10-13",
+    "due_date": "2025-11-12",
+    "po_number": "KIS/PO/2025/30569",
+    "line_items": [
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 6,
+        "unit_price": 2677.04,
+        "amount": 16062.24
+      }
+    ],
+    "subtotal": 16062.24,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 2891.2,
+    "grand_total": 18953.44,
+    "bank_account_last4": "4479",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0153.jpg",
+    "template_id": 0,
+    "degradation_level": 1.0,
+    "vendor_name": "Southern Tools Pvt Ltd",
+    "vendor_gstin": "36VFCYG5558B1Z5",
+    "invoice_number": "INV/25-26/6724",
+    "invoice_date": "2025-10-05",
+    "due_date": "2025-11-19",
+    "po_number": "KIS/PO/2025/30750",
+    "line_items": [
+      {
+        "description": "Hydraulic Hose 1/2in x 1m",
+        "hsn": "4009",
+        "quantity": 1,
+        "unit_price": 616.59,
+        "amount": 616.59
+      },
+      {
+        "description": "Copper Cable 2.5sqmm (90m)",
+        "hsn": "8544",
+        "quantity": 1,
+        "unit_price": 2664.84,
+        "amount": 2664.84
+      }
+    ],
+    "subtotal": 3281.43,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 590.66,
+    "grand_total": 3872.09,
+    "bank_account_last4": "3773",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0154.jpg",
+    "template_id": 2,
+    "degradation_level": 0.3,
+    "vendor_name": "National Enterprises",
+    "vendor_gstin": "33IYAYG6393Y1Z1",
+    "invoice_number": "SI/2025/4031",
+    "invoice_date": "2025-10-21",
+    "due_date": "2025-11-20",
+    "po_number": "KIS/PO/2025/30436",
+    "line_items": [
+      {
+        "description": "Welding Electrode E6013 3.15mm (5kg)",
+        "hsn": "8311",
+        "quantity": 1,
+        "unit_price": 1158.92,
+        "amount": 1158.92
+      }
+    ],
+    "subtotal": 1158.92,
+    "cgst": 104.31,
+    "sgst": 104.31,
+    "igst": 0,
+    "grand_total": 1367.53,
+    "bank_account_last4": "7146",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0155.jpg",
+    "template_id": 3,
+    "degradation_level": 0.3,
+    "vendor_name": "National Enterprises",
+    "vendor_gstin": "33IYAYG6393Y1Z1",
+    "invoice_number": "KVR/2025/8257",
+    "invoice_date": "2025-11-06",
+    "due_date": "2025-12-06",
+    "po_number": null,
+    "line_items": [
+      {
+        "description": "Hydraulic Hose 1/2in x 1m",
+        "hsn": "4009",
+        "quantity": 4,
+        "unit_price": 755.14,
+        "amount": 3020.56
+      },
+      {
+        "description": "Motor 2HP 3-phase",
+        "hsn": "8501",
+        "quantity": 2,
+        "unit_price": 14284.84,
+        "amount": 28569.68
+      }
+    ],
+    "subtotal": 31590.24,
+    "cgst": 2843.12,
+    "sgst": 2843.12,
+    "igst": 0,
+    "grand_total": 37276.48,
+    "bank_account_last4": "7146",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0156.jpg",
+    "template_id": 0,
+    "degradation_level": 1.0,
+    "vendor_name": "Precision Enterprises",
+    "vendor_gstin": "33VKCIE5096O1Z6",
+    "invoice_number": "INV/2025/6232",
+    "invoice_date": "2025-11-02",
+    "due_date": "2025-12-02",
+    "po_number": "KIS/PO/2025/30139",
+    "line_items": [
+      {
+        "description": "Welding Electrode E6013 3.15mm (5kg)",
+        "hsn": "8311",
+        "quantity": 3,
+        "unit_price": 1107.09,
+        "amount": 3321.27
+      },
+      {
+        "description": "Chain Sprocket 40B15",
+        "hsn": "8483",
+        "quantity": 50,
+        "unit_price": 624.44,
+        "amount": 31222.0
+      },
+      {
+        "description": "Gear Oil EP90 (20L)",
+        "hsn": "2710",
+        "quantity": 6,
+        "unit_price": 5483.76,
+        "amount": 32902.56
+      },
+      {
+        "description": "Angle Grinder Disc 4in",
+        "hsn": "6804",
+        "quantity": 10,
+        "unit_price": 25.09,
+        "amount": 250.9
+      },
+      {
+        "description": "Grease Cartridge 400g",
+        "hsn": "2710",
+        "quantity": 5,
+        "unit_price": 234.03,
+        "amount": 1170.15
+      }
+    ],
+    "subtotal": 68866.88,
+    "cgst": 6198.02,
+    "sgst": 6198.02,
+    "igst": 0,
+    "grand_total": 81262.92,
+    "bank_account_last4": "2566",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0157.jpg",
+    "template_id": 2,
+    "degradation_level": 0.6,
+    "vendor_name": "Southern Electricals",
+    "vendor_gstin": "33ZFVEW1181M1Z3",
+    "invoice_number": "INV/2025/7464",
+    "invoice_date": "2025-10-26",
+    "due_date": "2025-12-10",
+    "po_number": "KIS/PO/2025/33046",
+    "line_items": [
+      {
+        "description": "Gate Valve 2in CI",
+        "hsn": "8481",
+        "quantity": 2,
+        "unit_price": 2135.45,
+        "amount": 4270.9
+      },
+      {
+        "description": "Chain Sprocket 40B15",
+        "hsn": "8483",
+        "quantity": 25,
+        "unit_price": 333.65,
+        "amount": 8341.25
+      },
+      {
+        "description": "Gear Oil EP90 (20L)",
+        "hsn": "2710",
+        "quantity": 4,
+        "unit_price": 4121.2,
+        "amount": 16484.8
+      },
+      {
+        "description": "Grease Cartridge 400g",
+        "hsn": "2710",
+        "quantity": 12,
+        "unit_price": 174.84,
+        "amount": 2098.08
+      }
+    ],
+    "subtotal": 31195.03,
+    "cgst": 2807.55,
+    "sgst": 2807.55,
+    "igst": 0,
+    "grand_total": 36810.14,
+    "bank_account_last4": "4469",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0158.jpg",
+    "template_id": 2,
+    "degradation_level": 1.4,
+    "vendor_name": "Southern Electricals",
+    "vendor_gstin": "33ZFVEW1181M1Z3",
+    "invoice_number": "SI/25-26/4239",
+    "invoice_date": "2025-10-30",
+    "due_date": "2025-12-14",
+    "po_number": "KIS/PO/2025/31447",
+    "line_items": [
+      {
+        "description": "Stainless Steel Pipe 1in (6m)",
+        "hsn": "7306",
+        "quantity": 1,
+        "unit_price": 2784.02,
+        "amount": 2784.02
+      },
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 1,
+        "unit_price": 2450.69,
+        "amount": 2450.69
+      }
+    ],
+    "subtotal": 5234.71,
+    "cgst": 471.12,
+    "sgst": 471.12,
+    "igst": 0,
+    "grand_total": 6176.96,
+    "bank_account_last4": "4469",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0159.jpg",
+    "template_id": 3,
+    "degradation_level": 0.3,
+    "vendor_name": "Royal Hydraulics",
+    "vendor_gstin": "29ZGXRO3284C1Z4",
+    "invoice_number": "SI/25-26/7289",
+    "invoice_date": "2025-11-12",
+    "due_date": "2025-11-27",
+    "po_number": "KIS/PO/2025/30539",
+    "line_items": [
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 25,
+        "unit_price": 414.11,
+        "amount": 10352.75
+      },
+      {
+        "description": "Industrial Safety Gloves (pair)",
+        "hsn": "6116",
+        "quantity": 25,
+        "unit_price": 157.94,
+        "amount": 3948.5
+      }
+    ],
+    "subtotal": 14301.25,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 2574.22,
+    "grand_total": 16875.47,
+    "bank_account_last4": "2106",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0160.jpg",
+    "template_id": 0,
+    "degradation_level": 1.0,
+    "vendor_name": "Ganesh Enterprises",
+    "vendor_gstin": "29HLMQO2538A1Z8",
+    "invoice_number": "KVR/2025/1581",
+    "invoice_date": "2025-11-06",
+    "due_date": "2025-12-06",
+    "po_number": "KIS/PO/2025/31255",
+    "line_items": [
+      {
+        "description": "V-Belt B-52",
+        "hsn": "4010",
+        "quantity": 50,
+        "unit_price": 497.51,
+        "amount": 24875.5
+      },
+      {
+        "description": "Industrial Safety Gloves (pair)",
+        "hsn": "6116",
+        "quantity": 12,
+        "unit_price": 102.25,
+        "amount": 1227.0
+      },
+      {
+        "description": "Coupling Spider L-100",
+        "hsn": "4016",
+        "quantity": 1,
+        "unit_price": 204.62,
+        "amount": 204.62
+      },
+      {
+        "description": "Welding Electrode E6013 3.15mm (5kg)",
+        "hsn": "8311",
+        "quantity": 1,
+        "unit_price": 1583.42,
+        "amount": 1583.42
+      },
+      {
+        "description": "Proximity Sensor M18 PNP",
+        "hsn": "8536",
+        "quantity": 1,
+        "unit_price": 1813.75,
+        "amount": 1813.75
+      }
+    ],
+    "subtotal": 29704.29,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 5346.77,
+    "grand_total": 35051.06,
+    "bank_account_last4": "5291",
+    "validation_flags": [
+      "bank_account_changed"
+    ]
+  },
+  {
+    "file": "inv_0161.jpg",
+    "template_id": 0,
+    "degradation_level": 0.6,
+    "vendor_name": "Precision Enterprises",
+    "vendor_gstin": "33VKCIE5096O1Z6",
+    "invoice_number": "INV/2025/1223",
+    "invoice_date": "2025-10-10",
+    "due_date": "2025-11-09",
+    "po_number": "KIS/PO/2025/31301",
+    "line_items": [
+      {
+        "description": "Stainless Steel Pipe 1in (6m)",
+        "hsn": "7306",
+        "quantity": 6,
+        "unit_price": 2137.65,
+        "amount": 12825.9
+      },
+      {
+        "description": "Industrial Safety Gloves (pair)",
+        "hsn": "6116",
+        "quantity": 20,
+        "unit_price": 150.82,
+        "amount": 3016.4
+      },
+      {
+        "description": "Hydraulic Hose 1/2in x 1m",
+        "hsn": "4009",
+        "quantity": 5,
+        "unit_price": 484.83,
+        "amount": 2424.15
+      },
+      {
+        "description": "Proximity Sensor M18 PNP",
+        "hsn": "8536",
+        "quantity": 5,
+        "unit_price": 1613.36,
+        "amount": 8066.8
+      },
+      {
+        "description": "Mechanical Seal 35mm",
+        "hsn": "8484",
+        "quantity": 3,
+        "unit_price": 1741.81,
+        "amount": 5225.43
+      },
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 5,
+        "unit_price": 257.71,
+        "amount": 1288.55
+      }
+    ],
+    "subtotal": 32847.23,
+    "cgst": 2956.25,
+    "sgst": 2956.25,
+    "igst": 0,
+    "grand_total": 38759.73,
+    "bank_account_last4": "2566",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0162.jpg",
+    "template_id": 3,
+    "degradation_level": 1.4,
+    "vendor_name": "Royal Hydraulics",
+    "vendor_gstin": "29ZGXRO3284C1Z4",
+    "invoice_number": "TI/2025/5798",
+    "invoice_date": "2025-11-05",
+    "due_date": "2025-11-20",
+    "po_number": "KIS/PO/2025/33609",
+    "line_items": [
+      {
+        "description": "Cutting Fluid (20L)",
+        "hsn": "3403",
+        "quantity": 6,
+        "unit_price": 3449.88,
+        "amount": 20699.28
+      },
+      {
+        "description": "Grease Cartridge 400g",
+        "hsn": "2710",
+        "quantity": 12,
+        "unit_price": 198.63,
+        "amount": 2383.56
+      },
+      {
+        "description": "Copper Cable 2.5sqmm (90m)",
+        "hsn": "8544",
+        "quantity": 6,
+        "unit_price": 3571.03,
+        "amount": 21426.18
+      }
+    ],
+    "subtotal": 44509.02,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 8011.62,
+    "grand_total": 52520.64,
+    "bank_account_last4": "2106",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0163.jpg",
+    "template_id": 3,
+    "degradation_level": 0.6,
+    "vendor_name": "Cauvery Hydraulics",
+    "vendor_gstin": "33UBBWI2985W1Z2",
+    "invoice_number": "KVR/25-26/4712",
+    "invoice_date": "2025-10-06",
+    "due_date": "2025-11-05",
+    "po_number": "KIS/PO/2025/31167",
+    "line_items": [
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 4,
+        "unit_price": 2643.94,
+        "amount": 10575.76
+      },
+      {
+        "description": "Coupling Spider L-100",
+        "hsn": "4016",
+        "quantity": 4,
+        "unit_price": 146.61,
+        "amount": 586.44
+      }
+    ],
+    "subtotal": 11162.2,
+    "cgst": 1004.6,
+    "sgst": 1004.6,
+    "igst": 0,
+    "grand_total": 13171.4,
+    "bank_account_last4": "2188",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0164.jpg",
+    "template_id": 2,
+    "degradation_level": 0.3,
+    "vendor_name": "Venkateswara Bearings & Co",
+    "vendor_gstin": "37RLOBV9249G1Z7",
+    "invoice_number": "INV/2025/1551",
+    "invoice_date": "2025-10-24",
+    "due_date": "2025-11-23",
+    "po_number": "KIS/PO/2025/32172",
+    "line_items": [
+      {
+        "description": "Gate Valve 2in CI",
+        "hsn": "8481",
+        "quantity": 2,
+        "unit_price": 2828.1,
+        "amount": 5656.2
+      },
+      {
+        "description": "Angle Grinder Disc 4in",
+        "hsn": "6804",
+        "quantity": 10,
+        "unit_price": 71.94,
+        "amount": 719.4
+      },
+      {
+        "description": "V-Belt B-52",
+        "hsn": "4010",
+        "quantity": 1,
+        "unit_price": 509.21,
+        "amount": 509.21
+      },
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 20,
+        "unit_price": 78.11,
+        "amount": 1562.2
+      },
+      {
+        "description": "Coupling Spider L-100",
+        "hsn": "4016",
+        "quantity": 4,
+        "unit_price": 132.19,
+        "amount": 528.76
+      }
+    ],
+    "subtotal": 8975.77,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 1615.64,
+    "grand_total": 10591.41,
+    "bank_account_last4": "4479",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0165.jpg",
+    "template_id": 0,
+    "degradation_level": 0.6,
+    "vendor_name": "Bharath Bearings & Co",
+    "vendor_gstin": "36WRQYN7857Y1Z5",
+    "invoice_number": "SI/2025/3142",
+    "invoice_date": "2025-10-01",
+    "due_date": "2025-10-16",
+    "po_number": "KIS/PO/2025/31019",
+    "line_items": [
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 6,
+        "unit_price": 2248.72,
+        "amount": 13492.32
+      },
+      {
+        "description": "Copper Cable 2.5sqmm (90m)",
+        "hsn": "8544",
+        "quantity": 5,
+        "unit_price": 2594.66,
+        "amount": 12973.3
+      }
+    ],
+    "subtotal": 26465.62,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 4763.81,
+    "grand_total": 31229.43,
+    "bank_account_last4": "3618",
+    "validation_flags": [
+      "bank_account_changed"
+    ]
+  },
+  {
+    "file": "inv_0166.jpg",
+    "template_id": 0,
+    "degradation_level": 1.0,
+    "vendor_name": "Excel Bearings & Co",
+    "vendor_gstin": "33KCNVO6812W1Z1",
+    "invoice_number": "SI/25-26/5180",
+    "invoice_date": "2025-10-25",
+    "due_date": "2025-11-24",
+    "po_number": "KIS/PO/2025/31479",
+    "line_items": [
+      {
+        "description": "Motor 2HP 3-phase",
+        "hsn": "8501",
+        "quantity": 2,
+        "unit_price": 14918.55,
+        "amount": 29837.1
+      },
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 5,
+        "unit_price": 2068.45,
+        "amount": 10342.25
+      },
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 4,
+        "unit_price": 134.75,
+        "amount": 539.0
+      },
+      {
+        "description": "Industrial Safety Gloves (pair)",
+        "hsn": "6116",
+        "quantity": 1,
+        "unit_price": 159.55,
+        "amount": 159.55
+      }
+    ],
+    "subtotal": 40877.9,
+    "cgst": 3679.01,
+    "sgst": 3679.01,
+    "igst": 0,
+    "grand_total": 48235.92,
+    "bank_account_last4": "2184",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0167.jpg",
+    "template_id": 2,
+    "degradation_level": 1.0,
+    "vendor_name": "Venkateswara Bearings & Co",
+    "vendor_gstin": "37RLOBV9249G1Z7",
+    "invoice_number": "INV/25-26/8954",
+    "invoice_date": "2025-10-02",
+    "due_date": "2025-11-01",
+    "po_number": "KIS/PO/2025/32368",
+    "line_items": [
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 100,
+        "unit_price": 86.32,
+        "amount": 8632.0
+      },
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 6,
+        "unit_price": 2425.29,
+        "amount": 14551.74
+      },
+      {
+        "description": "Pneumatic Cylinder 50x100",
+        "hsn": "8412",
+        "quantity": 2,
+        "unit_price": 4210.79,
+        "amount": 8421.58
+      }
+    ],
+    "subtotal": 31605.32,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 5688.96,
+    "grand_total": 37294.28,
+    "bank_account_last4": "4479",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0168.jpg",
+    "template_id": 0,
+    "degradation_level": 0.6,
+    "vendor_name": "Star Electricals",
+    "vendor_gstin": "36FWQVA2377C1Z1",
+    "invoice_number": "SI/2025/7945",
+    "invoice_date": "2025-10-06",
+    "due_date": "2025-12-05",
+    "po_number": "KIS/PO/2025/33560",
+    "line_items": [
+      {
+        "description": "Motor 2HP 3-phase",
+        "hsn": "8501",
+        "quantity": 6,
+        "unit_price": 14056.86,
+        "amount": 84341.16
+      },
+      {
+        "description": "Copper Cable 2.5sqmm (90m)",
+        "hsn": "8544",
+        "quantity": 4,
+        "unit_price": 2985.43,
+        "amount": 11941.72
+      },
+      {
+        "description": "Stainless Steel Pipe 1in (6m)",
+        "hsn": "7306",
+        "quantity": 3,
+        "unit_price": 1797.38,
+        "amount": 5392.14
+      }
+    ],
+    "subtotal": 101675.02,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 18301.5,
+    "grand_total": 119976.52,
+    "bank_account_last4": "2947",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0169.jpg",
+    "template_id": 0,
+    "degradation_level": 1.0,
+    "vendor_name": "Star Electricals",
+    "vendor_gstin": "36FWQVA2377C1Z1",
+    "invoice_number": "INV/2025/2098",
+    "invoice_date": "2025-10-19",
+    "due_date": "2025-12-18",
+    "po_number": "KIS/PO/2025/30882",
+    "line_items": [
+      {
+        "description": "Hydraulic Hose 1/2in x 1m",
+        "hsn": "4009",
+        "quantity": 25,
+        "unit_price": 248.18,
+        "amount": 6204.5
+      },
+      {
+        "description": "Air Filter Element",
+        "hsn": "8421",
+        "quantity": 12,
+        "unit_price": 853.85,
+        "amount": 10246.2
+      },
+      {
+        "description": "Angle Grinder Disc 4in",
+        "hsn": "6804",
+        "quantity": 50,
+        "unit_price": 29.47,
+        "amount": 1473.5
+      }
+    ],
+    "subtotal": 17924.2,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 3226.36,
+    "grand_total": 21150.56,
+    "bank_account_last4": "2947",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0170.jpg",
+    "template_id": 3,
+    "degradation_level": 1.4,
+    "vendor_name": "Annai Engineering Works",
+    "vendor_gstin": "33OMJHI4564F1ZH",
+    "invoice_number": "TI/2025/5823",
+    "invoice_date": "2025-10-15",
+    "due_date": "2025-11-14",
+    "po_number": "KIS/PO/2025/33834",
+    "line_items": [
+      {
+        "description": "Contactor 32A 3-pole",
+        "hsn": "8536",
+        "quantity": 4,
+        "unit_price": 2476.98,
+        "amount": 9907.92
+      },
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 50,
+        "unit_price": 61.0,
+        "amount": 3050.0
+      },
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 100,
+        "unit_price": 248.83,
+        "amount": 24883.0
+      }
+    ],
+    "subtotal": 37840.92,
+    "cgst": 3405.68,
+    "sgst": 3405.68,
+    "igst": 0,
+    "grand_total": 44652.29,
+    "bank_account_last4": "2681",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0171.jpg",
+    "template_id": 0,
+    "degradation_level": 1.4,
+    "vendor_name": "Southern Tools Pvt Ltd",
+    "vendor_gstin": "36VFCYG5558B1Z5",
+    "invoice_number": "INV/25-26/9250",
+    "invoice_date": "2025-10-21",
+    "due_date": "2025-12-05",
+    "po_number": "KIS/PO/2025/32398",
+    "line_items": [
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 1,
+        "unit_price": 1345.33,
+        "amount": 1345.33
+      },
+      {
+        "description": "Hydraulic Hose 1/2in x 1m",
+        "hsn": "4009",
+        "quantity": 10,
+        "unit_price": 428.16,
+        "amount": 4281.6
+      },
+      {
+        "description": "Pneumatic Cylinder 50x100",
+        "hsn": "8412",
+        "quantity": 4,
+        "unit_price": 3295.71,
+        "amount": 13182.84
+      }
+    ],
+    "subtotal": 18809.77,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 3385.76,
+    "grand_total": 22195.53,
+    "bank_account_last4": "3773",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0172.jpg",
+    "template_id": 3,
+    "degradation_level": 0.6,
+    "vendor_name": "Sri Murugan Tools Pvt Ltd",
+    "vendor_gstin": "32AISEB8074F1Z8",
+    "invoice_number": "SI/25-26/6318",
+    "invoice_date": "2025-10-13",
+    "due_date": "2025-12-12",
+    "po_number": "KIS/PO/2025/33847",
+    "line_items": [
+      {
+        "description": "Gate Valve 2in CI",
+        "hsn": "8481",
+        "quantity": 2,
+        "unit_price": 1760.37,
+        "amount": 3520.74
+      },
+      {
+        "description": "Cutting Fluid (20L)",
+        "hsn": "3403",
+        "quantity": 1,
+        "unit_price": 3123.69,
+        "amount": 3123.69
+      }
+    ],
+    "subtotal": 6644.43,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 1196.0,
+    "grand_total": 7840.43,
+    "bank_account_last4": "6943",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0173.jpg",
+    "template_id": 3,
+    "degradation_level": 0.6,
+    "vendor_name": "National Bearings & Co",
+    "vendor_gstin": "27YOXCM2659T1ZF",
+    "invoice_number": "INV/2025/5490",
+    "invoice_date": "2025-11-03",
+    "due_date": "2025-12-18",
+    "po_number": "KIS/PO/2025/32880",
+    "line_items": [
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 3,
+        "unit_price": 757.23,
+        "amount": 2271.69
+      },
+      {
+        "description": "Industrial Safety Gloves (pair)",
+        "hsn": "6116",
+        "quantity": 10,
+        "unit_price": 122.2,
+        "amount": 1222.0
+      }
+    ],
+    "subtotal": 3493.69,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 628.86,
+    "grand_total": 4122.55,
+    "bank_account_last4": "6664",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0174.jpg",
+    "template_id": 3,
+    "degradation_level": 1.0,
+    "vendor_name": "Sri Murugan Engineering Works",
+    "vendor_gstin": "29TOUSB6512H1Z8",
+    "invoice_number": "KVR/2025/6694",
+    "invoice_date": "2025-10-21",
+    "due_date": "2025-11-20",
+    "po_number": null,
+    "line_items": [
+      {
+        "description": "Grease Cartridge 400g",
+        "hsn": "2710",
+        "quantity": 10,
+        "unit_price": 254.77,
+        "amount": 2547.7
+      },
+      {
+        "description": "Coupling Spider L-100",
+        "hsn": "4016",
+        "quantity": 1,
+        "unit_price": 201.95,
+        "amount": 201.95
+      },
+      {
+        "description": "Motor 2HP 3-phase",
+        "hsn": "8501",
+        "quantity": 5,
+        "unit_price": 16475.68,
+        "amount": 82378.4
+      }
+    ],
+    "subtotal": 85128.05,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 15323.05,
+    "grand_total": 100451.1,
+    "bank_account_last4": "1303",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0175.jpg",
+    "template_id": 3,
+    "degradation_level": 0.6,
+    "vendor_name": "Kaveri Valley Bearings & Co",
+    "vendor_gstin": "27BFOPK9906J1Z#",
+    "invoice_number": "KVR/25-26/0930",
+    "invoice_date": "2025-10-30",
+    "due_date": "2025-11-29",
+    "po_number": "KIS/PO/2025/31552",
+    "line_items": [
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 5,
+        "unit_price": 235.79,
+        "amount": 1178.95
+      },
+      {
+        "description": "Pneumatic Cylinder 50x100",
+        "hsn": "8412",
+        "quantity": 4,
+        "unit_price": 3411.07,
+        "amount": 13644.28
+      },
+      {
+        "description": "Mechanical Seal 35mm",
+        "hsn": "8484",
+        "quantity": 3,
+        "unit_price": 1403.65,
+        "amount": 4210.95
+      },
+      {
+        "description": "Industrial Safety Gloves (pair)",
+        "hsn": "6116",
+        "quantity": 10,
+        "unit_price": 135.93,
+        "amount": 1359.3
+      }
+    ],
+    "subtotal": 20393.48,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 3670.83,
+    "grand_total": 24064.31,
+    "bank_account_last4": "5533",
+    "validation_flags": [
+      "malformed_gstin"
+    ]
+  },
+  {
+    "file": "inv_0176.jpg",
+    "template_id": 2,
+    "degradation_level": 0.6,
+    "vendor_name": "Cauvery Tools Pvt Ltd",
+    "vendor_gstin": "29IMZMH7929C1ZC",
+    "invoice_number": "INV/25-26/8200",
+    "invoice_date": "2025-10-26",
+    "due_date": "2025-12-25",
+    "po_number": "KIS/PO/2025/32760",
+    "line_items": [
+      {
+        "description": "PVC Conduit 25mm (3m)",
+        "hsn": "3917",
+        "quantity": 20,
+        "unit_price": 50.49,
+        "amount": 1009.8
+      },
+      {
+        "description": "Grease Cartridge 400g",
+        "hsn": "2710",
+        "quantity": 10,
+        "unit_price": 208.01,
+        "amount": 2080.1
+      },
+      {
+        "description": "Motor 2HP 3-phase",
+        "hsn": "8501",
+        "quantity": 6,
+        "unit_price": 13881.72,
+        "amount": 83290.32
+      }
+    ],
+    "subtotal": 86380.22,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 15548.44,
+    "grand_total": 101928.66,
+    "bank_account_last4": "4550",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0177.jpg",
+    "template_id": 3,
+    "degradation_level": 1.0,
+    "vendor_name": "Excel Bearings & Co",
+    "vendor_gstin": "33KCNVO6812W1Z1",
+    "invoice_number": "SI/25-26/7263",
+    "invoice_date": "2025-10-03",
+    "due_date": "2025-11-02",
+    "po_number": "KIS/PO/2025/32998",
+    "line_items": [
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 5,
+        "unit_price": 310.17,
+        "amount": 1550.85
+      },
+      {
+        "description": "Grease Cartridge 400g",
+        "hsn": "2710",
+        "quantity": 2,
+        "unit_price": 152.9,
+        "amount": 305.8
+      },
+      {
+        "description": "Copper Cable 2.5sqmm (90m)",
+        "hsn": "8544",
+        "quantity": 3,
+        "unit_price": 2914.96,
+        "amount": 8744.88
+      }
+    ],
+    "subtotal": 10601.53,
+    "cgst": 954.14,
+    "sgst": 954.14,
+    "igst": 0,
+    "grand_total": 12509.81,
+    "bank_account_last4": "2184",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0178.jpg",
+    "template_id": 0,
+    "degradation_level": 0.3,
+    "vendor_name": "Lakshmi Steel Agencies",
+    "vendor_gstin": "29OCALZ8302K1ZC",
+    "invoice_number": "SI/25-26/2580",
+    "invoice_date": "2025-10-03",
+    "due_date": "2025-10-18",
+    "po_number": "KIS/PO/2025/30974",
+    "line_items": [
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 4,
+        "unit_price": 860.34,
+        "amount": 3441.36
+      },
+      {
+        "description": "Hydraulic Hose 1/2in x 1m",
+        "hsn": "4009",
+        "quantity": 25,
+        "unit_price": 705.0,
+        "amount": 17625.0
+      },
+      {
+        "description": "Coupling Spider L-100",
+        "hsn": "4016",
+        "quantity": 4,
+        "unit_price": 120.16,
+        "amount": 480.64
+      },
+      {
+        "description": "Mechanical Seal 35mm",
+        "hsn": "8484",
+        "quantity": 3,
+        "unit_price": 2270.89,
+        "amount": 6812.67
+      }
+    ],
+    "subtotal": 28359.67,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 5104.74,
+    "grand_total": 33464.41,
+    "bank_account_last4": "4726",
+    "validation_flags": []
+  },
+  {
+    "file": "inv_0179.jpg",
+    "template_id": 2,
+    "degradation_level": 0.3,
+    "vendor_name": "Apex Automation Systems",
+    "vendor_gstin": "33WYWUK1531H1Z9",
+    "invoice_number": "INV/25-26/7138",
+    "invoice_date": "2025-11-01",
+    "due_date": "2025-12-16",
+    "po_number": "KIS/PO/2025/30983",
+    "line_items": [
+      {
+        "description": "Mechanical Seal 35mm",
+        "hsn": "8484",
+        "quantity": 2,
+        "unit_price": 1721.15,
+        "amount": 3442.3
+      },
+      {
+        "description": "Ball Bearing 6205-2RS",
+        "hsn": "8482",
+        "quantity": 1,
+        "unit_price": 275.85,
+        "amount": 275.85
+      },
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 3,
+        "unit_price": 1437.1,
+        "amount": 4311.3
+      },
+      {
+        "description": "Gear Oil EP90 (20L)",
+        "hsn": "2710",
+        "quantity": 1,
+        "unit_price": 4591.43,
+        "amount": 4591.43
+      },
+      {
+        "description": "Welding Electrode E6013 3.15mm (5kg)",
+        "hsn": "8311",
+        "quantity": 1,
+        "unit_price": 902.44,
+        "amount": 902.44
+      },
+      {
+        "description": "Hydraulic Hose 1/2in x 1m",
+        "hsn": "4009",
+        "quantity": 25,
+        "unit_price": 742.36,
+        "amount": 18559.0
+      }
+    ],
+    "subtotal": 32082.32,
+    "cgst": 2887.41,
+    "sgst": 2887.41,
+    "igst": 0,
+    "grand_total": 37857.14,
+    "bank_account_last4": "4720",
+    "validation_flags": [
+      "bank_account_changed"
+    ]
+  },
+  {
+    "file": "inv_0180.jpg",
+    "template_id": 0,
+    "degradation_level": 1.0,
+    "vendor_name": "Bharath Bearings & Co",
+    "vendor_gstin": "36WRQYN7857Y1Z5",
+    "invoice_number": "KVR/2025/4752",
+    "invoice_date": "2025-10-12",
+    "due_date": "2025-10-27",
+    "po_number": "KIS/PO/2025/33953",
+    "line_items": [
+      {
+        "description": "MS Hex Bolt M12x50 (box of 100)",
+        "hsn": "7318",
+        "quantity": 5,
+        "unit_price": 1147.68,
+        "amount": 5738.4
+      },
+      {
+        "description": "Cutting Fluid (20L)",
+        "hsn": "3403",
+        "quantity": 5,
+        "unit_price": 2986.27,
+        "amount": 14931.35
+      },
+      {
+        "description": "Coupling Spider L-100",
+        "hsn": "4016",
+        "quantity": 10,
+        "unit_price": 174.22,
+        "amount": 1742.2
+      }
+    ],
+    "subtotal": 22411.95,
+    "cgst": 0,
+    "sgst": 0,
+    "igst": 4034.15,
+    "grand_total": 26446.1,
+    "bank_account_last4": "2690",
+    "validation_flags": []
+  }
+]
