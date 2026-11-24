@@ -1,0 +1,53 @@
+{
+  "evaluation_timestamp": "2026-11-24 15:50:07",
+  "dataset": "ground_truth_labeled_180.json",
+  "sample_size": 20,
+  "overall_field_accuracy_clean": 68.57,
+  "overall_field_accuracy_degraded": 52.38,
+  "grand_total_extraction_accuracy": 75.0,
+  "targets": {
+    "clean_target": ">= 95%",
+    "clean_met": false,
+    "degraded_target": ">= 85%",
+    "degraded_met": false,
+    "grand_total_target": ">= 97%",
+    "grand_total_met": false
+  },
+  "field_level_breakdown": {
+    "vendor_name": {
+      "accuracy": 85.0,
+      "clean_scans_accuracy": 100.0,
+      "degraded_scans_accuracy": 80.0
+    },
+    "vendor_gstin": {
+      "accuracy": 10.0,
+      "clean_scans_accuracy": 0.0,
+      "degraded_scans_accuracy": 13.33
+    },
+    "invoice_number": {
+      "accuracy": 50.0,
+      "clean_scans_accuracy": 100.0,
+      "degraded_scans_accuracy": 33.33
+    },
+    "invoice_date": {
+      "accuracy": 70.0,
+      "clean_scans_accuracy": 80.0,
+      "degraded_scans_accuracy": 66.67
+    },
+    "po_number": {
+      "accuracy": 35.0,
+      "clean_scans_accuracy": 20.0,
+      "degraded_scans_accuracy": 40.0
+    },
+    "grand_total": {
+      "accuracy": 75.0,
+      "clean_scans_accuracy": 100.0,
+      "degraded_scans_accuracy": 66.67
+    },
+    "bank_account_last4": {
+      "accuracy": 70.0,
+      "clean_scans_accuracy": 80.0,
+      "degraded_scans_accuracy": 66.67
+    }
+  }
+}

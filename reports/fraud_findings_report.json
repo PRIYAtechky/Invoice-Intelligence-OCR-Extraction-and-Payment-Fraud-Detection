@@ -1,0 +1,482 @@
+{
+  "audit_timestamp": "2026-11-24 15:42:31",
+  "ledger_period": "2024-2025 (21 months)",
+  "total_transactions_audited": 6007,
+  "total_spend_audited_inr": 197909337.43,
+  "total_money_at_risk_inr": 13817694.95,
+  "patterns_identified_count": 6,
+  "findings": [
+    {
+      "pattern_id": "FRAUD_001",
+      "pattern_name": "Exact Duplicate Invoices",
+      "incident_count": 62,
+      "affected_invoice_pairs": 31,
+      "money_at_risk_inr": 960522.43,
+      "severity": "Critical",
+      "evidence_summary": "Detected 62 rows (31 pairs) sharing identical vendor ID and invoice number.",
+      "sample_incidents": [
+        {
+          "ledger_id": "L900033",
+          "vendor_id": "V1010",
+          "vendor_invoice_no": "INV-248824",
+          "total_amount_num": 110472.56,
+          "paid_date": "2024-05-04"
+        },
+        {
+          "ledger_id": "L900000",
+          "vendor_id": "V1005",
+          "vendor_invoice_no": "BILL-245482",
+          "total_amount_num": 7367.14,
+          "paid_date": "2024-03-29"
+        },
+        {
+          "ledger_id": "L000318",
+          "vendor_id": "V1034",
+          "vendor_invoice_no": "SI-243362",
+          "total_amount_num": 29312.52,
+          "paid_date": "2024-03-19"
+        },
+        {
+          "ledger_id": "L900017",
+          "vendor_id": "V1052",
+          "vendor_invoice_no": "TI-242335",
+          "total_amount_num": 57123.34,
+          "paid_date": "2024-12-26"
+        },
+        {
+          "ledger_id": "L005382",
+          "vendor_id": "V1058",
+          "vendor_invoice_no": "SI-251927",
+          "total_amount_num": 9049.23,
+          "paid_date": "2025-08-20"
+        },
+        {
+          "ledger_id": "L900022",
+          "vendor_id": "V1058",
+          "vendor_invoice_no": "SI-251927",
+          "total_amount_num": 9049.23,
+          "paid_date": "2025-08-20"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRAUD_003",
+      "pattern_name": "Bank Account Diversion / Tampering",
+      "incident_count": 201,
+      "money_at_risk_inr": 6358784.2,
+      "severity": "Critical",
+      "evidence_summary": "Found 201 invoices directing payments to unregistered bank accounts.",
+      "sample_incidents": [
+        {
+          "ledger_id": "L004347",
+          "vendor_id": "V1059",
+          "vendor_invoice_no": "BILL-256631",
+          "bank_account_last4_on_invoice": 7638,
+          "bank_account_last4": 6320,
+          "total_amount_num": 20775.42
+        },
+        {
+          "ledger_id": "L001505",
+          "vendor_id": "V1059",
+          "vendor_invoice_no": "BILL-246507",
+          "bank_account_last4_on_invoice": 5029,
+          "bank_account_last4": 6320,
+          "total_amount_num": 19976.81
+        },
+        {
+          "ledger_id": "L002426",
+          "vendor_id": "V1059",
+          "vendor_invoice_no": "SI-24617",
+          "bank_account_last4_on_invoice": 5029,
+          "bank_account_last4": 6320,
+          "total_amount_num": 25613.25
+        },
+        {
+          "ledger_id": "L003379",
+          "vendor_id": "V1059",
+          "vendor_invoice_no": "SI-252165",
+          "bank_account_last4_on_invoice": 5029,
+          "bank_account_last4": 6320,
+          "total_amount_num": 7379.77
+        },
+        {
+          "ledger_id": "L003178",
+          "vendor_id": "V1059",
+          "vendor_invoice_no": "BILL-241040",
+          "bank_account_last4_on_invoice": 5029,
+          "bank_account_last4": 6320,
+          "total_amount_num": 27696.42
+        },
+        {
+          "ledger_id": "L002808",
+          "vendor_id": "V1059",
+          "vendor_invoice_no": "INV-245889",
+          "bank_account_last4_on_invoice": 5029,
+          "bank_account_last4": 6320,
+          "total_amount_num": 23704.56
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRAUD_005",
+      "pattern_name": "Payments to Blocked Vendors",
+      "incident_count": 85,
+      "money_at_risk_inr": 2568193.16,
+      "severity": "High",
+      "evidence_summary": "Processed 85 transactions totaling \u20b92,568,193.16 for vendors marked as BLOCKED in ERP master.",
+      "sample_incidents": [
+        {
+          "ledger_id": "L005167",
+          "vendor_id": "V1060",
+          "vendor_name": "Vel Tools Pvt Ltd",
+          "total_amount_num": 36043.29,
+          "paid_date": "2025-07-27"
+        },
+        {
+          "ledger_id": "L004792",
+          "vendor_id": "V1060",
+          "vendor_name": "Vel Tools Pvt Ltd",
+          "total_amount_num": 41975.49,
+          "paid_date": "2025-06-20"
+        },
+        {
+          "ledger_id": "L000022",
+          "vendor_id": "V1060",
+          "vendor_name": "Vel Tools Pvt Ltd",
+          "total_amount_num": 17502.14,
+          "paid_date": "2024-01-14"
+        },
+        {
+          "ledger_id": "L001283",
+          "vendor_id": "V1060",
+          "vendor_name": "Vel Tools Pvt Ltd",
+          "total_amount_num": 55787.56,
+          "paid_date": "2024-06-14"
+        },
+        {
+          "ledger_id": "L004298",
+          "vendor_id": "V1060",
+          "vendor_name": "Vel Tools Pvt Ltd",
+          "total_amount_num": 14321.18,
+          "paid_date": "2025-05-07"
+        },
+        {
+          "ledger_id": "L000591",
+          "vendor_id": "V1060",
+          "vendor_name": "Vel Tools Pvt Ltd",
+          "total_amount_num": 16658.24,
+          "paid_date": "2024-03-18"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRAUD_006",
+      "pattern_name": "Delegation of Financial Authority Violations",
+      "incident_count": 7,
+      "money_at_risk_inr": 1556549.84,
+      "severity": "High",
+      "evidence_summary": "7 invoices exceeded the signatory authority threshold of the designated approver.",
+      "sample_incidents": [
+        {
+          "ledger_id": "L000934",
+          "approved_by": "AP-Clerk-02",
+          "approval_limit_inr": 200000,
+          "total_amount_num": 204307.67,
+          "approved_at": "2024-04-14 18:02"
+        },
+        {
+          "ledger_id": "L000602",
+          "approved_by": "AP-Clerk-02",
+          "approval_limit_inr": 200000,
+          "total_amount_num": 211239.25,
+          "approved_at": "2024-03-01 17:55"
+        },
+        {
+          "ledger_id": "L000849",
+          "approved_by": "AP-Clerk-01",
+          "approval_limit_inr": 200000,
+          "total_amount_num": 232711.15,
+          "approved_at": "2024-04-04 18:38"
+        },
+        {
+          "ledger_id": "L005750",
+          "approved_by": "AP-Clerk-02",
+          "approval_limit_inr": 200000,
+          "total_amount_num": 219970.55,
+          "approved_at": "2025-09-14 12:20"
+        },
+        {
+          "ledger_id": "L002001",
+          "approved_by": "AP-Clerk-01",
+          "approval_limit_inr": 200000,
+          "total_amount_num": 261069.10769256577,
+          "approved_at": "2024-08-09 10:40"
+        },
+        {
+          "ledger_id": "L001166",
+          "approved_by": "AP-Clerk-02",
+          "approval_limit_inr": 200000,
+          "total_amount_num": 223892.73,
+          "approved_at": "2024-05-09 10:48"
+        },
+        {
+          "ledger_id": "L003651",
+          "approved_by": "AP-Clerk-02",
+          "approval_limit_inr": 200000,
+          "total_amount_num": 203359.38,
+          "approved_at": "2025-02-06 18:11"
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRAUD_004",
+      "pattern_name": "Purchase Order Cost Overruns",
+      "incident_count": 50,
+      "money_at_risk_inr": 2373645.32,
+      "severity": "Medium",
+      "evidence_summary": "50 invoices billed in excess of the approved purchase order ceiling.",
+      "sample_incidents": [
+        {
+          "ledger_id": "L000466",
+          "po_number": "KIS/PO/2024/10466",
+          "subtotal_num": 42166.98,
+          "po_amount_excl_tax": 34608.84
+        },
+        {
+          "ledger_id": "L950009",
+          "po_number": "KIS/PO/2025/14059",
+          "subtotal_num": 162794.65,
+          "po_amount_excl_tax": 87178.92
+        },
+        {
+          "ledger_id": "L950006",
+          "po_number": "KIS/PO/2024/12825",
+          "subtotal_num": 165146.0,
+          "po_amount_excl_tax": 12975.95
+        },
+        {
+          "ledger_id": "L000027",
+          "po_number": "KIS/PO/2024/10027",
+          "subtotal_num": 141902.82,
+          "po_amount_excl_tax": 110265.18
+        },
+        {
+          "ledger_id": "L002768",
+          "po_number": "KIS/PO/2024/12768",
+          "subtotal_num": 34585.39,
+          "po_amount_excl_tax": 27288.5
+        },
+        {
+          "ledger_id": "L000262",
+          "po_number": "KIS/PO/2024/10262",
+          "subtotal_num": 7415.44,
+          "po_amount_excl_tax": 5651.33
+        }
+      ]
+    },
+    {
+      "pattern_id": "FRAUD_007",
+      "pattern_name": "GSTIN Discrepancy on Invoices",
+      "incident_count": 31,
+      "money_at_risk_inr": 1243520.51,
+      "severity": "Medium",
+      "evidence_summary": "31 invoices printed a GSTIN differing from the master record.",
+      "sample_incidents": [
+        {
+          "ledger_id": "L005868",
+          "vendor_id": "V1033",
+          "vendor_gstin_on_invoice": "29MCOKY5607M1ZC",
+          "gstin": "29MCOKY2607M1ZC"
+        },
+        {
+          "ledger_id": "L002402",
+          "vendor_id": "V1053",
+          "vendor_gstin_on_invoice": "24QRGZJ0875U1Z7",
+          "gstin": "24QRGZJ7875U1Z7"
+        },
+        {
+          "ledger_id": "L004211",
+          "vendor_id": "V1028",
+          "vendor_gstin_on_invoice": "36JZAFB0323L1ZG",
+          "gstin": "36JZAFB7323L1ZG"
+        },
+        {
+          "ledger_id": "L002842",
+          "vendor_id": "V1060",
+          "vendor_gstin_on_invoice": "33KXNFC7950Y1Z1",
+          "gstin": "33KXNFC4950Y1Z1"
+        },
+        {
+          "ledger_id": "L002746",
+          "vendor_id": "V1060",
+          "vendor_gstin_on_invoice": "37WLGNQ2782I1Z5",
+          "gstin": "33KXNFC4950Y1Z1"
+        },
+        {
+          "ledger_id": "L004625",
+          "vendor_id": "V1049",
+          "vendor_gstin_on_invoice": "29HYOII9255O1ZB",
+          "gstin": "29HYOII6255O1ZB"
+        }
+      ]
+    }
+  ],
+  "top_risk_vendors": [
+    {
+      "vendor_id": "V1060",
+      "vendor_name": "Vel Tools Pvt Ltd",
+      "status": "Blocked",
+      "risk_score": 52.6,
+      "risk_tier": "High",
+      "total_invoices": 85,
+      "total_spend": 2568193.16,
+      "bank_alterations_count": 6,
+      "duplicate_invoices_count": 0,
+      "evidence_points": [
+        "6 bank account alterations detected on invoices.",
+        "Vendor is explicitly marked as BLOCKED in ERP master.",
+        "High cumulative spend exceeding \u20b92,568,193.16."
+      ]
+    },
+    {
+      "vendor_id": "V1059",
+      "vendor_name": "Vel Engineering Works",
+      "status": "Active",
+      "risk_score": 47.1,
+      "risk_tier": "High",
+      "total_invoices": 193,
+      "total_spend": 7643091.38,
+      "bank_alterations_count": 179,
+      "duplicate_invoices_count": 2,
+      "evidence_points": [
+        "179 bank account alterations detected on invoices.",
+        "2 duplicate invoice numbers submitted.",
+        "High cumulative spend exceeding \u20b97,643,091.38."
+      ]
+    },
+    {
+      "vendor_id": "V1052",
+      "vendor_name": "Lakshmi Hydraulics",
+      "status": "Active",
+      "risk_score": 25.6,
+      "risk_tier": "Medium",
+      "total_invoices": 77,
+      "total_spend": 2575177.76,
+      "bank_alterations_count": 0,
+      "duplicate_invoices_count": 6,
+      "evidence_points": [
+        "6 duplicate invoice numbers submitted.",
+        "High cumulative spend exceeding \u20b92,575,177.76."
+      ]
+    },
+    {
+      "vendor_id": "V1030",
+      "vendor_name": "Annai Engineering Works",
+      "status": "Active",
+      "risk_score": 18.3,
+      "risk_tier": "Low",
+      "total_invoices": 96,
+      "total_spend": 2676056.69,
+      "bank_alterations_count": 0,
+      "duplicate_invoices_count": 4,
+      "evidence_points": [
+        "4 duplicate invoice numbers submitted.",
+        "High cumulative spend exceeding \u20b92,676,056.69."
+      ]
+    },
+    {
+      "vendor_id": "V1025",
+      "vendor_name": "Kongu Electricals",
+      "status": "Active",
+      "risk_score": 16.2,
+      "risk_tier": "Low",
+      "total_invoices": 258,
+      "total_spend": 7442233.32,
+      "bank_alterations_count": 0,
+      "duplicate_invoices_count": 8,
+      "evidence_points": [
+        "8 duplicate invoice numbers submitted.",
+        "High cumulative spend exceeding \u20b97,442,233.32."
+      ]
+    },
+    {
+      "vendor_id": "V1010",
+      "vendor_name": "Delta Tools Pvt Ltd",
+      "status": "Active",
+      "risk_score": 13.8,
+      "risk_tier": "Low",
+      "total_invoices": 760,
+      "total_spend": 26646697.44,
+      "bank_alterations_count": 2,
+      "duplicate_invoices_count": 12,
+      "evidence_points": [
+        "2 bank account alterations detected on invoices.",
+        "12 duplicate invoice numbers submitted.",
+        "High cumulative spend exceeding \u20b926,646,697.44."
+      ]
+    },
+    {
+      "vendor_id": "V1014",
+      "vendor_name": "Star Automation Systems",
+      "status": "Active",
+      "risk_score": 13.6,
+      "risk_tier": "Low",
+      "total_invoices": 183,
+      "total_spend": 5679778.95,
+      "bank_alterations_count": 1,
+      "duplicate_invoices_count": 2,
+      "evidence_points": [
+        "1 bank account alterations detected on invoices.",
+        "2 duplicate invoice numbers submitted.",
+        "High cumulative spend exceeding \u20b95,679,778.95."
+      ]
+    },
+    {
+      "vendor_id": "V1054",
+      "vendor_name": "Royal Tools Pvt Ltd",
+      "status": "Active",
+      "risk_score": 13.3,
+      "risk_tier": "Low",
+      "total_invoices": 49,
+      "total_spend": 1950703.39,
+      "bank_alterations_count": 1,
+      "duplicate_invoices_count": 2,
+      "evidence_points": [
+        "1 bank account alterations detected on invoices.",
+        "2 duplicate invoice numbers submitted."
+      ]
+    },
+    {
+      "vendor_id": "V1058",
+      "vendor_name": "Venkateswara Supply Corporation",
+      "status": "Active",
+      "risk_score": 13.1,
+      "risk_tier": "Low",
+      "total_invoices": 683,
+      "total_spend": 22357979.13,
+      "bank_alterations_count": 2,
+      "duplicate_invoices_count": 8,
+      "evidence_points": [
+        "2 bank account alterations detected on invoices.",
+        "8 duplicate invoice numbers submitted.",
+        "High cumulative spend exceeding \u20b922,357,979.13."
+      ]
+    },
+    {
+      "vendor_id": "V1033",
+      "vendor_name": "Sri Murugan Electricals",
+      "status": "Active",
+      "risk_score": 13.0,
+      "risk_tier": "Low",
+      "total_invoices": 386,
+      "total_spend": 12991416.28,
+      "bank_alterations_count": 3,
+      "duplicate_invoices_count": 2,
+      "evidence_points": [
+        "3 bank account alterations detected on invoices.",
+        "2 duplicate invoice numbers submitted.",
+        "High cumulative spend exceeding \u20b912,991,416.28."
+      ]
+    }
+  ]
+}
