@@ -16,7 +16,7 @@ engine = create_engine(
     echo=False
 )
 
-SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine, expire_on_commit=False)
 
 def init_db():
     """Create all database tables on startup if they do not exist."""

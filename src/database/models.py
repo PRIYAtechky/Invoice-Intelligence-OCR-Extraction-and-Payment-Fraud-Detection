@@ -53,10 +53,10 @@ class InvoiceModel(Base):
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
     # Relationships
-    line_items = relationship("LineItemModel", back_populates="invoice", cascade="all, delete-orphan")
-    validations = relationship("ValidationResultModel", back_populates="invoice", cascade="all, delete-orphan")
-    fraud_alerts = relationship("FraudAlertModel", back_populates="invoice", cascade="all, delete-orphan")
-    audit_events = relationship("AuditTrailModel", back_populates="invoice", cascade="all, delete-orphan")
+    line_items = relationship("LineItemModel", back_populates="invoice", cascade="all, delete-orphan", lazy="selectin")
+    validations = relationship("ValidationResultModel", back_populates="invoice", cascade="all, delete-orphan", lazy="selectin")
+    fraud_alerts = relationship("FraudAlertModel", back_populates="invoice", cascade="all, delete-orphan", lazy="selectin")
+    audit_events = relationship("AuditTrailModel", back_populates="invoice", cascade="all, delete-orphan", lazy="selectin")
 
 class LineItemModel(Base):
     __tablename__ = "line_items"
@@ -69,7 +69,7 @@ class LineItemModel(Base):
     unit_price = Column(Float, default=0.0)
     amount = Column(Float, default=0.0)
 
-    invoice = relationship("InvoiceModel", back_populates="line_items")
+    invoice = relationship("InvoiceModel", back_populates="line_items", lazy="joined")
 
 class ValidationResultModel(Base):
     __tablename__ = "validation_results"
@@ -83,7 +83,7 @@ class ValidationResultModel(Base):
     message = Column(Text, nullable=False)
     evidence = Column(Text, nullable=True)  # JSON
 
-    invoice = relationship("InvoiceModel", back_populates="validations")
+    invoice = relationship("InvoiceModel", back_populates="validations", lazy="joined")
 
 class FraudAlertModel(Base):
     __tablename__ = "fraud_alerts"
@@ -99,7 +99,7 @@ class FraudAlertModel(Base):
     recommended_action = Column(Text, nullable=False)
     amount_at_risk = Column(Float, default=0.0)
 
-    invoice = relationship("InvoiceModel", back_populates="fraud_alerts")
+    invoice = relationship("InvoiceModel", back_populates="fraud_alerts", lazy="joined")
 
 class AuditTrailModel(Base):
     __tablename__ = "audit_trail"
@@ -113,7 +113,7 @@ class AuditTrailModel(Base):
     comments = Column(Text, nullable=True)
     timestamp = Column(DateTime, default=datetime.utcnow, index=True)
 
-    invoice = relationship("InvoiceModel", back_populates="audit_events")
+    invoice = relationship("InvoiceModel", back_populates="audit_events", lazy="joined")
 
 class BatchModel(Base):
     __tablename__ = "batches"
