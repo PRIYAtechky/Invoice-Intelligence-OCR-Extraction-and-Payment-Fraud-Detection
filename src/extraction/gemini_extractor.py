@@ -118,18 +118,34 @@ class GeminiExtractor:
             logger.warning("Empty OCR text provided to Gemini.")
             return None
 
-        prompt = GEMINI_PROMPT_TEMPLATE.format(ocr_text=ocr_text)
-
         try:
+            prompt = GEMINI_PROMPT_TEMPLATE.replace("{ocr_text}", ocr_text)
+
             from google.genai import types
-            response = client.models.generate_content(
-                model=self.model,
-                contents=prompt,
-                config=types.GenerateContentConfig(
-                    response_mime_type="application/json",
-                    temperature=0.1
-                )
-            )
+            response = None
+            models_to_try = [self.model]
+            if "gemini-3.5-flash-lite" not in models_to_try:
+                models_to_try.append("gemini-3.5-flash-lite")
+
+            for m in models_to_try:
+                try:
+                    response = client.models.generate_content(
+                        model=m,
+                        contents=prompt,
+                        config=types.GenerateContentConfig(
+                            response_mime_type="application/json",
+                            temperature=0.1
+                        )
+                    )
+                    if response and response.text:
+                        break
+                except Exception as m_err:
+                    logger.warning(f"Gemini model {m} extraction error: {m_err}. Trying fallback model.")
+                    continue
+
+            if not response or not response.text:
+                logger.warning("No Gemini response received. Falling back to rule extraction.")
+                return None
 
             text_resp = response.text.strip()
             # Clean markdown codeblocks if wrapped
