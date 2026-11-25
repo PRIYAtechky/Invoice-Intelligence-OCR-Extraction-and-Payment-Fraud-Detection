@@ -212,6 +212,6 @@ The application includes a secure **Settings & AI Configuration** page:
 6. Click **Deploy!**. See [docs/DEPLOYMENT_GUIDE.md](docs/DEPLOYMENT_GUIDE.md) for full instructions.
 
 ---
-
+ok
 ## 📜 License
 This project is licensed under the MIT License. Enterprise AP Automation & Forensic Fraud Defense Platform.
