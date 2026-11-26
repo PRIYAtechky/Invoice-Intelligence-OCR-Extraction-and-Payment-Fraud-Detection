@@ -80,6 +80,8 @@ class GeminiExtractor:
             return {"success": False, "message": "Failed to initialize Google GenAI SDK client."}
             
         try:
+            import time
+            t0 = time.time()
             # Try configured model, fallback if needed
             for test_model in [self.model, "gemini-3.5-flash-lite", "gemini-flash-latest"]:
                 try:
@@ -87,11 +89,13 @@ class GeminiExtractor:
                         model=test_model,
                         contents="Respond with: OK",
                     )
+                    latency_ms = int((time.time() - t0) * 1000)
                     if response and response.text:
                         return {
                             "success": True,
                             "model": test_model,
-                            "message": f"Connection verified successfully using {test_model}!"
+                            "latency_ms": latency_ms,
+                            "message": f"Connection verified successfully using {test_model} ({latency_ms}ms response)!"
                         }
                 except Exception as model_err:
                     err_msg = str(model_err)

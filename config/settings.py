@@ -74,24 +74,43 @@ class Settings:
         return f"{target[:6]}...{target[-4:]}"
 
     @classmethod
-    def update_gemini_key(cls, new_key: str) -> None:
-        """Update active API key and persist to .env."""
-        clean_key = new_key.strip()
-        cls.GEMINI_API_KEY = clean_key if clean_key else None
+    def _update_env_var(cls, var_name: str, var_value: str) -> None:
+        """Helper to update or append any key-value in local .env."""
         env_path = BASE_DIR / ".env"
         lines = []
         key_found = False
         if env_path.exists():
             with open(env_path, "r", encoding="utf-8") as f:
                 for line in f:
-                    if line.startswith("GEMINI_API_KEY="):
-                        lines.append(f"GEMINI_API_KEY={clean_key}\n")
+                    if line.startswith(f"{var_name}="):
+                        lines.append(f"{var_name}={var_value}\n")
                         key_found = True
                     else:
                         lines.append(line)
         if not key_found:
-            lines.append(f"GEMINI_API_KEY={clean_key}\n")
+            lines.append(f"{var_name}={var_value}\n")
         with open(env_path, "w", encoding="utf-8") as f:
             f.writelines(lines)
+
+    @classmethod
+    def update_gemini_key(cls, new_key: str) -> None:
+        """Update active API key and persist to .env."""
+        clean_key = new_key.strip()
+        cls.GEMINI_API_KEY = clean_key if clean_key else None
+        cls._update_env_var("GEMINI_API_KEY", clean_key)
+
+    @classmethod
+    def update_ocr_engine(cls, new_engine: str) -> None:
+        """Update active default OCR engine and persist to .env."""
+        clean_engine = new_engine.strip().lower()
+        cls.DEFAULT_OCR_ENGINE = clean_engine
+        cls._update_env_var("DEFAULT_OCR_ENGINE", clean_engine)
+
+    @classmethod
+    def update_gemini_model(cls, new_model: str) -> None:
+        """Update active Gemini model and persist to .env."""
+        clean_model = new_model.strip()
+        cls.GEMINI_MODEL = clean_model
+        cls._update_env_var("GEMINI_MODEL", clean_model)
 
 settings = Settings()

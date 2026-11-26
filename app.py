@@ -11,6 +11,7 @@ from datetime import datetime
 import pandas as pd
 import numpy as np
 import streamlit as st
+import streamlit.components.v1 as components
 import cv2
 from PIL import Image
 
@@ -37,7 +38,7 @@ init_db()
 
 # Page configuration
 st.set_page_config(
-    page_title="Invoice Intelligence — Enterprise AP & Fraud Detection",
+    page_title="Invoice Intelligence — Enterprise AP & Fraud Defense",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -51,6 +52,8 @@ if "show_manual_entry" not in st.session_state:
     st.session_state["show_manual_entry"] = False
 if "show_batch_upload" not in st.session_state:
     st.session_state["show_batch_upload"] = False
+if "active_approver_role" not in st.session_state:
+    st.session_state["active_approver_role"] = "AP-Clerk-01"
 
 # -----------------------------------------------------------------------------
 # Enterprise Design System: Dark Navy Sidebar + Light Gray & Blue Content
@@ -83,24 +86,49 @@ st.markdown("""
     }
     section[data-testid="stSidebar"] hr {
         border-color: #1E293B !important;
+        margin: 12px 0 !important;
     }
 
-    /* Sidebar Radio Navigation */
-    section[data-testid="stSidebar"] .stRadio > div {
-        gap: 6px;
+    /* Sidebar Navigation Button Styling */
+    section[data-testid="stSidebar"] .stButton > button {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+        gap: 12px !important;
+        width: 100% !important;
+        padding: 10px 14px !important;
+        border-radius: 8px !important;
+        font-size: 0.9rem !important;
+        font-weight: 500 !important;
+        border: 1px solid #334155 !important;
+        background-color: #1E293B !important;
+        color: #F8FAFC !important;
+        text-align: left !important;
+        margin-bottom: 6px !important;
+        transition: all 0.15s ease !important;
     }
-    section[data-testid="stSidebar"] .stRadio label {
-        padding: 10px 14px;
-        border-radius: 8px;
-        font-weight: 500;
-        font-size: 0.92rem;
-        transition: all 0.15s ease;
-        background: transparent;
-        cursor: pointer;
-    }
-    section[data-testid="stSidebar"] .stRadio label:hover {
-        background-color: #1E293B;
+    section[data-testid="stSidebar"] .stButton > button:hover {
+        background-color: #334155 !important;
+        border-color: #475569 !important;
         color: #FFFFFF !important;
+    }
+    section[data-testid="stSidebar"] .stButton > button[kind="primary"] {
+        background-color: #2563EB !important;
+        border-color: #3B82F6 !important;
+        color: #FFFFFF !important;
+        font-weight: 600 !important;
+        box-shadow: 0 2px 4px rgba(37, 99, 235, 0.3) !important;
+    }
+
+    /* Sidebar Selectbox */
+    section[data-testid="stSidebar"] div[data-baseweb="select"] {
+        background-color: #1E293B !important;
+        border-radius: 6px !important;
+        border: 1px solid #334155 !important;
+    }
+    section[data-testid="stSidebar"] div[data-baseweb="select"] * {
+        color: #F8FAFC !important;
+        font-size: 0.85rem !important;
     }
 
     /* Content Cards */
@@ -225,7 +253,7 @@ st.markdown("""
         color: #2563EB;
     }
 
-    /* Clean file upload zone styling */
+    /* Clean file upload zone */
     div[data-testid="stFileUploader"] {
         border: 1px dashed #CBD5E1;
         border-radius: 8px;
@@ -248,64 +276,76 @@ st.markdown("""
 
 
 # -----------------------------------------------------------------------------
-# Clean Sidebar Navigation (3 Main Views + Settings)
+# Clean Sidebar Navigation (3 Main Views + Settings with Lucide/Material Icons)
 # -----------------------------------------------------------------------------
 st.sidebar.markdown("""
-<div style="padding: 12px 6px 18px 6px;">
+<div style="padding: 12px 6px 14px 6px;">
     <div style="font-size: 1.15rem; font-weight: 800; color: #FFFFFF; letter-spacing: -0.02em;">INVOICE INTELLIGENCE</div>
-    <div style="font-size: 0.72rem; color: #94A3B8; font-weight: 500; text-transform: uppercase; letter-spacing: 0.05em; margin-top: 2px;">Enterprise Accounts Payable</div>
+    <div style="font-size: 0.72rem; color: #94A3B8; font-weight: 500; text-transform: uppercase; letter-spacing: 0.05em; margin-top: 2px;">Enterprise AP & Fraud Detection</div>
 </div>
 """, unsafe_allow_html=True)
 
-# 3 Primary Navigation Items
-NAV_OPTIONS = [
-    "Process Invoice",
-    "Invoice History",
-    "Fraud Detection"
-]
-
-# Check if an explicit navigation request was made
-current_nav_index = 0
-if st.session_state["active_nav"] in NAV_OPTIONS:
-    current_nav_index = NAV_OPTIONS.index(st.session_state["active_nav"])
-
-selected_nav = st.sidebar.radio(
-    "Navigation Menu",
-    NAV_OPTIONS,
-    index=current_nav_index,
-    label_visibility="collapsed"
-)
-
-# Update session state if changed via sidebar
-if selected_nav != st.session_state["active_nav"]:
-    st.session_state["active_nav"] = selected_nav
+# 1. Process Invoice Nav Button
+is_proc = (st.session_state["active_nav"] == "Process Invoice" and st.session_state["view_invoice_id"] is None)
+if st.sidebar.button("Process Invoice", icon=":material/upload_file:", type="primary" if is_proc else "secondary", use_container_width=True):
+    st.session_state["active_nav"] = "Process Invoice"
     st.session_state["view_invoice_id"] = None
+    st.rerun()
 
-st.sidebar.markdown("<br>", unsafe_allow_html=True)
+# 2. Invoice History Nav Button
+is_hist = (st.session_state["active_nav"] == "Invoice History")
+if st.sidebar.button("Invoice History", icon=":material/history:", type="primary" if is_hist else "secondary", use_container_width=True):
+    st.session_state["active_nav"] = "Invoice History"
+    st.session_state["view_invoice_id"] = None
+    st.rerun()
+
+# 3. Fraud Detection Nav Button
+is_fraud = (st.session_state["active_nav"] == "Fraud Detection")
+if st.sidebar.button("Fraud Detection", icon=":material/security:", type="primary" if is_fraud else "secondary", use_container_width=True):
+    st.session_state["active_nav"] = "Fraud Detection"
+    st.session_state["view_invoice_id"] = None
+    st.rerun()
+
 st.sidebar.markdown("---")
 
-# Active Approver Role Profile
+# Compact Approver Role Profile Configuration
 ROLES_CONFIG = {
-    "AP-Clerk-01": {"limit": 200000.0, "title": "Accounts Payable Clerk"},
-    "AP-Clerk-02": {"limit": 200000.0, "title": "Accounts Payable Clerk"},
-    "AP-Senior-01": {"limit": 500000.0, "title": "Senior AP Specialist"},
-    "AP-Manager-01": {"limit": 1500000.0, "title": "Finance Manager"},
-    "Finance-Head": {"limit": 50000000.0, "title": "VP Finance / CFO"}
+    "AP-Clerk-01": {"limit": 200000.0, "title": "Accounts Payable Clerk", "label": "AP Clerk (INR 200K)"},
+    "AP-Clerk-02": {"limit": 200000.0, "title": "Accounts Payable Clerk", "label": "AP Clerk 2 (INR 200K)"},
+    "AP-Senior-01": {"limit": 500000.0, "title": "Senior AP Specialist", "label": "Senior Specialist (INR 500K)"},
+    "AP-Manager-01": {"limit": 1500000.0, "title": "Finance Manager", "label": "Finance Manager (INR 1.5M)"},
+    "Finance-Head": {"limit": 50000000.0, "title": "VP Finance / CFO", "label": "VP Finance (Unlimited)"}
 }
 
-approver_role = st.sidebar.selectbox(
-    "Approver Profile",
-    list(ROLES_CONFIG.keys()),
-    index=0
+st.sidebar.markdown("""
+<div style="font-size: 0.72rem; color: #94A3B8; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px;">
+    Approver Profile
+</div>
+""", unsafe_allow_html=True)
+
+role_keys = list(ROLES_CONFIG.keys())
+current_idx = role_keys.index(st.session_state["active_approver_role"]) if st.session_state["active_approver_role"] in role_keys else 0
+
+selected_role_key = st.sidebar.selectbox(
+    "Active Profile",
+    options=role_keys,
+    index=current_idx,
+    format_func=lambda k: ROLES_CONFIG[k]["label"],
+    label_visibility="collapsed"
 )
-current_role_info = ROLES_CONFIG[approver_role]
+st.session_state["active_approver_role"] = selected_role_key
+current_role_info = ROLES_CONFIG[selected_role_key]
 formatted_limit = f"INR {current_role_info['limit']:,.0f}" if current_role_info['limit'] < 10000000 else "Unlimited"
 
 st.sidebar.markdown(f"""
-<div style="background: #1E293B; border-radius: 6px; padding: 10px 12px; margin-top: -6px; border: 1px solid #334155;">
-    <div style="font-size: 0.72rem; color: #94A3B8; font-weight: 600; text-transform: uppercase;">Approval Authority</div>
-    <div style="font-size: 0.92rem; font-weight: 700; color: #FFFFFF; margin-top: 2px;">{formatted_limit}</div>
-    <div style="font-size: 0.75rem; color: #CBD5E1; margin-top: 2px;">{current_role_info['title']}</div>
+<div style="background: #1E293B; border-radius: 6px; padding: 8px 12px; margin-top: 4px; border: 1px solid #334155; display: flex; justify-content: space-between; align-items: center;">
+    <div>
+        <div style="font-size: 0.68rem; color: #94A3B8; text-transform: uppercase; font-weight: 600;">Approval Limit</div>
+        <div style="font-size: 0.88rem; font-weight: 700; color: #FFFFFF;">{formatted_limit}</div>
+    </div>
+    <div style="font-size: 0.7rem; color: #60A5FA; background: rgba(37,99,235,0.2); padding: 2px 6px; border-radius: 4px; font-weight: 600;">
+        ACTIVE
+    </div>
 </div>
 """, unsafe_allow_html=True)
 
@@ -315,20 +355,184 @@ gemini_active = gemini_ext.is_configured()
 
 st.sidebar.markdown("---")
 
-# Settings Trigger at the Bottom of Sidebar
-settings_active = (st.session_state["active_nav"] == "Settings")
-if st.sidebar.button("Settings", use_container_width=True, type="secondary" if not settings_active else "primary"):
+# Settings Trigger at the Bottom of Sidebar (Accessible & Visible)
+is_settings = (st.session_state["active_nav"] == "Settings")
+if st.sidebar.button("Settings", icon=":material/settings:", type="primary" if is_settings else "secondary", use_container_width=True):
     st.session_state["active_nav"] = "Settings"
     st.session_state["view_invoice_id"] = None
     st.rerun()
 
 st.sidebar.markdown(f"""
-<div style="padding: 6px 2px; font-size: 0.75rem; color: #64748B; line-height: 1.6;">
+<div style="padding: 6px 2px; font-size: 0.74rem; color: #64748B; line-height: 1.5;">
     <div>OCR: <b>{settings.DEFAULT_OCR_ENGINE.upper()}</b></div>
     <div>AI Extraction: <b>{'Online (Gemini)' if gemini_active else 'Rule-Based (Offline)'}</b></div>
     <div>Database: <b>SQLite Active</b></div>
 </div>
 """, unsafe_allow_html=True)
+
+
+# -----------------------------------------------------------------------------
+# Enterprise Invoice Scanning Visual HTML Component (Zero Markdown Parsing)
+# -----------------------------------------------------------------------------
+INVOICE_SCANNING_HTML = """
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: transparent;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    .visual-container {
+        background: #FFFFFF;
+        border: 1px solid #E2E8F0;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+        box-sizing: border-box;
+    }
+    .visual-header {
+        font-size: 11px;
+        font-weight: 700;
+        color: #1E40AF;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        margin-bottom: 12px;
+        display: flex;
+        justify-content: space-between;
+    }
+    svg {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 6px;
+        background: #F8FAFC;
+        border: 1px solid #E2E8F0;
+    }
+    .visual-footer {
+        font-size: 11px;
+        color: #64748B;
+        margin-top: 12px;
+        text-align: center;
+        line-height: 1.4;
+    }
+</style>
+</head>
+<body>
+<div class="visual-container">
+    <div class="visual-header">
+        <span>Document Processing Engine</span>
+        <span>Multi-Engine OCR Active</span>
+    </div>
+    
+    <svg viewBox="0 0 440 480">
+        <!-- Invoice Document Paper -->
+        <rect x="20" y="15" width="400" height="450" rx="4" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+        
+        <!-- Document Header Lines -->
+        <rect x="45" y="38" width="130" height="11" rx="2" fill="#0F172A" />
+        <rect x="45" y="55" width="85" height="6" rx="1.5" fill="#64748B" />
+        <rect x="45" y="66" width="100" height="6" rx="1.5" fill="#94A3B8" />
+        
+        <!-- TAX INVOICE Tag -->
+        <rect x="280" y="38" width="115" height="18" rx="3" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1" />
+        <text x="337" y="50" font-size="9" font-weight="700" fill="#1D4ED8" text-anchor="middle">TAX INVOICE</text>
+        <rect x="300" y="62" width="95" height="6" rx="1.5" fill="#64748B" />
+        <rect x="320" y="72" width="75" height="6" rx="1.5" fill="#94A3B8" />
+
+        <!-- Divider Line -->
+        <line x1="45" y1="92" x2="395" y2="92" stroke="#E2E8F0" stroke-width="1.5" />
+
+        <!-- OCR Bounding Box 1: Vendor -->
+        <rect x="42" y="104" width="170" height="54" rx="3" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.2" stroke-dasharray="3,2" />
+        <text x="48" y="115" font-size="7" font-weight="700" fill="#1D4ED8">[OCR: VENDOR LEGAL NAME]</text>
+        <rect x="48" y="122" width="120" height="7" rx="1.5" fill="#1E293B" />
+        <rect x="48" y="134" width="140" height="5.5" rx="1" fill="#64748B" />
+        <rect x="48" y="144" width="100" height="5.5" rx="1" fill="#64748B" />
+
+        <!-- OCR Bounding Box 2: Metadata (Invoice No, PO, Date) -->
+        <rect x="225" y="104" width="170" height="54" rx="3" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.2" stroke-dasharray="3,2" />
+        <text x="231" y="115" font-size="7" font-weight="700" fill="#1D4ED8">[OCR: INVOICE & PO #]</text>
+        <rect x="231" y="122" width="110" height="7" rx="1.5" fill="#1E293B" />
+        <rect x="231" y="134" width="95" height="5.5" rx="1" fill="#64748B" />
+        <rect x="231" y="144" width="85" height="5.5" rx="1" fill="#64748B" />
+
+        <!-- Table Header -->
+        <rect x="45" y="174" width="350" height="18" rx="2" fill="#F1F5F9" />
+        <text x="55" y="186" font-size="7.5" font-weight="600" fill="#475569">ITEM DESCRIPTION</text>
+        <text x="220" y="186" font-size="7.5" font-weight="600" fill="#475569">HSN</text>
+        <text x="270" y="186" font-size="7.5" font-weight="600" fill="#475569">QTY</text>
+        <text x="320" y="186" font-size="7.5" font-weight="600" fill="#475569">RATE</text>
+        <text x="365" y="186" font-size="7.5" font-weight="600" fill="#475569">AMOUNT</text>
+
+        <!-- Table Rows -->
+        <line x1="45" y1="202" x2="395" y2="202" stroke="#F1F5F9" stroke-width="1" />
+        <rect x="55" y="196" width="110" height="6.5" rx="1" fill="#334155" />
+        <rect x="220" y="196" width="28" height="6.5" rx="1" fill="#64748B" />
+        <rect x="270" y="196" width="18" height="6.5" rx="1" fill="#64748B" />
+        <rect x="320" y="196" width="28" height="6.5" rx="1" fill="#64748B" />
+        <rect x="365" y="196" width="24" height="6.5" rx="1" fill="#334155" />
+
+        <line x1="45" y1="218" x2="395" y2="218" stroke="#F1F5F9" stroke-width="1" />
+        <rect x="55" y="212" width="95" height="6.5" rx="1" fill="#334155" />
+        <rect x="220" y="212" width="28" height="6.5" rx="1" fill="#64748B" />
+        <rect x="270" y="212" width="18" height="6.5" rx="1" fill="#64748B" />
+        <rect x="320" y="212" width="28" height="6.5" rx="1" fill="#64748B" />
+        <rect x="365" y="212" width="24" height="6.5" rx="1" fill="#334155" />
+
+        <line x1="45" y1="234" x2="395" y2="234" stroke="#F1F5F9" stroke-width="1" />
+        <rect x="55" y="228" width="105" height="6.5" rx="1" fill="#334155" />
+        <rect x="220" y="228" width="28" height="6.5" rx="1" fill="#64748B" />
+        <rect x="270" y="228" width="18" height="6.5" rx="1" fill="#64748B" />
+        <rect x="320" y="228" width="28" height="6.5" rx="1" fill="#64748B" />
+        <rect x="365" y="228" width="24" height="6.5" rx="1" fill="#334155" />
+
+        <!-- OCR Bounding Box 3: Grand Total Reconciliation -->
+        <rect x="230" y="260" width="165" height="70" rx="3" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.4" />
+        <text x="238" y="273" font-size="7.5" font-weight="700" fill="#1E40AF">[STATUTORY RECONCILIATION]</text>
+        <text x="238" y="287" font-size="7.5" fill="#475569">Taxable Subtotal:</text>
+        <rect x="330" y="281" width="55" height="6.5" rx="1" fill="#334155" />
+        <text x="238" y="301" font-size="7.5" fill="#475569">CGST (9%) + SGST (9%):</text>
+        <rect x="345" y="295" width="40" height="6.5" rx="1" fill="#334155" />
+        <text x="238" y="316" font-size="8.5" font-weight="700" fill="#0F172A">GRAND TOTAL:</text>
+        <rect x="320" y="308" width="65" height="10" rx="2" fill="#2563EB" />
+
+        <!-- Bank Details Section -->
+        <rect x="45" y="265" width="170" height="60" rx="3" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1" />
+        <text x="53" y="279" font-size="7.5" font-weight="700" fill="#0F172A">BANK REMITTANCE DETAILS</text>
+        <text x="53" y="293" font-size="7" fill="#64748B">A/C: **** **** **** 5029</text>
+        <text x="53" y="306" font-size="7" fill="#64748B">IFSC: HDFC0001824</text>
+        <rect x="53" y="313" width="55" height="5" rx="1" fill="#16A34A" />
+
+        <!-- Laser Scanning Beam -->
+        <defs>
+            <linearGradient id="scanG" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#2563EB" stop-opacity="0" />
+                <stop offset="60%" stop-color="#3B82F6" stop-opacity="0.25" />
+                <stop offset="100%" stop-color="#2563EB" stop-opacity="0.85" />
+            </linearGradient>
+        </defs>
+        <rect x="20" y="190" width="400" height="26" fill="url(#scanG)" />
+        <line x1="20" y1="216" x2="420" y2="216" stroke="#2563EB" stroke-width="2" />
+        <circle cx="395" cy="216" r="3.5" fill="#2563EB" />
+        <text x="320" y="228" font-size="7.5" font-weight="700" fill="#2563EB">OCR SCANNING</text>
+
+        <!-- Bottom IDP Badge -->
+        <rect x="45" y="380" width="350" height="38" rx="4" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1" />
+        <text x="58" y="396" font-size="8.5" font-weight="700" fill="#0F172A">Intelligent Document Processing (IDP)</text>
+        <text x="58" y="408" font-size="7.5" fill="#64748B">Deskewing &bull; Noise Suppression &bull; 9 Statutory Rules &bull; Fraud Shield</text>
+    </svg>
+
+    <div class="visual-footer">
+        Compliant with Indian statutory GST standards &bull; 3-Way PO matching &bull; Immutable audit logging
+    </div>
+</div>
+</body>
+</html>
+"""
 
 
 # -----------------------------------------------------------------------------
@@ -438,7 +642,7 @@ def render_invoice_review(invoice_id: str, origin_view: str = "Process Invoice")
                     save_repo.update_invoice_review(
                         invoice_id=inv.id,
                         decision=decision,
-                        reviewer_name=f"{approver_role} ({current_role_info['title']})",
+                        reviewer_name=f"{selected_role_key} ({current_role_info['title']})",
                         comments=reviewer_notes,
                         edited_fields={
                             "vendor_name": f_vendor,
@@ -537,7 +741,7 @@ if st.session_state["active_nav"] == "Process Invoice":
         # Left Column: Upload and Ingestion
         with col_left:
             st.markdown("""
-            <div style="margin-bottom: 12px; font-weight: 600; font-size: 1rem; color: #0F172A;">
+            <div style="margin-bottom: 10px; font-weight: 600; font-size: 0.95rem; color: #0F172A;">
                 Upload Invoice Document
             </div>
             """, unsafe_allow_html=True)
@@ -552,7 +756,13 @@ if st.session_state["active_nav"] == "Process Invoice":
             # Processing Options (Clean & Minimal)
             c_opt1, c_opt2 = st.columns(2)
             with c_opt1:
-                ocr_choice = st.selectbox("OCR Engine", ["rapidocr", "easyocr"], index=0, help="RapidOCR uses PaddleOCR ONNX models.")
+                ocr_choice = st.selectbox(
+                    "OCR Engine",
+                    ["rapidocr", "easyocr"],
+                    index=0 if settings.DEFAULT_OCR_ENGINE == "rapidocr" else 1,
+                    format_func=lambda x: "RapidOCR (PaddleOCR ONNX)" if x == "rapidocr" else "EasyOCR",
+                    help="RapidOCR uses PaddleOCR ONNX models."
+                )
             with c_opt2:
                 use_llm = st.checkbox("Gemini AI Extraction", value=gemini_active, disabled=not gemini_active)
 
@@ -597,7 +807,7 @@ if st.session_state["active_nav"] == "Process Invoice":
                             engine_name=ocr_choice,
                             use_llm=use_llm,
                             input_method="upload",
-                            approver_role=approver_role
+                            approver_role=selected_role_key
                         )
 
                     step_placeholder.markdown("""
@@ -683,7 +893,7 @@ if st.session_state["active_nav"] == "Process Invoice":
                         )
                         with get_db_session() as session:
                             pipeline = InvoiceProcessingPipeline(session=session)
-                            res = pipeline.process_manual(data_input, approver_role=approver_role)
+                            res = pipeline.process_manual(data_input, approver_role=selected_role_key)
 
                         st.session_state["show_manual_entry"] = False
                         st.session_state["view_invoice_id"] = res["invoice_id"]
@@ -704,121 +914,9 @@ if st.session_state["active_nav"] == "Process Invoice":
                     else:
                         st.info("No unhandled files in incoming directory.")
 
-        # Right Column: Professional Invoice Scanning Visual (Navy, White, Light Blue)
+        # Right Column: Professional Invoice Scanning Visual (Rendered via components.html without Markdown parsing)
         with col_right:
-            st.markdown("""
-            <div style="background: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 10px; padding: 24px; box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04); height: 100%;">
-                <div style="font-size: 0.85rem; font-weight: 700; color: #1E40AF; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 12px; display: flex; justify-content: space-between;">
-                    <span>Document Processing Engine</span>
-                    <span>Multi-Engine OCR Active</span>
-                </div>
-                
-                <!-- Realistic Enterprise Invoice Scanning SVG Graphic -->
-                <svg viewBox="0 0 460 520" width="100%" height="auto" style="border-radius: 6px; background: #F8FAFC; border: 1px solid #E2E8F0;">
-                    <!-- Invoice Document Paper -->
-                    <rect x="25" y="20" width="410" height="480" rx="4" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
-                    
-                    <!-- Document Header -->
-                    <rect x="50" y="45" width="140" height="12" rx="2" fill="#0F172A" />
-                    <rect x="50" y="65" width="90" height="7" rx="1.5" fill="#64748B" />
-                    <rect x="50" y="78" width="110" height="7" rx="1.5" fill="#94A3B8" />
-                    
-                    <!-- TAX INVOICE Title -->
-                    <rect x="290" y="45" width="120" height="16" rx="2" fill="#2563EB" opacity="0.15" />
-                    <text x="350" y="57" font-family="Inter, sans-serif" font-size="10" font-weight="700" fill="#2563EB" text-anchor="middle">TAX INVOICE</text>
-                    <rect x="310" y="68" width="100" height="7" rx="1.5" fill="#64748B" />
-                    <rect x="330" y="80" width="80" height="7" rx="1.5" fill="#94A3B8" />
-
-                    <!-- Divider -->
-                    <line x1="50" y1="102" x2="410" y2="102" stroke="#E2E8F0" stroke-width="1.5" />
-
-                    <!-- OCR Bounding Box 1: Vendor -->
-                    <rect x="46" y="115" width="180" height="60" rx="3" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.2" stroke-dasharray="3,2" />
-                    <text x="52" y="126" font-family="Inter, sans-serif" font-size="7.5" font-weight="700" fill="#1D4ED8">[OCR: VENDOR LEGAL NAME]</text>
-                    <rect x="52" y="134" width="130" height="8" rx="2" fill="#1E293B" />
-                    <rect x="52" y="148" width="150" height="6" rx="1.5" fill="#64748B" />
-                    <rect x="52" y="159" width="110" height="6" rx="1.5" fill="#64748B" />
-
-                    <!-- OCR Bounding Box 2: Metadata (Invoice No, PO, Date) -->
-                    <rect x="236" y="115" width="176" height="60" rx="3" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.2" stroke-dasharray="3,2" />
-                    <text x="242" y="126" font-family="Inter, sans-serif" font-size="7.5" font-weight="700" fill="#1D4ED8">[OCR: INVOICE & PO #]</text>
-                    <rect x="242" y="134" width="120" height="8" rx="2" fill="#1E293B" />
-                    <rect x="242" y="148" width="100" height="6" rx="1.5" fill="#64748B" />
-                    <rect x="242" y="159" width="90" height="6" rx="1.5" fill="#64748B" />
-
-                    <!-- Table Header -->
-                    <rect x="50" y="195" width="360" height="20" rx="2" fill="#F1F5F9" />
-                    <text x="60" y="209" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="#475569">ITEM DESCRIPTION</text>
-                    <text x="225" y="209" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="#475569">HSN</text>
-                    <text x="280" y="209" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="#475569">QTY</text>
-                    <text x="330" y="209" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="#475569">RATE</text>
-                    <text x="385" y="209" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="#475569">AMOUNT</text>
-
-                    <!-- Table Rows -->
-                    <line x1="50" y1="230" x2="410" y2="230" stroke="#F1F5F9" stroke-width="1" />
-                    <rect x="60" y="222" width="120" height="7" rx="1.5" fill="#334155" />
-                    <rect x="225" y="222" width="30" height="7" rx="1.5" fill="#64748B" />
-                    <rect x="280" y="222" width="20" height="7" rx="1.5" fill="#64748B" />
-                    <rect x="330" y="222" width="30" height="7" rx="1.5" fill="#64748B" />
-                    <rect x="380" y="222" width="25" height="7" rx="1.5" fill="#334155" />
-
-                    <line x1="50" y1="248" x2="410" y2="248" stroke="#F1F5F9" stroke-width="1" />
-                    <rect x="60" y="240" width="100" height="7" rx="1.5" fill="#334155" />
-                    <rect x="225" y="240" width="30" height="7" rx="1.5" fill="#64748B" />
-                    <rect x="280" y="240" width="20" height="7" rx="1.5" fill="#64748B" />
-                    <rect x="330" y="240" width="30" height="7" rx="1.5" fill="#64748B" />
-                    <rect x="380" y="240" width="25" height="7" rx="1.5" fill="#334155" />
-
-                    <line x1="50" y1="266" x2="410" y2="266" stroke="#F1F5F9" stroke-width="1" />
-                    <rect x="60" y="258" width="110" height="7" rx="1.5" fill="#334155" />
-                    <rect x="225" y="258" width="30" height="7" rx="1.5" fill="#64748B" />
-                    <rect x="280" y="258" width="20" height="7" rx="1.5" fill="#64748B" />
-                    <rect x="330" y="258" width="30" height="7" rx="1.5" fill="#64748B" />
-                    <rect x="380" y="258" width="25" height="7" rx="1.5" fill="#334155" />
-
-                    <!-- OCR Bounding Box 3: Grand Total -->
-                    <rect x="245" y="295" width="165" height="75" rx="3" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5" />
-                    <text x="253" y="310" font-family="Inter, sans-serif" font-size="8" font-weight="700" fill="#1E40AF">[STATUTORY RECONCILIATION]</text>
-                    <text x="253" y="326" font-family="Inter, sans-serif" font-size="8" fill="#475569">Taxable Subtotal:</text>
-                    <rect x="345" y="320" width="55" height="7" rx="1.5" fill="#334155" />
-                    <text x="253" y="341" font-family="Inter, sans-serif" font-size="8" fill="#475569">CGST (9%) + SGST (9%):</text>
-                    <rect x="360" y="335" width="40" height="7" rx="1.5" fill="#334155" />
-                    <text x="253" y="358" font-family="Inter, sans-serif" font-size="9" font-weight="700" fill="#0F172A">GRAND TOTAL:</text>
-                    <rect x="335" y="350" width="65" height="11" rx="2" fill="#2563EB" />
-
-                    <!-- Bank Details Box -->
-                    <rect x="50" y="300" width="180" height="65" rx="3" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1" />
-                    <text x="58" y="315" font-family="Inter, sans-serif" font-size="8" font-weight="700" fill="#0F172A">BANK REMITTANCE DETAILS</text>
-                    <text x="58" y="330" font-family="Inter, sans-serif" font-size="7.5" fill="#64748B">A/C: **** **** **** 5029</text>
-                    <text x="58" y="344" font-family="Inter, sans-serif" font-size="7.5" fill="#64748B">IFSC: HDFC0001824</text>
-                    <rect x="58" y="352" width="60" height="5" rx="1" fill="#16A34A" />
-
-                    <!-- Scanning Laser Beam -->
-                    <defs>
-                        <linearGradient id="scanGradient" x1="0" y1="0" x2="0" y2="1">
-                            <stop offset="0%" stop-color="#2563EB" stop-opacity="0" />
-                            <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.3" />
-                            <stop offset="100%" stop-color="#2563EB" stop-opacity="0.9" />
-                        </linearGradient>
-                    </defs>
-                    <rect x="25" y="210" width="410" height="28" fill="url(#scanGradient)" />
-                    <line x1="25" y1="238" x2="435" y2="238" stroke="#2563EB" stroke-width="2.5" />
-                    
-                    <!-- Scan Pulse Indicator -->
-                    <circle cx="410" cy="238" r="4" fill="#2563EB" />
-                    <text x="418" y="241" font-family="Inter, sans-serif" font-size="8" font-weight="700" fill="#2563EB">OCR SCANNING</text>
-
-                    <!-- Bottom Verification Badge -->
-                    <rect x="50" y="415" width="360" height="40" rx="4" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1" />
-                    <text x="64" y="432" font-family="Inter, sans-serif" font-size="9" font-weight="700" fill="#0F172A">Intelligent Document Processing (IDP)</text>
-                    <text x="64" y="445" font-family="Inter, sans-serif" font-size="8" fill="#64748B">Deskewing &bull; Noise Suppression &bull; 9 Statutory Rules &bull; Fraud Shield</text>
-                </svg>
-                
-                <div style="font-size: 0.8rem; color: #64748B; margin-top: 14px; text-align: center;">
-                    Compliant with Indian statutory GST standards &bull; 3-Way PO matching &bull; Immutable audit logging
-                </div>
-            </div>
-            """, unsafe_allow_html=True)
+            components.html(INVOICE_SCANNING_HTML, height=560, scrolling=False)
 
 
 # -----------------------------------------------------------------------------
@@ -1013,65 +1111,114 @@ elif st.session_state["active_nav"] == "Fraud Detection":
 
 
 # -----------------------------------------------------------------------------
-# 4. Settings (Small Gear / Bottom Section)
+# 4. Settings (Accessible, Fully Functional, and Secure)
 # -----------------------------------------------------------------------------
 elif st.session_state["active_nav"] == "Settings":
     st.markdown('<div class="view-title">System Settings</div>', unsafe_allow_html=True)
-    st.markdown('<div class="view-subtitle">Configure Google Gemini API key, test connectivity, customize OCR preferences, and run accuracy benchmarks.</div>', unsafe_allow_html=True)
+    st.markdown('<div class="view-subtitle">Manage Google Gemini AI credentials, OCR engine configuration, model selection, and accuracy evaluation tools.</div>', unsafe_allow_html=True)
 
-    # API Configuration Section
-    st.markdown("#### Google AI Studio — Gemini Configuration")
-    c_s1, c_s2 = st.columns(2)
-    c_s1.markdown(f"**Status:** {'Configured' if gemini_active else 'Not Configured'}")
-    c_s1.caption(f"Masked Key: `{settings.get_masked_api_key()}`")
-    c_s2.markdown(f"**Active Model:** `{settings.GEMINI_MODEL}`")
+    # 1. Gemini API Configuration Card
+    st.markdown("""
+    <div class="content-card">
+        <div style="font-size: 1.05rem; font-weight: 700; color: #0F172A; margin-bottom: 6px;">Google Gemini AI Integration</div>
+        <div style="font-size: 0.85rem; color: #64748B; margin-bottom: 16px;">Configure your Google AI Studio API key for LLM-based structured extraction and contextual reasoning.</div>
+    """, unsafe_allow_html=True)
 
-    with st.form("form_settings_key"):
-        new_key = st.text_input(
-            "Enter Gemini API Key",
+    c_st1, c_st2, c_st3 = st.columns(3)
+    c_st1.markdown(f"**API Status:** {'Online & Configured' if gemini_active else 'Not Configured'}")
+    c_st2.markdown(f"**Active Key:** `{settings.get_masked_api_key()}`")
+    c_st3.markdown(f"**Active Model:** `{settings.GEMINI_MODEL}`")
+
+    st.markdown("<br>", unsafe_allow_html=True)
+
+    with st.form("form_update_gemini_key"):
+        new_api_key = st.text_input(
+            "Gemini API Key",
             type="password",
-            placeholder="Paste your API key here (AIza...)",
-            help="Your key is stored securely in your local environment file and never displayed in plaintext."
+            placeholder="Leave blank to preserve existing key, or paste new key...",
+            help="Your key is saved locally in .env and is never displayed in plaintext or logged."
         )
-        save_btn = st.form_submit_button("Save & Test Connection", type="primary")
+        c_sub1, c_sub2 = st.columns([1, 4])
+        with c_sub1:
+            btn_save_key = st.form_submit_button("Save & Update Key", type="primary")
 
-    if save_btn:
-        if not new_key.strip():
-            st.error("Please enter a valid API key string.")
+    if btn_save_key:
+        if new_api_key.strip():
+            settings.update_gemini_key(new_api_key.strip())
+            # Instant test
+            t_ext = GeminiExtractor(api_key=new_api_key.strip())
+            with st.spinner("Verifying new API key with Google AI Studio..."):
+                t_res = t_ext.test_connection()
+            if t_res.get("success"):
+                st.success(f"Key saved and verified successfully! ({t_res.get('latency_ms', 0)}ms response)")
+            else:
+                st.warning(f"Key saved, but test failed: {t_res.get('message')}. Rule-based fallback active.")
+            st.rerun()
         else:
-            settings.update_gemini_key(new_key.strip())
-            test_ext = GeminiExtractor(api_key=new_key.strip())
-            with st.spinner("Testing API connection..."):
-                t_res = test_ext.test_connection()
+            st.info("No key entered. Existing key configuration preserved.")
+
+    # Connection Test and Key Removal Action Row
+    c_btn1, c_btn2, _ = st.columns([1.2, 1.2, 3])
+    with c_btn1:
+        if st.button("Test Connection", icon=":material/network_check:", use_container_width=True):
+            with st.spinner("Testing live API connection..."):
+                t_res = gemini_ext.test_connection()
             if t_res.get("success"):
                 st.success(f"Connection test PASSED! {t_res.get('message')}")
             else:
-                st.warning(f"Key saved, but test failed: {t_res.get('message')}. Rule-based extraction will remain active.")
-            st.rerun()
+                st.error(f"Connection test FAILED: {t_res.get('message')}")
 
-    c_b1, c_b2 = st.columns([1, 4])
-    with c_b1:
-        if st.button("Test Connection"):
-            with st.spinner("Testing connection..."):
-                t_res = gemini_ext.test_connection()
-            if t_res.get("success"):
-                st.success(f"Connection PASSED! {t_res.get('message')}")
-            else:
-                st.error(f"Connection FAILED: {t_res.get('message')}")
-    with c_b2:
-        if st.button("Remove API Key"):
+    with c_btn2:
+        if st.button("Remove Key", icon=":material/delete_forever:", use_container_width=True):
             settings.update_gemini_key("")
-            st.warning("API key removed. System will operate 100% offline using deterministic rule extraction.")
+            st.warning("API key removed. The platform will operate 100% offline using deterministic rule extraction.")
             st.rerun()
 
-    st.markdown("---")
+    st.markdown("</div>", unsafe_allow_html=True)
 
-    # Benchmarks & Evaluations (Preserves required project evaluation capabilities)
-    st.markdown("#### System Benchmarks & Accuracy Reports")
-    tab_bench1, tab_bench2 = st.tabs(["Extraction Accuracy (180 Dataset)", "OCR Engine CER Comparison"])
+    # 2. Engine & Model Configuration Card
+    st.markdown("""
+    <div class="content-card">
+        <div style="font-size: 1.05rem; font-weight: 700; color: #0F172A; margin-bottom: 6px;">OCR & Model Architecture Configuration</div>
+        <div style="font-size: 0.85rem; color: #64748B; margin-bottom: 16px;">Customize default OCR engine and LLM model preferences. Changes take effect immediately.</div>
+    """, unsafe_allow_html=True)
 
-    with tab_bench1:
-        if st.button("Run Accuracy Evaluation on Benchmark Dataset"):
+    c_cfg1, c_cfg2 = st.columns(2)
+    with c_cfg1:
+        new_ocr = st.selectbox(
+            "Default OCR Engine",
+            ["rapidocr", "easyocr"],
+            index=0 if settings.DEFAULT_OCR_ENGINE == "rapidocr" else 1,
+            format_func=lambda x: "RapidOCR (PaddleOCR ONNX - Fast & Low CER)" if x == "rapidocr" else "EasyOCR (PyTorch Fallback)"
+        )
+        if new_ocr != settings.DEFAULT_OCR_ENGINE:
+            settings.update_ocr_engine(new_ocr)
+            st.success(f"Default OCR engine updated to {new_ocr.upper()}.")
+
+    with c_cfg2:
+        new_model = st.selectbox(
+            "Primary Gemini Model",
+            ["gemini-3.8-flash", "gemini-3.5-flash-lite"],
+            index=0 if settings.GEMINI_MODEL == "gemini-3.8-flash" else 1,
+            help="gemini-3.8-flash is the primary extraction model. Automatically falls back to flash-lite if overloaded."
+        )
+        if new_model != settings.GEMINI_MODEL:
+            settings.update_gemini_model(new_model)
+            st.success(f"Primary Gemini model updated to {new_model}.")
+
+    st.markdown("</div>", unsafe_allow_html=True)
+
+    # 3. Benchmark & Quality Evaluation Tools
+    st.markdown("""
+    <div class="content-card">
+        <div style="font-size: 1.05rem; font-weight: 700; color: #0F172A; margin-bottom: 6px;">System Accuracy & Benchmark Reports</div>
+        <div style="font-size: 0.85rem; color: #64748B; margin-bottom: 16px;">Evaluate real performance against the 180 ground-truth labelled invoice dataset.</div>
+    """, unsafe_allow_html=True)
+
+    t_bench1, t_bench2 = st.tabs(["Extraction Accuracy Evaluation", "OCR Character Error Rate (CER)"])
+
+    with t_bench1:
+        if st.button("Run Accuracy Evaluation on Benchmark Dataset", icon=":material/analytics:"):
             with st.spinner("Evaluating extraction across test invoices..."):
                 acc_res = evaluate_extraction_accuracy(num_samples=20)
             st.markdown(f"**Invoices Evaluated:** {acc_res['invoices_evaluated']} (Clean: {acc_res['clean_count']}, Degraded: {acc_res['degraded_count']})")
@@ -1087,8 +1234,10 @@ elif st.session_state["active_nav"] == "Settings":
             })
             st.dataframe(fields_df, use_container_width=True)
 
-    with tab_bench2:
-        if st.button("Run OCR Comparison (PaddleOCR vs EasyOCR)"):
+    with t_bench2:
+        if st.button("Run OCR Comparison (PaddleOCR vs EasyOCR)", icon=":material/speed:"):
             with st.spinner("Running CER and latency benchmarks..."):
                 ocr_eval = evaluate_ocr_engines(sample_size=10)
             st.dataframe(pd.DataFrame(ocr_eval).T, use_container_width=True)
+
+    st.markdown("</div>", unsafe_allow_html=True)
